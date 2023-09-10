@@ -3,39 +3,39 @@
 sudo dnf install dotnet-sdk-7.0
 ```
 
-- [ ] [[VSCode Setup]]
+- [x] [[VSCode Setup]]
 
-- [ ] [[Install MongoDB]]
+- [x] [[Install MongoDB]]
 
-- [ ] Install Angular, Material, Flex [Click Here](obsidian://open?vault=Advance%20Class&file=Programming%2FInstall%20and%20Create%20Angular%20Project)
+- [x] Install Angular, Material, Flex [Click Here](obsidian://open?vault=Advance%20Class&file=Programming%2FInstall%20and%20Create%20Angular%20Project)
 
-- [ ] Create an API and set debugger [[New-sln,-API]]
+- [x] Create an API and set debugger [[New-sln,-API]]
 
-- [ ] Setup [[GitHub]]
+- [x] Setup [[GitHub]]
 
-- [ ] [Update Node & Angular if needed](obsidian://open?vault=Advance%20Class&file=Programming%2FUpdate%20Node%20%26%20Angular)
+- [x] [Update Node & Angular if needed](obsidian://open?vault=Advance%20Class&file=Programming%2FUpdate%20Node%20_%20Angular)
 
-- [ ] Install [Authentication.JwtBearer and MongoDriver](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/api.csproj) from NuGet
+- [x] Install [Authentication.JwtBearer and MongoDriver](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/api.csproj) from NuGet
 
-- [ ] Write Requirements
+- [x] Write Requirements
 
-- [ ] Desing Project Pages
+- [x] Desing Project Pages
 
-- [ ] Design MongoDB pattern [[Pattern & Schema]]
+- [x] Design MongoDB pattern [[Pattern & Schema]]
 
-- [ ] Connect MongoDb [[Setup in Project]]
+- [x] Connect MongoDb [[Setup in Project]]
 
-- [ ] Create API [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
+- [x] Create API [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
 
-- [ ] [Setup Cors](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Extensions/ApplicationServiceExtensions.cs)
+- [x] [Setup Cors](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Extensions/ApplicationServiceExtensions.cs)
 
-- [ ] Replace auto-generated **Program.cs** codes with [Program.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Program.cs) to add [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) and organization.
+- [x] Replace auto-generated **Program.cs** codes with [Program.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Program.cs) to add [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) and organization.
 
-- [ ] [[Install SSL]]
+- [x] [[Install SSL]]
 
-- [ ] Create [[TokenService]]
+- [x] Create [[TokenService]]
 
-- [ ] Add [TokenKey and MongoConnection](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/appsettings.Development.json) if not added
+- [x] Add [TokenKey and MongoConnection](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/appsettings.Development.json) if not added
 
 - [ ] Make [[OS trust dotnet certs]]
 

@@ -6,7 +6,7 @@
 5. Install official VSCode MongoDB extension (works like campus).
 6. Start the server [Start, Stop, Restart, USE](onenote:#Start,%20Stop,%20Restart,%20USE&section-id={9FED1827-14DA-4FAD-A406-E5FD26592F72}&page-id={5750F94C-F2F0-4B2A-B413-EF875C381573}&end&base-path=https://d.docs.live.net/72598729f3677d80/Documents/Programming/MongoDB.one)
 
-Back to [Project Steps](obsidian://open?vault=Obsidian&file=Programming%2FProjects-Steps%2FProject%20Steps)
+Back to [Project Steps](obsidian://open?vault=Advance%20Class&file=Programming%2F0%20-%20Project%20Steps)
 #### Windows
 1. Install MongoDB Server Community
 2. Install **Nuget Gallery** in VSCode.

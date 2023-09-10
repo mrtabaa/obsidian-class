@@ -52,9 +52,3 @@ sudo dnf install gnome-browser-connector
 - [ ] Resource Monitor
 - [ ] Screenshot tool
 - [x] Sound Input & Ouput Device chooser
-
-
-#### Fix Angular Debugging on Chrome
-To have Chorme trust ssl on **localhost**
-[Click here](obsidian://open?vault=Advance%20Class&file=OS%20Setup%2FDebugger-setup)
-

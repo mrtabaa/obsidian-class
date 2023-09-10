@@ -161,6 +161,13 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
+    "ToDo/Teach.md",
+    "ToDo",
+    "Programming/Update Node _ Angular(1).md",
+    "Programming/Pattern _ Schema.md",
+    "Programming/Update Node _ Angular.md",
+    "Programming/Pattern _ Schema(1).md",
+    "Update Node _ Angular.md",
     "OS Setup/Debugger-setup.md",
     "OS Setup/Fedora Config.md",
     "Programming/VSCode Setup.md",
@@ -190,7 +197,6 @@
     "Programming/helpers/replace-with-current/Extensions/ApplicationServiceExtensions.cs",
     "Programming/helpers/replace-with-current/Interfaces/IUserRepository.cs",
     "Programming/helpers/replace-with-current/Interfaces/ITokenService.cs",
-    "Programming/helpers/replace-with-current/Interfaces/IAccountRepository.cs",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
     "Programming/Images/MongoDB-Thunder-Client---Postman-image1.png",
     "Programming/Images/MongoDB-Pattern---Schema-image5.jpg",
@@ -201,12 +207,6 @@
     "Programming/Images/MongoDB-Model-Entity-e.g.-image3.png",
     "New-sln,-API.md",
     "OS Setup/Linux apps.md",
-    "Programming/MongoDB/Setup in Project.md",
-    "Programming/MongoDB/Pattern & Schema.md",
-    "Programming/Angular/Angular/Installation-and-Create-project/Update Node & Angular.md",
-    "Update Node & Angular if needed.md",
-    "Programming/git-Version-CTRL---Deploy/GitHub.md",
-    "Programming/MongoDB/Install.md",
     "Untitled.canvas"
   ]
 }
