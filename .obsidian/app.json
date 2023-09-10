@@ -1,0 +1,12 @@
+{
+  "promptDelete": true,
+  "defaultViewMode": "source",
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "trashOption": "system",
+  "readableLineLength": false,
+  "showUnsupportedFiles": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "/Notes",
+  "attachmentFolderPath": "/att"
+}
