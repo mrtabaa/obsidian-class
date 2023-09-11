@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/GitHub.md",
-                "mode": "preview",
+                "file": "Programming/New-sln,-API.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/GitHub.md"
+                "file": "Programming/New-sln,-API.md"
               }
             }
           }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/GitHub.md",
+                "file": "Programming/New-sln,-API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/GitHub.md",
+                "file": "Programming/New-sln,-API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6d2e8a4d0f1eb8be",
+  "active": "9960bc1be28bf4e3",
   "lastOpenFiles": [
+    "token.txt",
+    "Programming/0 - Project Steps.md",
+    "Programming/Install MongoDB.md",
+    "Programming/GitHub.md",
     "ToDo/Teach.md",
     "ToDo",
     "Programming/Update Node _ Angular(1).md",
@@ -171,12 +175,10 @@
     "OS Setup/Debugger-setup.md",
     "OS Setup/Fedora Config.md",
     "Programming/VSCode Setup.md",
-    "Programming/0 - Project Steps.md",
     "Programming/New-sln,-API.md",
     "Programming/Images/exclude vscode folders.png",
     "Programming/Program.cs.md",
     "Programming/Install and Create Angular Project.md",
-    "Programming/GitHub.md",
     "Programming/Debugger-setup.md",
     "Programming/helpers/Program.cs",
     "Programming/CancellationToken.md",
@@ -185,7 +187,6 @@
     "Programming/Setup in Project.md",
     "Programming/Pattern & Schema.md",
     "Programming/Update Node & Angular.md",
-    "Programming/Install MongoDB.md",
     "Programming/Csharp Extension Settings.md",
     "Programming/Images/cancellation.jpg",
     "Programming/OS trust dotnet certs.md",
@@ -206,7 +207,6 @@
     "Programming/Images/MongoDB-Pattern---Schema-image1.jpg",
     "Programming/Images/MongoDB-Model-Entity-e.g.-image3.png",
     "New-sln,-API.md",
-    "OS Setup/Linux apps.md",
     "Untitled.canvas"
   ]
 }

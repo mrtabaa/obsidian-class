@@ -21,6 +21,8 @@ dotnet sln add api
 
 - [ ] In `appsettings.Development.json` change `Warning` to `Information`
 
+- [ ] Install official **Mongo Driver** in VSCode using **Nuget Gallery**
+
 - [ ] Create [api folders](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api) only without their files.
 * If want a shortcut, replace below folders/files with newly generated ones
 <<[replace-with-current.zip](obsidian://open?vault=Advance%20Class&file=Programming%2Fhelpers%2Freplace-with-current.zip)>>
