@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/New-sln,-API.md",
+                "file": "Programming/GitHub.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/New-sln,-API.md"
+                "file": "Programming/GitHub.md"
               }
             }
           }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/New-sln,-API.md",
+                "file": "Programming/GitHub.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/New-sln,-API.md",
+                "file": "Programming/GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "9960bc1be28bf4e3",
+  "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
+    "Programming/New-sln,-API.md",
     "token.txt",
     "Programming/0 - Project Steps.md",
     "Programming/Install MongoDB.md",
@@ -175,7 +176,6 @@
     "OS Setup/Debugger-setup.md",
     "OS Setup/Fedora Config.md",
     "Programming/VSCode Setup.md",
-    "Programming/New-sln,-API.md",
     "Programming/Images/exclude vscode folders.png",
     "Programming/Program.cs.md",
     "Programming/Install and Create Angular Project.md",
@@ -197,7 +197,6 @@
     "Programming/helpers/replace-with-current/Extensions/IdentityServiceExtensions.cs",
     "Programming/helpers/replace-with-current/Extensions/ApplicationServiceExtensions.cs",
     "Programming/helpers/replace-with-current/Interfaces/IUserRepository.cs",
-    "Programming/helpers/replace-with-current/Interfaces/ITokenService.cs",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
     "Programming/Images/MongoDB-Thunder-Client---Postman-image1.png",
     "Programming/Images/MongoDB-Pattern---Schema-image5.jpg",

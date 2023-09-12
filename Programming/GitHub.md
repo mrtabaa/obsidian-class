@@ -77,6 +77,9 @@ git clone https://github.com/user-name/proj-name.git
 git restore .
 ```
 
+###### Login to github
+[Reza's solution - Stack Overflow](https://stackoverflow.com/a/77085369/3944285)
+
 ###### ADD TO STAGE
 * Make sure you have no .git folder in your project's sub-directories!
 
