@@ -109,6 +109,14 @@ sudo flatpak install flathub com.getpostman.Postman
 sudo flatpak install flathub org.videolan.VLC
 ```
 
+##### Snap Packages
+1. Install `snapd` by this command
+```bash
+sudo dnf install snapd
+```
+2. Restart the computer
+3. [Search for your software](https://snapcraft.io/)
+
 ##### Website Packages
 - [x] [AppImageLauncher ](https://github.com/TheAssassin/AppImageLauncher/releases)
 
