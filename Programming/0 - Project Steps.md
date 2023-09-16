@@ -27,11 +27,11 @@ sudo dnf install dotnet-sdk-7.0
 
 - [x] Create API [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
 
-- [x] [Setup Cors](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Extensions/ApplicationServiceExtensions.cs)
+- [x] [Setup Cors](obsidian://open?vault=Advance%20Class&file=Programming%2FCors)
 
 - [x] Replace auto-generated **Program.cs** codes with [Program.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Program.cs) to add [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) and organization.
 
-- [ ] [[Install SSL]]
+- [x] [[Install SSL]]
 
 - [x] Create [[TokenService]]
 

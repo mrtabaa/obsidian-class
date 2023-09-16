@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToDo/Teach.md",
+                "file": "Programming/Install SSL.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDo/Teach.md"
+                "file": "Programming/Install SSL.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDo/Teach.md",
+                "file": "Programming/Install SSL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToDo/Teach.md",
+                "file": "Programming/Install SSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,28 +171,36 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
-    "Programming/Install SSL.md",
-    "ToDo/Teach.md",
     "Programming/0 - Project Steps.md",
+    "Programming/Install SSL.md",
+    "Programming/Install MongoDB.md",
+    "Programming/helpers/generateTrustedSSL (1)/gen-certs/healthapp.pem",
+    "Programming/helpers/generateTrustedSSL (1)/gen-certs/healthapp.key",
+    "Programming/helpers/generateTrustedSSL (1)/gen-certs/healthapp.crt",
+    "Programming/helpers/generateTrustedSSL (1)/gen-certs/healthapp-key.pem",
+    "Programming/helpers/generateTrustedSSL (1)/gen-certs/Cert.p12",
+    "Programming/helpers/generateTrustedSSL (1)/server.key",
+    "Programming/helpers/generateTrustedSSL (1)/server.crt",
+    "Programming/helpers/generateTrustedSSL (1)/openssl-custom.cnf",
+    "Programming/helpers/generateTrustedSSL (1)/generate.sh",
+    "Programming/helpers/generateTrustedSSL (1)/gen-certs",
+    "Programming/Debugger-setup.md",
+    "OS Setup/Debugger-setup.md",
+    "OS Setup/Fedora Config.md",
+    "Programming/Cors.md",
+    "ToDo/Teach.md",
     "OS Setup/Linux apps.md",
     "Programming/GitHub.md",
     "Programming/New-sln,-API.md",
-    "token.txt",
-    "Programming/Install MongoDB.md",
-    "ToDo",
     "Programming/Update Node _ Angular(1).md",
     "Programming/Pattern _ Schema.md",
     "Programming/Update Node _ Angular.md",
     "Programming/Pattern _ Schema(1).md",
     "Update Node _ Angular.md",
-    "OS Setup/Debugger-setup.md",
-    "OS Setup/Fedora Config.md",
     "Programming/VSCode Setup.md",
     "Programming/Images/exclude vscode folders.png",
     "Programming/Program.cs.md",
     "Programming/Install and Create Angular Project.md",
-    "Programming/Debugger-setup.md",
-    "Programming/helpers/Program.cs",
     "Programming/CancellationToken.md",
     "Programming/TokenService.md",
     "Programming/Setup in Project.md",
@@ -200,14 +208,6 @@
     "Programming/Update Node & Angular.md",
     "Programming/Csharp Extension Settings.md",
     "Programming/Images/cancellation.jpg",
-    "Programming/OS trust dotnet certs.md",
-    "Programming/helpers/replace-with-current/Settings/MongoDbSettings.cs",
-    "Programming/helpers/replace-with-current/Settings/IMongoDbSettings.cs",
-    "Programming/helpers/replace-with-current/Services/TokenService.cs",
-    "Programming/helpers/replace-with-current/Extensions/RepositoryServiceExtensions.cs",
-    "Programming/helpers/replace-with-current/Extensions/IdentityServiceExtensions.cs",
-    "Programming/helpers/replace-with-current/Extensions/ApplicationServiceExtensions.cs",
-    "Programming/helpers/replace-with-current/Interfaces/IUserRepository.cs",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
     "Programming/Images/MongoDB-Thunder-Client---Postman-image1.png",
     "Programming/Images/MongoDB-Pattern---Schema-image5.jpg",
@@ -216,7 +216,6 @@
     "Programming/Images/MongoDB-Pattern---Schema-image2.jpg",
     "Programming/Images/MongoDB-Pattern---Schema-image1.jpg",
     "Programming/Images/MongoDB-Model-Entity-e.g.-image3.png",
-    "New-sln,-API.md",
     "Untitled.canvas"
   ]
 }

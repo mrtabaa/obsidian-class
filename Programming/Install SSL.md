@@ -1,13 +1,11 @@
 # Client
-1- Get `server.crt` & `server.key` from [generateTrustedSSL](obsidian://open?vault=Advance%20Class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
+1. Get `server.crt` & `server.key` from [generateTrustedSSL](obsidian://open?vault=Advance%20Class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
 
-2- Create a **ssl** folder in **client** folder.
+2. Create a **ssl** folder in **client** folder.
 
-3- Copy the two files into your ssl folder.
+3. Copy the two files into your ssl folder.
 
-4- Update your Program.cs or [ApplicationServiceExtensions.cs](https://github.com/mrtabaa/hallboard/blob/master/api/Extensions/ApplicationServiceExtensions.cs) links to https
-
-5- Add this to **angular.json**
+4. Add this to **angular.json**
 ```json
 "serve": {
 	"builder": "@angular-devkit/build-angular:dev-server",
@@ -17,35 +15,43 @@
 		"ssl": true
 },
 ```
+5. Exclude the project's **ssl** folder from github using **.gitignore** file for security. 
+
+6. Restart Angular => `ng serve` again
 
 # API
 #### Linux:
 
-1- In **terminal**:
-
-cd Downloads/StudentAssets/generateTrustedSSL
-
-2- Run this command:
-
+1. Get your cert from [generateTrustedSSL](obsidian://open?vault=Advance%20Class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
+2. Open Terminal in this folder.
+3. Run this command:
 ##### ubuntu
 ```bash
 sudo cp server.crt /usr/local/share/ca-certificates/server.crt
 ```
-Update Certificates
+4. Update Certificates
 ```bash
 sudo update-ca-certificates
 ```
-##### Fedora
+##### Fedora 
 ```bash
 sudo cp server.crt /etc/pki/ca-trust/source/anchors/server.crt
 ```
-Update Certificates
+4. Update Certificates
 ```bash
 sudo update-ca-trust
 ```
+5. Follow code below and change **http** to **https** in `Program.cs` **OR** [ApplicationServiceExtensions.cs](https://github.com/mrtabaa/hallboard/blob/master/api/Extensions/ApplicationServiceExtensions.cs) links to https
+```C#
+#region Cors: baraye ta'eede Angular HttpClient requests
+builder.Services.AddCors(options =>
+    {
+        options.AddDefaultPolicy(policy => 
+            policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+    });
+#endregion Cors
+```
 
-3- Restart dotnet, ng, and the browser.
-
-4- Exclude the project's **ssl** folder from github from client/**.gitignore** file for security. (See the video below)
+7. Restart `dotnet`, `ng serve`, and the `browser`.
 
 Back to [Project Steps](obsidian://open?vault=Advance%20Class&file=Programming%2F0%20-%20Project%20Steps)
