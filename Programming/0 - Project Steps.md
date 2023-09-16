@@ -31,7 +31,7 @@ sudo dnf install dotnet-sdk-7.0
 
 - [x] Replace auto-generated **Program.cs** codes with [Program.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Program.cs) to add [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) and organization.
 
-- [x] [[Install SSL]]
+- [ ] [[Install SSL]]
 
 - [x] Create [[TokenService]]
 

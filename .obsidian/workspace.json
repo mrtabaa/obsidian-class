@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/Linux apps.md",
+                "file": "ToDo/Teach.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/Linux apps.md"
+                "file": "ToDo/Teach.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Setup/Linux apps.md",
+                "file": "ToDo/Teach.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS Setup/Linux apps.md",
+                "file": "ToDo/Teach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,12 +171,14 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
+    "Programming/Install SSL.md",
+    "ToDo/Teach.md",
+    "Programming/0 - Project Steps.md",
+    "OS Setup/Linux apps.md",
     "Programming/GitHub.md",
     "Programming/New-sln,-API.md",
     "token.txt",
-    "Programming/0 - Project Steps.md",
     "Programming/Install MongoDB.md",
-    "ToDo/Teach.md",
     "ToDo",
     "Programming/Update Node _ Angular(1).md",
     "Programming/Pattern _ Schema.md",
@@ -193,7 +195,6 @@
     "Programming/helpers/Program.cs",
     "Programming/CancellationToken.md",
     "Programming/TokenService.md",
-    "Programming/Install SSL.md",
     "Programming/Setup in Project.md",
     "Programming/Pattern & Schema.md",
     "Programming/Update Node & Angular.md",

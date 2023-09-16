@@ -1,3 +1,4 @@
+# Client
 1- Get `server.crt` & `server.key` from [generateTrustedSSL](obsidian://open?vault=Advance%20Class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
 
 2- Create a **ssl** folder in **client** folder.
@@ -17,7 +18,8 @@
 },
 ```
 
-## Linux:
+# API
+#### Linux:
 
 1- In **terminal**:
 

@@ -1,7 +1,8 @@
-- [ ] Async Task
-- [ ] CancellationToken
-- [ ] GlobalUsings
-- [ ] DTO
+- [x] Async Task
+- [x] CancellationToken
+- [x] GlobalUsings
+- [x] DTO
 - [ ] https => api
-- [ ] Token
 - [ ] https => client
+- [ ] Repository
+- [ ] Token
