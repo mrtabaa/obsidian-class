@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Install SSL.md",
+                "file": "Programming/0 - Project Steps.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Install SSL.md"
+                "file": "Programming/0 - Project Steps.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Install SSL.md",
+                "file": "Programming/0 - Project Steps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Install SSL.md",
+                "file": "Programming/0 - Project Steps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,9 +171,30 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
-    "Programming/0 - Project Steps.md",
+    "Programming/VSCode Setup.md",
+    "Qv2ray on Linux.mp4",
+    "ToDo/Teach.md",
+    "Programming/Update Node & Angular.md",
+    "Programming/Update Node _ Angular.md",
+    "Programming/TokenService.md",
+    "Programming/Setup in Project.md",
+    "Programming/Program.cs.md",
+    "Programming/Pattern & Schema.md",
+    "Programming/Pattern _ Schema.md",
+    "Programming/OS trust dotnet certs.md",
+    "Programming/New-sln,-API.md",
     "Programming/Install SSL.md",
     "Programming/Install MongoDB.md",
+    "Programming/Install and Create Angular Project.md",
+    "Programming/GitHub.md",
+    "Programming/Debugger-setup.md",
+    "Programming/Csharp Extension Settings.md",
+    "Programming/Cors.md",
+    "Programming/CancellationToken.md",
+    "Programming/0 - Project Steps.md",
+    "OS Setup/Linux apps.md",
+    "OS Setup/Fedora Config.md",
+    "OS Setup/Debugger-setup.md",
     "Programming/helpers/generateTrustedSSL (1)/gen-certs/healthapp.pem",
     "Programming/helpers/generateTrustedSSL (1)/gen-certs/healthapp.key",
     "Programming/helpers/generateTrustedSSL (1)/gen-certs/healthapp.crt",
@@ -183,30 +204,9 @@
     "Programming/helpers/generateTrustedSSL (1)/server.crt",
     "Programming/helpers/generateTrustedSSL (1)/openssl-custom.cnf",
     "Programming/helpers/generateTrustedSSL (1)/generate.sh",
-    "Programming/helpers/generateTrustedSSL (1)/gen-certs",
-    "Programming/Debugger-setup.md",
-    "OS Setup/Debugger-setup.md",
-    "OS Setup/Fedora Config.md",
-    "Programming/Cors.md",
-    "ToDo/Teach.md",
-    "OS Setup/Linux apps.md",
-    "Programming/GitHub.md",
-    "Programming/New-sln,-API.md",
     "Programming/Update Node _ Angular(1).md",
-    "Programming/Pattern _ Schema.md",
-    "Programming/Update Node _ Angular.md",
     "Programming/Pattern _ Schema(1).md",
-    "Update Node _ Angular.md",
-    "Programming/VSCode Setup.md",
     "Programming/Images/exclude vscode folders.png",
-    "Programming/Program.cs.md",
-    "Programming/Install and Create Angular Project.md",
-    "Programming/CancellationToken.md",
-    "Programming/TokenService.md",
-    "Programming/Setup in Project.md",
-    "Programming/Pattern & Schema.md",
-    "Programming/Update Node & Angular.md",
-    "Programming/Csharp Extension Settings.md",
     "Programming/Images/cancellation.jpg",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
     "Programming/Images/MongoDB-Thunder-Client---Postman-image1.png",

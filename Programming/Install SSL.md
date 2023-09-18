@@ -1,5 +1,5 @@
 # Client
-1. Get `server.crt` & `server.key` from [generateTrustedSSL](obsidian://open?vault=Advance%20Class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
+1. Get `server.crt` & `server.key` from [generateTrustedSSL](obsidian://open?vault=obsidian-class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
 
 2. Create a **ssl** folder in **client** folder.
 
@@ -22,7 +22,7 @@
 # API
 #### Linux:
 
-1. Get your cert from [generateTrustedSSL](obsidian://open?vault=Advance%20Class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
+1. Get your cert from [generateTrustedSSL](obsidian://open?vault=obsidian-class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
 2. Open Terminal in this folder.
 3. Run this command:
 ##### ubuntu
@@ -54,4 +54,4 @@ builder.Services.AddCors(options =>
 
 7. Restart `dotnet`, `ng serve`, and the `browser`.
 
-Back to [Project Steps](obsidian://open?vault=Advance%20Class&file=Programming%2F0%20-%20Project%20Steps)
+Back to [Project Steps](obsidian://open?vault=obsidian-class&file=Programming%2F0%20-%20Project%20Steps)

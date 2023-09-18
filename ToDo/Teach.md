@@ -2,7 +2,7 @@
 - [x] CancellationToken
 - [x] GlobalUsings
 - [x] DTO
-- [ ] https => api
-- [ ] https => client
-- [ ] Repository
+- [x] https => api
+- [x] https => client
+- [ ] Interface / Repository
 - [ ] Token

@@ -7,13 +7,13 @@ sudo dnf install dotnet-sdk-7.0
 
 - [x] [[Install MongoDB]]
 
-- [x] Install Angular, Material, Flex [Click Here](obsidian://open?vault=Advance%20Class&file=Programming%2FInstall%20and%20Create%20Angular%20Project)
+- [x] Install Angular, Material, Flex [Click Here](obsidian://open?vault=obsidian-class&file=Programming%2FInstall%20and%20Create%20Angular%20Project)
 
 - [x] Create an API and set debugger [[New-sln,-API]]
 
 - [x] Setup [[GitHub]]
 
-- [x] [Update Node & Angular if needed](obsidian://open?vault=Advance%20Class&file=Programming%2FUpdate%20Node%20_%20Angular)
+- [x] [Update Node & Angular if needed](obsidian://open?vault=obsidian-class&file=Programming%2FUpdate%20Node%20_%20Angular)
 
 - [x] Install [Authentication.JwtBearer and MongoDriver](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/api.csproj) from NuGet
 
@@ -27,7 +27,7 @@ sudo dnf install dotnet-sdk-7.0
 
 - [x] Create API [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
 
-- [x] [Setup Cors](obsidian://open?vault=Advance%20Class&file=Programming%2FCors)
+- [x] [Setup Cors](obsidian://open?vault=obsidian-class&file=Programming%2FCors)
 
 - [x] Replace auto-generated **Program.cs** codes with [Program.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Program.cs) to add [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) and organization.
 

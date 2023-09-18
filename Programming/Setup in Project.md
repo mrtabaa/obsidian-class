@@ -8,7 +8,7 @@
 ```
 
 **Copy this Settings folder into API folder:**
-[Settings.zip](obsidian://open?vault=Advance%20Class&file=Programming%2Fhelpers%2FSettings.zip)
+[Settings.zip](obsidian://open?vault=obsidian-class&file=Programming%2Fhelpers%2FSettings.zip)
 
 **dotnet 6+: Program.cs** or [**ApplicationServiceExtensions**](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Extensions/ApplicationServiceExtensions.cs)
 
@@ -66,4 +66,4 @@ services.AddSingleton<IMongoClient>(serviceProvider => {
 });
 ```
 
-Back to [Project Steps](obsidian://open?vault=Advance%20Class&file=Programming%2F0%20-%20Project%20Steps)
+Back to [Project Steps](obsidian://open?vault=obsidian-class&file=Programming%2F0%20-%20Project%20Steps)
