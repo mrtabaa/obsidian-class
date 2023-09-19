@@ -65,6 +65,11 @@ sudo flatpak install flathub md.obsidian.Obsidian
 sudo flatpak install flathub org.kde.kdenlive
 ```
 
+- [x] VidCutter
+```bash
+sudo flatpak install flathub com.ozmartians.VidCutter
+```
+
 - [x] Audacity
 ```bash
 sudo flatpak install flathub org.audacityteam.Audacity
