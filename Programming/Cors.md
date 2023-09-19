@@ -1,9 +1,12 @@
-Add this code to `programm.cs`
-```c#
-services.AddCors(options => {
-            options.AddDefaultPolicy(policy => policy.AllowAnyHeader()
-                .AllowAnyMethod().WithOrigins("https://localhost:4200"));
-        });
+Open `programm.cs` and add this code after `MongoDB`
+```C#
+#region Cors: baraye ta'eede Angular HttpClient requests
+builder.Services.AddCors(options =>
+    {
+        options.AddDefaultPolicy(policy => 
+            policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+    });
+#endregion Cors
 ```
 
 Also add this **Cors** like this

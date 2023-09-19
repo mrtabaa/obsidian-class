@@ -4,7 +4,7 @@
 dotnet new sln
 ```
 
-- [x] Create webapi:
+- [ ] Create webapi:
 ```bash
 dotnet new webapi -o api
 ```
@@ -14,7 +14,9 @@ dotnet new webapi -o api
 dotnet sln add api
 ```
 
-- [x] Exclude `bin` and `obj` folders from VSCode File Explorer
+- [ ] Delete `WeatherForecast.cs` and `WeatherForecastController.cs`
+
+- [ ] Exclude `bin` and `obj` folders from VSCode File Explorer
 ![[exclude vscode folders.png]]
 
 - [ ] Use this for `launchSettings.json` [like this](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Properties/launchSettings.json)

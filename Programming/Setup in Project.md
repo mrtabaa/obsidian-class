@@ -1,17 +1,14 @@
-**appsettings.Development.json**
-
+1. `appsettings.Development.json`
 ```js
 "MongoDbSettings": {
 	"ConnectionString": "mongodb://localhost:27017",
 	"DatabaseName": "hallboard"
 },
 ```
-
-**Copy this Settings folder into API folder:**
+2. Copy this Settings folder into API folder:
 [Settings.zip](obsidian://open?vault=obsidian-class&file=Programming%2Fhelpers%2FSettings.zip)
 
-**dotnet 6+: Program.cs** or [**ApplicationServiceExtensions**](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Extensions/ApplicationServiceExtensions.cs)
-
+3. Add this code to `program.cs`
 ```C#
 #region MongoDbSettings
 ///// get values from this file: appsettings.Development.json /////
@@ -33,8 +30,7 @@ builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
 #endregion MongoDbSettings
 ```
 
-**Use in Repository**
-
+4. Use MongoDB in Class/Repository (Dependency injection)
 ```C#
 #region Db and Token Settings
     const string _collectionName = "users";
@@ -52,18 +48,6 @@ builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
         _cancellationToken = new CancellationToken();
     }
     #endregion
-```
-
-
-**OLD: dotnet 5: Startup.cs**
-```C#
-services.Configure<MongoDbSettings>(config.GetSection(nameof(MongoDbSettings)));
-
-services.AddSingleton<IMongoClient>(serviceProvider => {
-	var uri = serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value;
-
-	return new MongoClient(uri.ConnectionString);
-});
 ```
 
 Back to [Project Steps](obsidian://open?vault=obsidian-class&file=Programming%2F0%20-%20Project%20Steps)

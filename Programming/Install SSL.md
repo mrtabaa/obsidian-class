@@ -1,11 +1,11 @@
 # Client
-1. Get `server.crt` & `server.key` from [generateTrustedSSL](obsidian://open?vault=obsidian-class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
+1. Get `server.crt` & `server.key` from [[ssl-certificates.zip]]
 
 2. Create a **ssl** folder in **client** folder.
 
-3. Copy the two files into your ssl folder.
+3. Copy the `server.crt` & `server.key` into the **ssl** folder.
 
-4. Add this to **angular.json**
+4. Add `options` to **angular.json** under `serve` section like below
 ```json
 "serve": {
 	"builder": "@angular-devkit/build-angular:dev-server",
@@ -21,15 +21,19 @@
 
 # API
 #### Linux:
+1. Make Linux trust dotnet certificates
+```bash
+sudo dotnet dev-certs https --trust
+```
 
-1. Get your cert from [generateTrustedSSL](obsidian://open?vault=obsidian-class&file=Programming%2Fhelpers%2FgenerateTrustedSSL.zip)
-2. Open Terminal in this folder.
-3. Run this command:
+2. Get `server.crt` & `server.key` from [[ssl-certificates.zip]]
+3. Go to **ssl-certificates** folder and open a Terminal.
+4. Run this command:
 ##### ubuntu
 ```bash
 sudo cp server.crt /usr/local/share/ca-certificates/server.crt
 ```
-4. Update Certificates
+4. Update OS certificates list
 ```bash
 sudo update-ca-certificates
 ```
@@ -37,11 +41,12 @@ sudo update-ca-certificates
 ```bash
 sudo cp server.crt /etc/pki/ca-trust/source/anchors/server.crt
 ```
-4. Update Certificates
+4. Update OS certificates list
 ```bash
 sudo update-ca-trust
 ```
-5. Follow code below and change **http** to **https** in `Program.cs` **OR** [ApplicationServiceExtensions.cs](https://github.com/mrtabaa/hallboard/blob/master/api/Extensions/ApplicationServiceExtensions.cs) links to https
+
+1. Follow code below and change **http** to **https** in `Program.cs` **OR** [ApplicationServiceExtensions.cs](https://github.com/mrtabaa/hallboard/blob/master/api/Extensions/ApplicationServiceExtensions.cs) links to https
 ```C#
 #region Cors: baraye ta'eede Angular HttpClient requests
 builder.Services.AddCors(options =>
