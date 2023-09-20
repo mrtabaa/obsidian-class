@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "OS Setup/Fedora Config.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc4a203ab27d7fb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Programming/0 - Project Steps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,14 +182,24 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6d2e8a4d0f1eb8be",
+  "active": "dc4a203ab27d7fb0",
   "lastOpenFiles": [
-    "Programming/Program.cs.md",
-    "Programming/CancellationToken.md",
+    "Programming/Install and Create Angular Project.md",
+    "Programming/install NVM.md",
     "Programming/0 - Project Steps.md",
-    "Programming/Setup in Project.md",
     "Programming/Install MongoDB.md",
+    "OS Setup/Linux apps.md",
+    "OS Setup/MX Config.md",
+    "Programming/VSCode Setup.md",
+    "Programming/CancellationToken.md",
+    "Programming/GitHub.md",
+    "MX-boot-options 1.png",
+    "MX-boot-options.png",
+    "OS Setup/Fedora Config.md",
+    "OS Setup/Debugger-setup.md",
     "Programming/Cors.md",
+    "Programming/Program.cs.md",
+    "Programming/Setup in Project.md",
     "Programming/Pattern & Schema.md",
     "Programming/New-sln,-API.md",
     "Programming/Install SSL.md",
@@ -191,21 +214,13 @@
     "Programming/helpers/generateTrustedSSL/test/api/obj/7eed4951-7eb0-433d-aa72-ef5c53703430.tmp",
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.g.targets",
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.g.props",
-    "Programming/install NVM.md",
     "Programming/OS trust dotnet certs.md",
-    "Programming/Install and Create Angular Project.md",
-    "Programming/GitHub.md",
     "Programming/Debugger-setup.md",
     "Programming/Csharp Extension Settings.md",
     "Programming/0-1- NVM install.md",
-    "OS Setup/Linux apps.md",
-    "Programming/VSCode Setup.md",
     "ToDo/Teach.md",
     "Programming/Update Node & Angular.md",
     "Programming/Update Node _ Angular.md",
-    "Programming/TokenService.md",
-    "OS Setup/Fedora Config.md",
-    "OS Setup/Debugger-setup.md",
     "Programming/Images/exclude vscode folders.png",
     "Programming/Images/cancellation.jpg",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
@@ -214,8 +229,6 @@
     "Programming/Images/MongoDB-Pattern---Schema-image4.jpg",
     "Programming/Images/MongoDB-Pattern---Schema-image3.jpg",
     "Programming/Images/MongoDB-Pattern---Schema-image2.jpg",
-    "Programming/Images/MongoDB-Pattern---Schema-image1.jpg",
-    "Programming/Images/MongoDB-Model-Entity-e.g.-image3.png",
     "Untitled.canvas"
   ]
 }

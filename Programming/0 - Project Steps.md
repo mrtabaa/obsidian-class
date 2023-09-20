@@ -1,6 +1,21 @@
-- [ ] [Install .NET Core SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux?WT.mc_id=dotnet-35129-website)
+
+- [ ] [Install .NET-Core SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian)
+	1. Run this command
+	```bash
+	wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+	sudo dpkg -i packages-microsoft-prod.deb
+	rm packages-microsoft-prod.deb
+	```
+	2. Now install the SDK
+	```bash
+	sudo apt-get update && \
+	  sudo apt-get install -y dotnet-sdk-7.0
+	```
+
+- [x] Install .NET-Core Runtime (On real server ONLY)
 ```bash
-sudo dnf install dotnet-sdk-7.0
+sudo apt-get update && \
+  sudo apt-get install -y aspnetcore-runtime-7.0
 ```
 
 - [ ] [[VSCode Setup]]

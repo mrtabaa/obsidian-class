@@ -7,7 +7,7 @@ Make sure the name of your project and repository match!
 ##### INSTALLATION:
 1. Install
 ```bash
-sudo dnf install git
+sudo apt install git
 ```
 2. Restart VS-Code
 ##### Set Global User
