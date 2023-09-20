@@ -1,5 +1,5 @@
 - [ ] Open `MX Boot Options`  and set these values
-![[MX-boot-options 1.png]]
+![[MX-boot-options.png]]
 
 
 - [ ] Fix Google Chrome error on `sudo apt update`
