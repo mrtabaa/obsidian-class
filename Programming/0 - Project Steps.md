@@ -22,7 +22,7 @@ sudo apt-get update && \
 
 - [ ] [[Install MongoDB]]
 
-- [ ] Install Angular, Material, Flex [Click Here](obsidian://open?vault=obsidian-class&file=Programming%2FInstall%20and%20Create%20Angular%20Project)
+- [ ] Install Angular, Material [Click Here](obsidian://open?vault=obsidian-class&file=Programming%2FInstall%20and%20Create%20Angular%20Project)
 
 - [ ] Create an API and set debugger [[New-sln,-API]]
 

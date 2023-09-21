@@ -15,4 +15,9 @@ check version
 nvm --version
 ```
 
+To see all available `NPM / NodeJs`
+```bash
+nvm ls-remote
+```
+
 Back to [Angular installation](obsidian://open?vault=Obsidian&file=Programming%2FAngular%2FAngular%2F0-%20Installation%20and%20Create%20project)

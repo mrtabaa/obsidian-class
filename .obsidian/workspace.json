@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Csharp Extension Settings.md",
+                "file": "Programming/Install and Create Angular Project.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Csharp Extension Settings.md"
+                "file": "Programming/Install and Create Angular Project.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Csharp Extension Settings.md",
+                "file": "Programming/Install and Create Angular Project.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Csharp Extension Settings.md",
+                "file": "Programming/Install and Create Angular Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,19 +171,20 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
-    "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
-    "Programming/Csharp Extension Settings.md",
-    "OS Setup/Fedora Config.md",
     "Programming/0 - Project Steps.md",
+    "Programming/Install and Create Angular Project.md",
+    "Programming/Update Node _ Angular.md",
+    "Programming/install NVM.md",
+    "Programming/Install MongoDB.md",
+    "Programming/Csharp Extension Settings.md",
+    "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
+    "OS Setup/Fedora Config.md",
     "Programming/Images/csharp-extionsion-settings.png",
     "Programming/VSCode Setup.md",
     "OS Setup/MX Config.md",
     "MX-boot-options 1.png.md",
     "Programming/Images/MX-boot-options.png",
     "MX-boot-options 1.png",
-    "Programming/Install and Create Angular Project.md",
-    "Programming/install NVM.md",
-    "Programming/Install MongoDB.md",
     "OS Setup/Linux apps.md",
     "Programming/CancellationToken.md",
     "Programming/GitHub.md",
