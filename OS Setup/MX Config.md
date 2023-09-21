@@ -3,6 +3,10 @@
 
 - [ ] Go to `System Settings` => `Workspace Bahavior` => `Screen Edges` => Change`Activation delay` to `0`. 
 
+- [ ] Go to `System Settings` => `Input Devices` => `Layouts` => `Main Shortcuts` => Change it to `Alt+Shift`
+
+- [ ] Open Volume/Sound and check `Raise maximum volume`
+
 - [ ] Update MX Linux
 	1. Get available updates
 	```bash
