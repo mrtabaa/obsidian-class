@@ -7,6 +7,8 @@
 
 - [ ] Open Volume/Sound and check `Raise maximum volume`
 
+- [ ] From `Conkey Manager` un-check clock and check the `MX-Full` option
+
 - [ ] Update MX Linux
 	1. Get available updates
 	```bash
