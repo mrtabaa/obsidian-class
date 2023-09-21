@@ -5,9 +5,7 @@
 1. [[install NVM]]
 2. Install NodeJs, Angular, and Angular Material [from here](https://docs.google.com/document/d/1tVy1U7zdcvKKFOJ-OWY6wCle3-ts72Z7arhPSV35mUk/edit?usp=sharing)
 
-**OR**
-1. Install [node.js](https://nodejs.org/en/download/) to get **npm** (if not installed from NVM)
 ##### Update
-[[Update Node _ Angular]]
+[[Update Node & Angular]] if needed
 
 Back to [Project Steps](obsidian://open?vault=obsidian-class&file=Programming%2F0%20-%20Project%20Steps)

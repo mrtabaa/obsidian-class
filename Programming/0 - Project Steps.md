@@ -28,7 +28,7 @@ sudo apt-get update && \
 
 - [ ] Setup [[GitHub]]
 
-- [ ] [Update Node & Angular if needed](obsidian://open?vault=obsidian-class&file=Programming%2FUpdate%20Node%20_%20Angular)
+- [ ] [[Update Node & Angular]] if needed
 
 - [ ] Install [Authentication.JwtBearer and MongoDriver](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/api.csproj) from NuGet
 

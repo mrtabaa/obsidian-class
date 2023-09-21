@@ -29,21 +29,13 @@ sudo dotnet dev-certs https --trust
 2. Get `server.crt` & `server.key` from [[ssl-certificates.zip]]
 3. Go to **ssl-certificates** folder and open a Terminal.
 4. Run this command:
-##### ubuntu
+##### Ubuntu / Debian
 ```bash
 sudo cp server.crt /usr/local/share/ca-certificates/server.crt
 ```
 4. Update OS certificates list
 ```bash
 sudo update-ca-certificates
-```
-##### Fedora 
-```bash
-sudo cp server.crt /etc/pki/ca-trust/source/anchors/server.crt
-```
-4. Update OS certificates list
-```bash
-sudo update-ca-trust
 ```
 
 1. Follow code below and change **http** to **https** in `Program.cs` **OR** [ApplicationServiceExtensions.cs](https://github.com/mrtabaa/hallboard/blob/master/api/Extensions/ApplicationServiceExtensions.cs) links to https

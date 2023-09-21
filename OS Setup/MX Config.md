@@ -1,8 +1,23 @@
 - [ ] Open `MX Boot Options`  and set these values
 ![[MX-boot-options.png]]
 
+- [ ] Update MX Linux
+	1. Get available updates
+	```bash
+	sudo apt update
+	```
+	
+	2. Check upgradable items (optional)
+	```bash
+		apt list --upgradable
+	```
 
-- [ ] Fix Google Chrome error on `sudo apt update`
+	3. Install the updates
+	```bash
+	sudo apt upgrade
+	```
+
+- [ ] Fix Google Chrome error on `sudo apt update` (if any)
 	1.  Open `google.chrome.list`
 	```bash
 	sudo nano /etc/apt/sources.list.d/google.chrome.list

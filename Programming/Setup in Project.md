@@ -1,4 +1,4 @@
-1. `appsettings.Development.json`
+1. `appsettings.Development.json` (change DatabaseName)
 ```js
 "MongoDbSettings": {
 	"ConnectionString": "mongodb://localhost:27017",

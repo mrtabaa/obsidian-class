@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Install and Create Angular Project.md",
+                "file": "OS Setup/MX Config.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Install and Create Angular Project.md"
+                "file": "OS Setup/MX Config.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Install and Create Angular Project.md",
+                "file": "OS Setup/MX Config.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Install and Create Angular Project.md",
+                "file": "OS Setup/MX Config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,30 +171,33 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
-    "Programming/0 - Project Steps.md",
     "Programming/Install and Create Angular Project.md",
+    "OS Setup/Fedora Config.md",
+    "Programming/0 - Project Steps.md",
+    "Programming/Update Node & Angular.md",
+    "Programming/VSCode Setup.md",
     "Programming/Update Node _ Angular.md",
+    "Programming/TokenService.md",
+    "Programming/Setup in Project.md",
+    "Programming/Pattern & Schema.md",
+    "Programming/New-sln,-API.md",
+    "Programming/Install SSL.md",
     "Programming/install NVM.md",
     "Programming/Install MongoDB.md",
+    "Programming/GitHub.md",
+    "Programming/Debugger-setup.md",
     "Programming/Csharp Extension Settings.md",
+    "Programming/Cors.md",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
-    "OS Setup/Fedora Config.md",
     "Programming/Images/csharp-extionsion-settings.png",
-    "Programming/VSCode Setup.md",
     "OS Setup/MX Config.md",
     "MX-boot-options 1.png.md",
     "Programming/Images/MX-boot-options.png",
     "MX-boot-options 1.png",
     "OS Setup/Linux apps.md",
     "Programming/CancellationToken.md",
-    "Programming/GitHub.md",
     "OS Setup/Debugger-setup.md",
-    "Programming/Cors.md",
     "Programming/Program.cs.md",
-    "Programming/Setup in Project.md",
-    "Programming/Pattern & Schema.md",
-    "Programming/New-sln,-API.md",
-    "Programming/Install SSL.md",
     "Programming/Pattern _ Schema.md",
     "Programming/helpers/ssl-certificates.zip",
     "Programming/helpers/generateTrustedSSL/ssl-certificates.zip",
@@ -207,10 +210,7 @@
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.g.targets",
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.g.props",
     "Programming/OS trust dotnet certs.md",
-    "Programming/Debugger-setup.md",
     "Programming/0-1- NVM install.md",
-    "ToDo/Teach.md",
-    "Programming/Update Node & Angular.md",
     "Programming/Images/exclude vscode folders.png",
     "Programming/Images/cancellation.jpg",
     "Programming/Images/MongoDB-Thunder-Client---Postman-image1.png",
