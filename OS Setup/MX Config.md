@@ -28,3 +28,5 @@
 	```
 	3. Save by => ctrl+o => ctrl+x
 
+
+- [ ] After installing your apps, back up your system with **TimeShift**
