@@ -1,6 +1,8 @@
 - [ ] Open `MX Boot Options`  and set these values
 ![[MX-boot-options.png]]
 
+- [ ] Go to `System Settings` => `Workspace Bahavior` => `Screen Edges` => Change`Activation delay` to `0`. 
+
 - [ ] Update MX Linux
 	1. Get available updates
 	```bash
@@ -29,4 +31,4 @@
 	3. Save by => ctrl+o => ctrl+x
 
 
-- [ ] After installing your apps, back up your system with **TimeShift**
+- [ ] After installing your apps, back up your system with **TimeShift** (DON'T run TimeShift without its **Wizard!**)
