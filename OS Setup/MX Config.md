@@ -35,4 +35,6 @@
 	3. Save by => ctrl+o => ctrl+x
 
 
+- [ ] More KDE setting at [KDE Store](https://store.kde.org/browse/)
+
 - [ ] After installing your apps, back up your system with **TimeShift** (DON'T run TimeShift without its **Wizard!**)
