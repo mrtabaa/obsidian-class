@@ -5,6 +5,12 @@
 
 - [ ] Go to `System Settings` => `Input Devices` => `Layouts` => `Main Shortcuts` => Change it to `Alt+Shift`
 
+- [ ] Install Microsoft Fonts
+```bash
+sudo apt install ttf-mscorefonts-installer
+```
+- [ ] Change Star Menu layout => Right click on Start menu => Show Alternatives
+
 - [ ] Open Volume/Sound and check `Raise maximum volume`
 
 - [ ] From `Conkey Manager` un-check clock and check the `MX-Full` option
