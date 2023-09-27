@@ -31,7 +31,7 @@ sudo apt install ttf-mscorefonts-installer
 	sudo apt upgrade
 	```
 
-- [ ] Fix Google Chrome error on `sudo apt update` (if any)
+- [ ] After installing Google Chrome, fix the updating error of `sudo apt update`
 	1.  Open `google.chrome.list`
 	```bash
 	sudo nano /etc/apt/sources.list.d/google.chrome.list
@@ -42,6 +42,13 @@ sudo apt install ttf-mscorefonts-installer
 	```
 	3. Save by => ctrl+o => ctrl+x
 
+
+- [ ] Allow KDE Connect ports in MX Firewall
+```bash
+sudo ufw allow 1714:1764/udp
+sudo ufw allow 1714:1764/tcp
+sudo ufw reload
+```
 
 - [ ] More KDE setting at [KDE Store](https://store.kde.org/browse/)
 
