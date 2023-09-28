@@ -16,17 +16,27 @@ sudo apt install ttf-mscorefonts-installer
 - [ ] From `Conkey Manager` un-check clock and check the `MX-Full` option
 
 - [ ] Update MX Linux
-	1. Get available updates
+	1. Set Google DNS to bypass the Iran's internet issue.
+		* Set these value in DNS settings: `8.8.8.8, 8.8.4.4`
+		![[network-dns-settings.jpg]]
+
+		* Restart your WiFi (Internet connection)
+
+		* Check if the new DNS is used: (My WiFi name is Connection_5G )
+		![[network-dns-used.jpg]]
+		
+
+	2. Get available updates
 	```bash
 	sudo apt update
 	```
 	
-	2. Check upgradable items (optional)
+	3. Check upgradable items (optional)
 	```bash
 		apt list --upgradable
 	```
 
-	3. Install the updates
+	4. Install the updates
 	```bash
 	sudo apt upgrade
 	```

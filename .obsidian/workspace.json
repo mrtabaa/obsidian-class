@@ -171,9 +171,12 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
+    "Programming/Images/network-dns-settings.jpg",
+    "OS Setup/MX Config.md",
+    "Programming/Images/network-dns-used.jpg",
+    "Programming/Images/network-dns-settings",
     "Programming/VSCode Setup.md",
     "Programming/0 - Project Steps.md",
-    "OS Setup/MX Config.md",
     "OS Setup/Debugger-setup.md",
     "OS Setup/Linux apps.md",
     "Programming/Install and Create Angular Project.md",
@@ -208,15 +211,11 @@
     "Programming/helpers/generateTrustedSSL/test/api/obj/project.assets.json",
     "Programming/helpers/generateTrustedSSL/test/api/obj/7eed4951-7eb0-433d-aa72-ef5c53703430.tmp",
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.g.targets",
-    "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.g.props",
     "Programming/OS trust dotnet certs.md",
-    "Programming/0-1- NVM install.md",
     "Programming/Images/exclude vscode folders.png",
     "Programming/Images/cancellation.jpg",
     "Programming/Images/MongoDB-Thunder-Client---Postman-image1.png",
     "Programming/Images/MongoDB-Pattern---Schema-image5.jpg",
-    "Programming/Images/MongoDB-Pattern---Schema-image4.jpg",
-    "Programming/Images/MongoDB-Pattern---Schema-image3.jpg",
     "Untitled.canvas"
   ]
 }
