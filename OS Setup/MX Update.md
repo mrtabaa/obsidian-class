@@ -20,7 +20,7 @@
 sudo apt update
 ```
 	
-4. Check upgradable items (optional)
+4. Check what items are going to be updated (optional)
 ```bash
 apt list --upgradable
 ```
