@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "OS Setup/MX Update.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/MX Config.md"
+                "file": "OS Setup/MX Update.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "OS Setup/MX Update.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "OS Setup/MX Update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +171,9 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
-    "Programming/Images/network-dns-settings.jpg",
     "OS Setup/MX Config.md",
+    "OS Setup/MX Update.md",
+    "Programming/Images/network-dns-settings.jpg",
     "Programming/Images/network-dns-used.jpg",
     "Programming/Images/network-dns-settings",
     "Programming/VSCode Setup.md",
