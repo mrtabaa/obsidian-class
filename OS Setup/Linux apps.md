@@ -30,35 +30,36 @@ sudo apt install synaptic
 
 - [ ] Postman
 ```bash
-sudo flatpak install flathub com.getpostman.Postman
+flatpak install flathub com.getpostman.Postman
+```
+- [ ] MailSpring
+```bash
+flatpak install flathub com.getmailspring.Mailspring
 ```
 
+
+OR from Terminal
 - [x] VLC
 ```bash
 sudo flatpak install flathub org.videolan.VLC
 ```
 
 ##### Snap Packages
-1. Install
+**[https://snapcraft.io](https://snapcraft.io/)**
+
+1. Install Snapd
 ```bash
 sudo apt install snapd
 ```
-2. Install
+2. Install Snap's Core
 ```bash
 sudo snap install core
 ```
 
-- [ ] Postman
-```bash
-sudo snap install postman
-```
-
-- [x] Mailspring (Email software)
+3.  Mailspring (Email software)
 ```bash
 sudo snap install mailspring
 ```
-
-3. [For more software click here](https://snapcraft.io/)
 
 ##### Website Packages
 - [ ] [AppImageLauncher - bionic_amd64.deb](https://github.com/TheAssassin/AppImageLauncher/releases)

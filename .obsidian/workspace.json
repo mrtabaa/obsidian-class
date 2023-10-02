@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/0 - Project Steps.md",
+                "file": "OS Setup/Linux apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/0 - Project Steps.md"
+                "file": "OS Setup/Linux apps.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/0 - Project Steps.md",
+                "file": "OS Setup/Linux apps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/0 - Project Steps.md",
+                "file": "OS Setup/Linux apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
     "Programming/helpers/Buying a VPN and activating it.docx",
     "OS Setup/helpers/Google Chrome Update.md",
     "OS Setup/helpers/MX Update.md",
-    "Programming/Images/codex installer.png",
+    "Images/codex installer.png",
     "Programming/codex installer.png",
     "Programming/CancellationToken.md",
     "Programming/TokenService.md",
@@ -213,22 +213,22 @@
     "Programming/install NVM.md",
     "Programming/Install MongoDB.md",
     "Programming/Csharp Extension Settings.md",
-    "Programming/Images/exclude vscode folders.png",
-    "Programming/Images/csharp-extionsion-settings.png",
+    "Images/exclude vscode folders.png",
+    "Images/csharp-extionsion-settings.png",
     "[.md",
     "Programming/Hide bin & obj.md",
-    "Programming/Images/network-dns-settings.jpg",
-    "Programming/Images/network-dns-used.jpg",
+    "Images/network-dns-settings.jpg",
+    "Images/network-dns-used.jpg",
     "Programming/Images/network-dns-settings",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
-    "Programming/Images/MX-boot-options.png",
+    "Images/MX-boot-options.png",
     "MX-boot-options 1.png",
     "Programming/helpers/ssl-certificates.zip",
     "Programming/helpers/generateTrustedSSL/ssl-certificates.zip",
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.dgspec.json",
     "Programming/helpers/generateTrustedSSL/test/api/obj/b08bc5bf-9719-44a7-b544-fbc8beb3b23a.tmp",
     "Programming/helpers/generateTrustedSSL/test/api/obj/project.nuget.cache",
-    "Programming/Images/cancellation.jpg",
+    "Images/cancellation.jpg",
     "Untitled.canvas"
   ]
 }
