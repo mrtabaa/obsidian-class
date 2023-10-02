@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "OS Setup/Codex Installer.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/MX Config.md"
+                "file": "OS Setup/Codex Installer.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "OS Setup/Codex Installer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "OS Setup/Codex Installer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +171,8 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
-    "OS Setup/Google Chrome Update.md",
     "OS Setup/MX Config.md",
+    "OS Setup/Google Chrome Update.md",
     "OS Setup/MX Update.md",
     "OS Setup/Codex Installer.md",
     "Programming/Images/codex installer.png",
