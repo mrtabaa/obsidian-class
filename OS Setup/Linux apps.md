@@ -32,16 +32,9 @@ sudo apt install synaptic
 ```bash
 flatpak install flathub com.getpostman.Postman
 ```
-- [ ] MailSpring
+- [ ]  Mailspring (Email software)
 ```bash
 flatpak install flathub com.getmailspring.Mailspring
-```
-
-
-OR from Terminal
-- [x] VLC
-```bash
-sudo flatpak install flathub org.videolan.VLC
 ```
 
 ##### Snap Packages
