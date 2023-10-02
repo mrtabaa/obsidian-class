@@ -1,5 +1,24 @@
 #### APPLICATIONS
 ----------------
+##### Website Packages
+- [ ] [AppImageLauncher - bionic_amd64.deb](https://github.com/TheAssassin/AppImageLauncher/releases)
+
+- [ ] [VS Code - .deb](https://code.visualstudio.com/download)
+
+- [x] [Xtreme Downloader Manager](https://github.com/subhra74/xdm/releases)
+
+- [x] [RClone Browser](https://rclone.org/downloads/) and [YouTube setup tutorial](https://youtu.be/ff8Ogk8NIPU)
+
+- [x] [Ledger](https://www.ledger.com/ledger-live)
+
+- [ ] [Google Chorme](https://www.google.com/chrome/)
+	- [ ] Fix Google Chrome update
+	```bash
+	sudo rm /etc/apt/sources.list.d/chrome-remote-desktop.list
+	echo "deb http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list  
+	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+	```
+
 ##### APT Packages
 - [ ] Git
 ```bash
@@ -28,6 +47,12 @@ sudo apt install synaptic
 ##### Flathub Packages
 **https://flathub.org
 
+* Fix Flathub/Flatpak if needed
+```bash
+flatpak remote-delete --force flathub
+flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
 - [ ] Postman
 ```bash
 flatpak install flathub com.getpostman.Postman
@@ -53,19 +78,6 @@ sudo snap install core
 ```bash
 sudo snap install mailspring
 ```
-
-##### Website Packages
-- [ ] [AppImageLauncher - bionic_amd64.deb](https://github.com/TheAssassin/AppImageLauncher/releases)
-
-- [ ] [VS Code - .deb](https://code.visualstudio.com/download)
-
-- [x] [Xtreme Downloader Manager](https://github.com/subhra74/xdm/releases)
-
-- [x] [RClone Browser](https://rclone.org/downloads/) and [YouTube setup tutorial](https://youtu.be/ff8Ogk8NIPU)
-
-- [x] [Ledger](https://www.ledger.com/ledger-live)
-
-
 
 #### VPN:
 --------------

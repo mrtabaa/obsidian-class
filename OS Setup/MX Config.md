@@ -19,19 +19,6 @@ sudo apt install ttf-mscorefonts-installer
 
 - [x] Update MX Linux from here: [[MX Update]]
 
-- [ ] Fix Flathub/Flatpak
-```bash
-flatpak remote-delete --force flathub
-flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
-```
-
-- [ ] Fix Google Chrome update
-```bash
-sudo rm /etc/apt/sources.list.d/chrome-remote-desktop.list
-echo "deb http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list  
-wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-```
-
 - [ ] Allow KDE Connect ports in MX Firewall **(If using KD Connect with Android/iOS)**
 ```bash
 sudo ufw allow 1714:1764/udp
