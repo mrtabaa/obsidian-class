@@ -7,4 +7,6 @@
 
 - [ ] [[Csharp Extension Settings]]
 
+- [ ] [[Fix VSCode KDE Keyring.odt]]
+
 Back to [[0 - Project Steps]]

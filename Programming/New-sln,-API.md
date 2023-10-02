@@ -33,6 +33,6 @@ dotnet sln add api
 
 - [ ] Create [BaseApiController.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Controllers/BaseApiController.cs)
 
-- [ ] Setup Debugger for api and client [[Debugger-setup]]
+- [ ] Setup Debugger for api and client [[Programming/Debugger-setup]]
 
 Back to [[0 - Project Steps]]

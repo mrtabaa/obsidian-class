@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "OS Setup/helpers/Codex Installer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2313f4fbdc30b544",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/0 - Project Steps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/MX Config.md"
+                "file": "Programming/0 - Project Steps.md"
               }
             }
           },
@@ -130,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "Programming/0 - Project Steps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS Setup/MX Config.md",
+                "file": "Programming/0 - Project Steps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,16 +182,22 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6d2e8a4d0f1eb8be",
+  "active": "2313f4fbdc30b544",
   "lastOpenFiles": [
-    "OS Setup/Google Chrome Update.md",
+    "Programming/VSCode Setup.md",
+    "Programming/0 - Project Steps.md",
     "OS Setup/MX Config.md",
-    "OS Setup/MX Update.md",
-    "OS Setup/Codex Installer.md",
-    "OS Setup/Debugger-setup.md",
+    "OS Setup/Linux apps.md",
+    "OS Setup/helpers/Codex Installer.md",
+    "OS Setup/helpers/Debugger-setup.md",
+    "OS Setup/helpers",
+    "Programming/helpers/Fix VSCode KDE Keyring.odt",
+    "Programming/helpers/fix error vscode KDE.odt",
+    "Programming/helpers/Buying a VPN and activating it.docx",
+    "OS Setup/helpers/Google Chrome Update.md",
+    "OS Setup/helpers/MX Update.md",
     "Programming/Images/codex installer.png",
     "Programming/codex installer.png",
-    "Programming/0 - Project Steps.md",
     "Programming/CancellationToken.md",
     "Programming/TokenService.md",
     "Programming/Install SSL.md",
@@ -193,7 +212,6 @@
     "Programming/Install and Create Angular Project.md",
     "Programming/install NVM.md",
     "Programming/Install MongoDB.md",
-    "Programming/VSCode Setup.md",
     "Programming/Csharp Extension Settings.md",
     "Programming/Images/exclude vscode folders.png",
     "Programming/Images/csharp-extionsion-settings.png",
@@ -202,8 +220,6 @@
     "Programming/Images/network-dns-settings.jpg",
     "Programming/Images/network-dns-used.jpg",
     "Programming/Images/network-dns-settings",
-    "OS Setup/Linux apps.md",
-    "OS Setup/Fedora Config.md",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
     "Programming/Images/MX-boot-options.png",
     "MX-boot-options 1.png",
@@ -212,10 +228,6 @@
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.dgspec.json",
     "Programming/helpers/generateTrustedSSL/test/api/obj/b08bc5bf-9719-44a7-b544-fbc8beb3b23a.tmp",
     "Programming/helpers/generateTrustedSSL/test/api/obj/project.nuget.cache",
-    "Programming/helpers/generateTrustedSSL/test/api/obj/888d9ff8-3ae1-4ba6-9767-b48960743c0c.tmp",
-    "Programming/helpers/generateTrustedSSL/test/api/obj/project.assets.json",
-    "Programming/helpers/generateTrustedSSL/test/api/obj/7eed4951-7eb0-433d-aa72-ef5c53703430.tmp",
-    "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.g.targets",
     "Programming/Images/cancellation.jpg",
     "Untitled.canvas"
   ]

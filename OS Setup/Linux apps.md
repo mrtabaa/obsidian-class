@@ -71,8 +71,15 @@ sudo snap install mailspring
 
 - [x] [Ledger](https://www.ledger.com/ledger-live)
 
+
+
 #### VPN:
 --------------
+
+##### Method 1 (Iran)
+Open this file for instructions [[Buying a VPN and activating it.docx]]
+
+##### Method 2 (QV2RAY)
 1. Download [AppImage](https://github.com/Qv2ray/Qv2ray/releases/)
 2. Download [Xray-linux-64.zip](https://github.com/XTLS/Xray-core/releases)
 
