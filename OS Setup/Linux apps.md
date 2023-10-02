@@ -79,6 +79,8 @@ sudo snap install core
 sudo snap install mailspring
 ```
 
+Go back to [[MX Config]]
+
 #### VPN:
 --------------
 
