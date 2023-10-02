@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/MX Update.md",
+                "file": "OS Setup/MX Config.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "replac",
+                "query": "obj",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/MX Update.md"
+                "file": "OS Setup/MX Config.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Setup/MX Update.md",
+                "file": "OS Setup/MX Config.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS Setup/MX Update.md",
+                "file": "OS Setup/MX Config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,38 +171,42 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
+    "OS Setup/Google Chrome Update.md",
     "OS Setup/MX Config.md",
     "OS Setup/MX Update.md",
+    "OS Setup/Codex Installer.md",
+    "Programming/Images/codex installer.png",
+    "Programming/codex installer.png",
+    "Programming/0 - Project Steps.md",
+    "Programming/CancellationToken.md",
+    "Programming/TokenService.md",
+    "Programming/Install SSL.md",
+    "Programming/Program.cs.md",
+    "Programming/Setup Cors.md",
+    "Programming/Setup in Project.md",
+    "Programming/Pattern & Schema.md",
+    "Programming/Update Node & Angular.md",
+    "Programming/GitHub.md",
+    "Programming/New-sln,-API.md",
+    "Programming/Debugger-setup.md",
+    "Programming/Install and Create Angular Project.md",
+    "Programming/install NVM.md",
+    "Programming/Install MongoDB.md",
+    "Programming/VSCode Setup.md",
+    "Programming/Csharp Extension Settings.md",
+    "Programming/Images/exclude vscode folders.png",
+    "Programming/Images/csharp-extionsion-settings.png",
+    "[.md",
+    "Programming/Hide bin & obj.md",
     "Programming/Images/network-dns-settings.jpg",
     "Programming/Images/network-dns-used.jpg",
     "Programming/Images/network-dns-settings",
-    "Programming/VSCode Setup.md",
-    "Programming/0 - Project Steps.md",
     "OS Setup/Debugger-setup.md",
     "OS Setup/Linux apps.md",
-    "Programming/Install and Create Angular Project.md",
     "OS Setup/Fedora Config.md",
-    "Programming/Update Node & Angular.md",
-    "Programming/Update Node _ Angular.md",
-    "Programming/TokenService.md",
-    "Programming/Setup in Project.md",
-    "Programming/Pattern & Schema.md",
-    "Programming/New-sln,-API.md",
-    "Programming/Install SSL.md",
-    "Programming/install NVM.md",
-    "Programming/Install MongoDB.md",
-    "Programming/GitHub.md",
-    "Programming/Debugger-setup.md",
-    "Programming/Csharp Extension Settings.md",
-    "Programming/Cors.md",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
-    "Programming/Images/csharp-extionsion-settings.png",
-    "MX-boot-options 1.png.md",
     "Programming/Images/MX-boot-options.png",
     "MX-boot-options 1.png",
-    "Programming/CancellationToken.md",
-    "Programming/Program.cs.md",
-    "Programming/Pattern _ Schema.md",
     "Programming/helpers/ssl-certificates.zip",
     "Programming/helpers/generateTrustedSSL/ssl-certificates.zip",
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.dgspec.json",
@@ -212,11 +216,7 @@
     "Programming/helpers/generateTrustedSSL/test/api/obj/project.assets.json",
     "Programming/helpers/generateTrustedSSL/test/api/obj/7eed4951-7eb0-433d-aa72-ef5c53703430.tmp",
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.g.targets",
-    "Programming/OS trust dotnet certs.md",
-    "Programming/Images/exclude vscode folders.png",
     "Programming/Images/cancellation.jpg",
-    "Programming/Images/MongoDB-Thunder-Client---Postman-image1.png",
-    "Programming/Images/MongoDB-Pattern---Schema-image5.jpg",
     "Untitled.canvas"
   ]
 }

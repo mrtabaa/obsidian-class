@@ -1,41 +1,39 @@
-- [ ] Open `MX Boot Options`  and set these values
+- [x] Open `MX Boot Options`  and set these values
 ![[MX-boot-options.png]]
 
-- [ ] Go to `System Settings` => `Workspace Bahavior` => `Screen Edges` => Change`Activation delay` to `0`. 
+- [x] Go to `System Settings` => `Workspace Bahavior` => `Screen Edges` => Change`Activation delay` to `0`. 
 
-- [ ] Go to `System Settings` => `Input Devices` => `Layouts` => `Main Shortcuts` => Change it to `Alt+Shift`
+- [x] Go to `System Settings` => `Input Devices` => `Layouts` => `Main Shortcuts` => Change it to `Alt+Shift`
 
-- [ ] Install Microsoft Fonts
+- [x] Install Microsoft Fonts
 ```bash
 sudo apt install ttf-mscorefonts-installer
 ```
-- [ ] Change Star Menu layout => Right click on Start menu => Show Alternatives
+- [ ] Install [[Codex Installer]]
 
-- [ ] Open Volume/Sound and check `Raise maximum volume`
+- [x] Change Star Menu layout => Right click on Start menu => Show Alternatives
 
-- [ ] From `Conkey Manager` un-check clock and check the `MX-Full` option
+- [x] Open Volume/Sound and check `Raise maximum volume`
 
-- [ ] Update MX Linux from here: [[MX Update]]
+- [x] From `Conkey Manager` un-check clock and check the `MX-Full` option
 
-- [ ] After installing Google Chrome, fix the updating error of `sudo apt update`
-	1.  Open `google.chrome.list`
-	```bash
-	sudo nano /etc/apt/sources.list.d/google.chrome.list
-	```
-	2. Now add `[arch=amd64]` like below:
-	```bash
-	deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
-	```
-	3. Save by => ctrl+o => ctrl+x
+- [x] Update MX Linux from here: [[MX Update]]
 
+- [ ] Fix Flathub/Flatpak
+```bash
+flatpak remote-delete --force flathub
+flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
+```
 
-- [ ] Allow KDE Connect ports in MX Firewall
+- [ ] Fix [[Google Chrome Update]]
+
+- [ ] Allow KDE Connect ports in MX Firewall **(If using KD Connect with Android/iOS)**
 ```bash
 sudo ufw allow 1714:1764/udp
 sudo ufw allow 1714:1764/tcp
 sudo ufw reload
 ```
 
-- [ ] More KDE setting at [KDE Store](https://store.kde.org/browse/)
+- [ ] After installing your apps, back up your system with **TimeShift**
 
-- [ ] After installing your apps, back up your system with **TimeShift** (DON'T run TimeShift without its **Wizard!**)
+- [ ] More KDE setting at [KDE Store](https://store.kde.org/browse/)

@@ -4,7 +4,7 @@
 dotnet new sln
 ```
 
-- [ ] Create webapi:
+- [x] Create webapi:
 ```bash
 dotnet new webapi -o api
 ```
@@ -14,7 +14,7 @@ dotnet new webapi -o api
 dotnet sln add api
 ```
 
-- [ ] Delete `WeatherForecast.cs` and `WeatherForecastController.cs`
+- [x] Delete `WeatherForecast.cs` and `WeatherForecastController.cs`
 
 - [ ] Exclude `bin` and `obj` folders from VSCode File Explorer
 ![[exclude vscode folders.png]]
@@ -35,4 +35,4 @@ dotnet sln add api
 
 - [ ] Setup Debugger for api and client [[Debugger-setup]]
 
-Back to [Project Steps](obsidian://open?vault=obsidian-class&file=Programming%2F0%20-%20Project%20Steps)
+Back to [[0 - Project Steps]]

@@ -51,4 +51,4 @@ builder.Services.AddCors(options =>
 
 7. Restart `dotnet`, `ng serve`, and the `browser`.
 
-Back to [Project Steps](obsidian://open?vault=obsidian-class&file=Programming%2F0%20-%20Project%20Steps)
+Back to [[0 - Project Steps]]

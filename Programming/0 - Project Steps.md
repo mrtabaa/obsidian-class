@@ -1,5 +1,5 @@
 
-- [ ] [Install .NET-Core SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian)
+- [x] [Install .NET-Core SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian)
 	1. Run this command
 	```bash
 	wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -20,9 +20,9 @@ sudo apt-get update && \
 
 - [ ] [[VSCode Setup]]
 
-- [ ] [[Install MongoDB]]
+- [x] [[Install MongoDB]]
 
-- [ ] Install Angular, Material [Click Here](obsidian://open?vault=obsidian-class&file=Programming%2FInstall%20and%20Create%20Angular%20Project)
+- [x] [[Install and Create Angular Project]]
 
 - [ ] Create an API and set debugger [[New-sln,-API]]
 
@@ -38,11 +38,11 @@ sudo apt-get update && \
 
 - [ ] Design MongoDB pattern [[Pattern & Schema]]
 
-- [ ] Connect MongoDb [[Setup in Project]]
+- [x] Connect MongoDb [[Setup in Project]]
 
 - [ ] Create API [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
 
-- [ ] [Setup Cors](obsidian://open?vault=obsidian-class&file=Programming%2FCors)
+- [ ] [[Setup Cors]]
 
 - [ ] Check to see if your [[Program.cs]] code looks good.
 

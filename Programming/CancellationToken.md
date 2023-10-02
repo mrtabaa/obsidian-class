@@ -8,4 +8,4 @@ NOTE: Do not use if you want to process the user entry no matter what. E.g. reco
 ![[cancellation.jpg]]
 
 
-Back to [Project Steps](obsidian://open?vault=obsidian-class&file=Programming%2F0%20-%20Project%20Steps)
+Back to [[0 - Project Steps]]
