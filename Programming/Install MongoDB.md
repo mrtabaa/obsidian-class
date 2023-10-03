@@ -6,6 +6,7 @@
 - [ ] Start the server 
 ```bash
 sudo systemctl enable mongod
+sudo systemctl start mongod
 ```
 
 Back to [[0 - Project Steps]]
