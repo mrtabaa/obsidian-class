@@ -14,9 +14,7 @@
 - [ ] [Google Chorme](https://www.google.com/chrome/)
 	- [ ] Fix Google Chrome update
 	```bash
-	sudo rm /etc/apt/sources.list.d/chrome-remote-desktop.list
-	echo "deb http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list  
-	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 	```
 
 ##### APT Packages
