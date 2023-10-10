@@ -161,7 +161,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "OS Setup/1- Linux apps.md",
-                "linksCollapsed": false,
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -184,6 +184,7 @@
   },
   "active": "2313f4fbdc30b544",
   "lastOpenFiles": [
+    "OS Setup/helpers/Codex Installer.md",
     "OS Setup/0- MX Config.md",
     "OS Setup/1- Linux apps.md",
     "Programming/Install SSL.md",
@@ -196,7 +197,6 @@
     "OS Setup/helpers/Google Chrome Update.md",
     "Programming/CancellationToken.md",
     "Programming/Install MongoDB.md",
-    "OS Setup/helpers/Codex Installer.md",
     "OS Setup/helpers/Debugger-setup.md",
     "OS Setup/helpers",
     "Programming/helpers/Fix VSCode KDE Keyring.odt",

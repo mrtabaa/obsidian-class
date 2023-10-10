@@ -42,24 +42,6 @@ sudo apt install synaptic
 
 - [x] VLC
 
-##### Flathub Packages
-**https://flathub.org
-
-* Fix Flathub/Flatpak if needed
-```bash
-flatpak remote-delete --force flathub
-flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
-```
-
-- [ ] Postman
-```bash
-flatpak install flathub com.getpostman.Postman
-```
-- [ ]  Mailspring (Email software)
-```bash
-flatpak install flathub com.getmailspring.Mailspring
-```
-
 ##### Snap Packages
 **[https://snapcraft.io](https://snapcraft.io/)**
 
@@ -72,12 +54,36 @@ sudo apt install snapd
 sudo snap install core
 ```
 
-3.  Mailspring (Email software)
+- [ ] Postman (similar to ThunderClient)
+```bash
+sudo snap install postman
+```
+
+- [x] Mailspring (Email software)
 ```bash
 sudo snap install mailspring
 ```
 
 Go back to [[0- MX Config]]
+
+##### Flathub Packages 
+###### (NOT working in IRAN!)
+**https://flathub.org
+
+* Fix Flathub/Flatpak if needed
+```bash
+flatpak remote-delete --force flathub
+flatpak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org
+```
+
+- [ ] Postman
+```bash
+flatpak install flathub com.getpostman.Postman
+```
+- [ ]  Mailspring (Email software)
+```bash
+flatpak install flathub com.getmailspring.Mailspring
+```
 
 #### VPN:
 --------------
