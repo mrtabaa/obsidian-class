@@ -26,25 +26,25 @@ sudo apt-get update && \
 
 - [ ] Create an API and set debugger [[New-sln,-API]]
 
-- [ ] Setup [[GitHub]]
+- [x] Setup [[GitHub]]
 
-- [ ] [[Update Node & Angular]] if needed
+- [x] [[Update Node & Angular]] if needed
 
 - [ ] Install [Authentication.JwtBearer and MongoDriver](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/api.csproj) from NuGet
 
-- [ ] Write Requirements
+- [x] Write Requirements
 
-- [ ] Desing Project Pages
+- [x] Desing Project Pages
 
-- [ ] Design MongoDB pattern [[Pattern & Schema]]
+- [x] Design MongoDB pattern [[Pattern & Schema]]
 
 - [x] Connect MongoDb [[Setup in Project]]
 
 - [ ] Create API [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
 
-- [ ] [[Setup Cors]]
+- [x] [[Setup Cors]]
 
-- [ ] Check to see if your [[Program.cs]] code looks good.
+- [x] Check to see if your [[Program.cs]] code looks good.
 
 - [x] **If using code Extensions**, replace auto-generated **Program.cs** codes with [Program.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Program.cs) to add [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) and organization.
 

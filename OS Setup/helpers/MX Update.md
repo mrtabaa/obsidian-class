@@ -30,4 +30,4 @@ apt list --upgradable
 sudo apt upgrade
 ```
 
-Back to [[MX Config]]
+Back to [[0- MX Config]]

@@ -19,4 +19,4 @@ deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 
 4. Save by => ctrl+o => Enter => ctrl+x
 
-Back to [[MX Config]]
+Back to [[0- MX Config]]

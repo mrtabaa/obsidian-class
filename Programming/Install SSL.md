@@ -21,7 +21,7 @@
 
 # API
 #### Linux:
-1. Make Linux trust dotnet certificates
+1. Make Linux trust `dotnet Certificates`
 ```bash
 sudo dotnet dev-certs https --trust
 ```

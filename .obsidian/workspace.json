@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/Linux apps.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/Linux apps.md"
+                "file": "OS Setup/1- Linux apps.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Setup/Linux apps.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS Setup/Linux apps.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,15 +184,18 @@
   },
   "active": "2313f4fbdc30b544",
   "lastOpenFiles": [
-    "OS Setup/helpers/MX Update.md",
-    "OS Setup/helpers/Google Chrome Update.md",
-    "OS Setup/Linux apps.md",
-    "OS Setup/MX Config.md",
+    "OS Setup/0- MX Config.md",
+    "OS Setup/1- Linux apps.md",
     "Programming/Install SSL.md",
+    "OS Setup/helpers/MX Update.md",
     "Programming/0 - Project Steps.md",
+    "Programming/Setup Cors.md",
+    "Programming/New-sln,-API.md",
+    "Programming/VSCode Setup.md",
+    "Programming/Debugger-setup.md",
+    "OS Setup/helpers/Google Chrome Update.md",
     "Programming/CancellationToken.md",
     "Programming/Install MongoDB.md",
-    "Programming/VSCode Setup.md",
     "OS Setup/helpers/Codex Installer.md",
     "OS Setup/helpers/Debugger-setup.md",
     "OS Setup/helpers",
@@ -203,13 +206,10 @@
     "Programming/codex installer.png",
     "Programming/TokenService.md",
     "Programming/Program.cs.md",
-    "Programming/Setup Cors.md",
     "Programming/Setup in Project.md",
     "Programming/Pattern & Schema.md",
     "Programming/Update Node & Angular.md",
     "Programming/GitHub.md",
-    "Programming/New-sln,-API.md",
-    "Programming/Debugger-setup.md",
     "Programming/Install and Create Angular Project.md",
     "Programming/install NVM.md",
     "Programming/Csharp Extension Settings.md",

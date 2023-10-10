@@ -26,7 +26,7 @@ sudo ufw allow 1714:1764/tcp
 sudo ufw reload
 ```
 
-- [ ] Install your needed apps from [[Linux apps]]
+- [ ] Install your needed apps from [[1- Linux apps]]
 
 - [ ] After installing your apps, back up your system with **TimeShift**
 

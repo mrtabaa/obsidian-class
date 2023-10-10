@@ -5,7 +5,7 @@
 - [x] Enable `Format on Save`:
 	Settings => Search "Format on Save"  and Enable it.
 
-- [ ] [[Csharp Extension Settings]]
+- [x] [[Csharp Extension Settings]]
 
 - [ ] [[Fix VSCode KDE Keyring.odt]]
 
