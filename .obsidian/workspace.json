@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6f68ee1072fbacc6",
+        "id": "3793f6deeb2c280e",
         "type": "tabs",
         "children": [
           {
-            "id": "6d2e8a4d0f1eb8be",
+            "id": "4a2522887fe9693d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/helpers/Codex Installer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2313f4fbdc30b544",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS Setup/1- Linux apps.md",
+                "file": "ToDo/Teach.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obj",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -117,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/1- Linux apps.md"
+                "file": "ToDo/Teach.md"
               }
             }
           },
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Setup/1- Linux apps.md",
+                "file": "ToDo/Teach.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS Setup/1- Linux apps.md",
+                "file": "ToDo/Teach.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +169,29 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2313f4fbdc30b544",
+  "active": "4a2522887fe9693d",
   "lastOpenFiles": [
+    "Programming/0 - Project Steps.md",
+    "Programming/VSCode Setup.md",
+    "ToDo/Teach.md",
+    "ToDo/Team.md",
+    "Programming/Install and Create Angular Project.md",
+    "Programming/install NVM.md",
+    "Programming/Update Node & Angular.md",
+    "Programming/New-sln,-API.md",
+    "Programming/BaseApiController.md",
+    "Programming/Bracket Pairs.md",
+    "Images/bracket pairs.png",
+    "Programming/appsettings.json.md",
     "OS Setup/helpers/Codex Installer.md",
-    "OS Setup/0- MX Config.md",
+    "Programming/TokenService.md",
+    "Images/postman-token-1.png",
+    "Images/postman-token-2.png",
     "OS Setup/1- Linux apps.md",
+    "OS Setup/0- MX Config.md",
     "Programming/Install SSL.md",
     "OS Setup/helpers/MX Update.md",
-    "Programming/0 - Project Steps.md",
     "Programming/Setup Cors.md",
-    "Programming/New-sln,-API.md",
-    "Programming/VSCode Setup.md",
     "Programming/Debugger-setup.md",
     "OS Setup/helpers/Google Chrome Update.md",
     "Programming/CancellationToken.md",
@@ -204,31 +203,20 @@
     "Programming/helpers/Buying a VPN and activating it.docx",
     "Images/codex installer.png",
     "Programming/codex installer.png",
-    "Programming/TokenService.md",
     "Programming/Program.cs.md",
     "Programming/Setup in Project.md",
     "Programming/Pattern & Schema.md",
-    "Programming/Update Node & Angular.md",
-    "Programming/GitHub.md",
-    "Programming/Install and Create Angular Project.md",
-    "Programming/install NVM.md",
-    "Programming/Csharp Extension Settings.md",
     "Images/exclude vscode folders.png",
     "Images/csharp-extionsion-settings.png",
-    "[.md",
-    "Programming/Hide bin & obj.md",
     "Images/network-dns-settings.jpg",
     "Images/network-dns-used.jpg",
     "Programming/Images/network-dns-settings",
     "Programming/Images/C_Sharp-Defaults-for-Constructor-vars-image1.png",
-    "Images/MX-boot-options.png",
-    "MX-boot-options 1.png",
     "Programming/helpers/ssl-certificates.zip",
     "Programming/helpers/generateTrustedSSL/ssl-certificates.zip",
     "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.dgspec.json",
     "Programming/helpers/generateTrustedSSL/test/api/obj/b08bc5bf-9719-44a7-b544-fbc8beb3b23a.tmp",
     "Programming/helpers/generateTrustedSSL/test/api/obj/project.nuget.cache",
-    "Images/cancellation.jpg",
     "Untitled.canvas"
   ]
 }

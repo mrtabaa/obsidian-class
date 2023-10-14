@@ -4,5 +4,16 @@
 - [x] DTO
 - [x] https => api
 - [x] https => client
-- [ ] Interface / Repository
-- [ ] Token
+- [x] Interface / Repository
+- [ ] Setup Postman: Account => register + User => All Users
+- [ ] [[New-sln,-API]] => `appsettings.json`
+- [ ] [[New-sln,-API]] => `BaseApiController`
+- [ ] Move `UserController` codes to `UserRepository`
+- [ ] Test in Postman
+- [ ] Install Angular Material from [[Install and Create Angular Project]]
+- [ ] Get users in `client`
+- [ ] Move `component.ts` code to a `service`
+- [ ] Create components => not-found / no-access / navbar / home / account => login + register
+- [ ] Set route.module
+- [ ] move code to home & register*
+- [ ] Token]

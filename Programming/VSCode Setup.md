@@ -7,6 +7,8 @@
 
 - [x] [[Csharp Extension Settings]]
 
+- [x] Enable [[Bracket Pairs]]
+
 - [ ] [[Fix VSCode KDE Keyring.odt]]
 
 Back to [[0 - Project Steps]]

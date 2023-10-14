@@ -1,0 +1,4 @@
+- [ ] Create [[appsettings.json]]
+- [ ] Enable [[Bracket Pairs]]
+- [ ] Add and use [[BaseApiController]]
+- [ ] 

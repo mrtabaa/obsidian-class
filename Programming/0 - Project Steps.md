@@ -32,7 +32,7 @@ sudo apt-get update && \
 
 - [ ] Install [Authentication.JwtBearer and MongoDriver](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/api.csproj) from NuGet
 
-- [x] Write Requirements
+- [ ] Write Requirements
 
 - [x] Desing Project Pages
 

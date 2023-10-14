@@ -21,7 +21,9 @@ dotnet sln add api
 
 - [x] Use this for `launchSettings.json` [like this](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Properties/launchSettings.json)
 
-- [x] In `appsettings.Development.json` change `Warning` to `Information`
+- [x] In `appsettings.Development.json` change `Warning` to `Information` 
+
+- [ ] Create [[appsettings.json]] for **Production**.
 
 - [x] Install official **Mongo Driver** in VSCode using **Nuget Gallery**
 
@@ -31,7 +33,7 @@ dotnet sln add api
 
 - [x] Create [GlobalUsings.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/GlobalUsing.cs) as shown in this git (**dotnet 6+**)
 
-- [ ] Create [BaseApiController.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Controllers/BaseApiController.cs)
+- [ ] Create [[BaseApiController]]
 
 - [x] Setup Debugger for api and client [[Programming/Debugger-setup]]
 
