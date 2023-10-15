@@ -1,4 +1,9 @@
-- [ ] Create [[appsettings.json]]
-- [ ] Enable [[Bracket Pairs]]
-- [ ] Add and use [[BaseApiController]]
-- [ ] 
+- [x] Make DTO everything needed
+- [x] https => api
+- [x] https => client
+- [ ] Move all codes: `Controller` => `Interface / Repository`
+- [ ] Setup Postman: `Account => register and login` and `User => All Users`
+- [ ] [[New-sln,-API]] => `appsettings.json`
+- [ ] [[New-sln,-API]] => `BaseApiController`
+- [ ] Move `UserController` codes to `UserRepository`
+- [ ] Test in Postman
