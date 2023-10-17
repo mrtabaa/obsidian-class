@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ece98df07d4117c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ToDo/Team.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,12 +169,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ece98df07d4117c7",
+  "active": "4a2522887fe9693d",
   "lastOpenFiles": [
     "ToDo/Teach.md",
-    "ToDo/Team.md",
-    "Programming/0 - Project Steps.md",
     "Programming/VSCode Setup.md",
+    "Programming/0 - Project Steps.md",
+    "ToDo/Team.md",
     "Programming/Install and Create Angular Project.md",
     "Programming/install NVM.md",
     "Programming/Update Node & Angular.md",

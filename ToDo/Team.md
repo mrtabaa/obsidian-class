@@ -2,8 +2,14 @@
 - [x] https => api
 - [x] https => client
 - [ ] Move all codes: `Controller` => `Interface / Repository`
-- [ ] Setup Postman: `Account => register and login` and `User => All Users`
 - [ ] [[New-sln,-API]] => `appsettings.json`
 - [ ] [[New-sln,-API]] => `BaseApiController`
 - [ ] Move `UserController` codes to `UserRepository`
 - [ ] Test in Postman
+- [ ] Install Angular Material from [[Install and Create Angular Project]]
+- [ ] Get users in `client`
+- [ ] Move `component.ts` code to a `service`
+- [ ] Create components => not-found / no-access / navbar / home / account => login + register
+- [ ] Set route.module
+- [ ] move code to home & account => register & login
+- [ ] Token
