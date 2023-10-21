@@ -14,8 +14,8 @@
 - [x] Get users in `client`
 - [x] Move `component.ts` code to a `service`
 - [x] Create components => not-found / no-access / navbar / home / account => login + register
-- [ ] Set route.module
+- [x] Set route.module
 - [ ] move code to home & account => register & login
-- [ ] PasswordSalt & PasswordHash
+- [x] PasswordSalt & PasswordHash
 - [ ] Token
 - [ ] Design Navbar
