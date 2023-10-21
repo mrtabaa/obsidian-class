@@ -5,4 +5,7 @@
 ![[2-hash.png]]
 
 * **Salt & Hash**
-![[salt & hash.png]]
+![[3-salt & hash.png]]
+
+**What is better**
+![[4-asp-net-identity.png]]

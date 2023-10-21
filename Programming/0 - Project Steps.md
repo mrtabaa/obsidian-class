@@ -50,7 +50,10 @@ sudo apt-get update && \
 
 - [ ] [[Install SSL]]
 
-- [ ] Add Token
+- [ ] Apply [[Password Salt & Hash]]
+
+- [ ] Add [[Token]]
+
 - [ ] Create [[Postman TokenService]]
 
 - [ ] Add [TokenKey and MongoConnection](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/appsettings.Development.json) if not added

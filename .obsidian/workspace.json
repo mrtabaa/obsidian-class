@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Password Salt & Hash.md",
-                "mode": "source",
+                "file": "Programming/0 - Project Steps.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Password Salt & Hash.md"
+                "file": "Programming/0 - Project Steps.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Password Salt & Hash.md",
+                "file": "Programming/0 - Project Steps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Password Salt & Hash.md",
+                "file": "Programming/0 - Project Steps.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -172,15 +172,16 @@
   "active": "4a2522887fe9693d",
   "lastOpenFiles": [
     "Programming/Why PasswordSalt-Hash?.md",
-    "Images/salt & hash.png",
+    "Images/3-salt & hash.png",
+    "Images/4-asp-net-identity.png",
+    "Programming/Password Salt & Hash.md",
+    "Programming/0 - Project Steps.md",
+    "Programming/Token.md",
     "Images/2-hash.png",
     "Images/1-raw.png",
-    "Programming/Password Salt & Hash.md",
     "ToDo/Teach.md",
-    "Programming/Token.md",
     "Programming/Why Use a Token?.md",
     "Programming/helpers/TokenService.zip",
-    "Programming/0 - Project Steps.md",
     "Programming/Install SSL.md",
     "Programming/Postman TokenService.md",
     "ToDo/Team.md",
@@ -210,7 +211,6 @@
     "Images/codex installer.png",
     "Programming/codex installer.png",
     "Images/exclude vscode folders.png",
-    "Images/csharp-extionsion-settings.png",
     "Programming/Images/network-dns-settings",
     "Programming/helpers/ssl-certificates.zip",
     "Programming/helpers/generateTrustedSSL/ssl-certificates.zip",
