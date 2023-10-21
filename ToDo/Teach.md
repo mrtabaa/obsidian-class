@@ -10,10 +10,12 @@
 - [x] [[New-sln,-API]] => `BaseApiController`
 - [x] Move `UserController` codes to `UserRepository`
 - [x] Test in Postman
-- [ ] Install Angular Material from [[Install and Create Angular Project]]
-- [ ] Get users in `client`
-- [ ] Move `component.ts` code to a `service`
-- [ ] Create components => not-found / no-access / navbar / home / account => login + register
+- [x] Install Angular Material from [[Install and Create Angular Project]]
+- [x] Get users in `client`
+- [x] Move `component.ts` code to a `service`
+- [x] Create components => not-found / no-access / navbar / home / account => login + register
 - [ ] Set route.module
 - [ ] move code to home & account => register & login
+- [ ] PasswordSalt & PasswordHash
 - [ ] Token
+- [ ] Design Navbar
