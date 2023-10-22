@@ -1,5 +1,6 @@
 {
   "accentColor": "",
   "cssTheme": "Dekurai",
-  "interfaceFontFamily": "Inter"
+  "interfaceFontFamily": "Inter",
+  "baseFontSize": 17
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/0 - Project Steps.md",
+                "file": "Programming/Why JWT (Token).md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "24de09b7a0275db1",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/0 - Project Steps.md"
+                "file": "Programming/Why JWT (Token).md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/0 - Project Steps.md",
+                "file": "Programming/Why JWT (Token).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/0 - Project Steps.md",
+                "file": "Programming/Why JWT (Token).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,16 +173,17 @@
   },
   "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
+    "Programming/JWT (Token).md",
+    "Programming/0 - Project Steps.md",
+    "Programming/Password Salt & Hash.md",
+    "Programming/Why PasswordSalt-Hash?.md",
+    "Images/5-password.png",
     "ToDo/Teach.md",
     "Programming/Why JWT (Token).md",
-    "Programming/JWT (Token).md",
     "Images/4-jwt.png",
     "Images/3-jwt.png",
     "Images/2-jwt.png",
     "Images/1-jwt.png",
-    "Programming/0 - Project Steps.md",
-    "Programming/Password Salt & Hash.md",
-    "Programming/Why PasswordSalt-Hash?.md",
     "Programming/Install SSL.md",
     "Programming/helpers/TokenService.zip",
     "Programming/Why Use a Token?.md",
@@ -201,14 +203,12 @@
     "Programming/appsettings.json.md",
     "OS Setup/0- MX Config.md",
     "Images/postman-token-2.png",
-    "Images/postman-token-1.png",
     "Programming/Debugger-setup.md",
     "Programming/Program.cs.md",
     "Programming/Setup Cors.md",
     "OS Setup/MX Config.md",
     "OS Setup/helpers/Codex Installer.md",
     "Programming/Pattern & Schema.md",
-    "Programming/GitHub.md",
     "OS Setup/helpers",
     "Programming/helpers/Fix VSCode KDE Keyring.odt",
     "Programming/helpers/fix error vscode KDE.odt",
