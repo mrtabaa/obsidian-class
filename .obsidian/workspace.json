@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3793f6deeb2c280e",
+        "id": "6f68ee1072fbacc6",
         "type": "tabs",
         "children": [
           {
-            "id": "4a2522887fe9693d",
+            "id": "6d2e8a4d0f1eb8be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/JWT (Token).md",
+                "file": "Programming/0 - Project Steps.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
       {
         "id": "a7a81c58b42b5626",
         "type": "tabs",
-        "dimension": 65.24271844660194,
+        "dimension": 80.91603053435115,
         "children": [
           {
             "id": "9960bc1be28bf4e3",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "obj",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,7 +63,7 @@
       {
         "id": "57bf5fe64d6872ec",
         "type": "tabs",
-        "dimension": 34.75728155339806,
+        "dimension": 19.083969465648856,
         "children": [
           {
             "id": "760ccbb9cbc1652c",
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "24de09b7a0275db1",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/JWT (Token).md"
+                "file": "Programming/0 - Project Steps.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/JWT (Token).md",
+                "file": "Programming/0 - Project Steps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,8 +147,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/JWT (Token).md",
-                "linksCollapsed": true,
+                "file": "Programming/0 - Project Steps.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -170,45 +170,45 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4a2522887fe9693d",
+  "active": "6d2e8a4d0f1eb8be",
   "lastOpenFiles": [
+    "ToDo/Teach.md",
     "Programming/Why JWT (Token).md",
     "Programming/JWT (Token).md",
-    "Programming/0 - Project Steps.md",
-    "Programming/Password Salt & Hash.md",
-    "Programming/Why PasswordSalt-Hash?.md",
     "Images/4-jwt.png",
     "Images/3-jwt.png",
     "Images/2-jwt.png",
     "Images/1-jwt.png",
-    "Images/3-salt & hash.png",
+    "Programming/0 - Project Steps.md",
+    "Programming/Password Salt & Hash.md",
+    "Programming/Why PasswordSalt-Hash?.md",
+    "Programming/Install SSL.md",
+    "Programming/helpers/TokenService.zip",
+    "Programming/Why Use a Token?.md",
+    "Programming/Token.md",
+    "Programming/Postman TokenService.md",
     "Images/4-asp-net-identity.png",
+    "Images/3-salt & hash.png",
     "Images/2-hash.png",
     "Images/1-raw.png",
-    "ToDo/Teach.md",
-    "Programming/Why Use a Token?.md",
-    "Programming/helpers/TokenService.zip",
-    "Programming/Install SSL.md",
-    "Programming/Postman TokenService.md",
     "ToDo/Team.md",
-    "Programming/VSCode Setup.md",
     "Programming/Install and Create Angular Project.md",
-    "Programming/install NVM.md",
-    "Programming/Update Node & Angular.md",
+    "Programming/VSCode Setup.md",
     "Programming/New-sln,-API.md",
     "Programming/BaseApiController.md",
-    "Programming/Bracket Pairs.md",
-    "Images/bracket pairs.png",
-    "Programming/appsettings.json.md",
-    "OS Setup/helpers/Codex Installer.md",
-    "Images/postman-token-1.png",
     "OS Setup/1- Linux apps.md",
+    "Programming/Bracket Pairs.md",
+    "Programming/appsettings.json.md",
     "OS Setup/0- MX Config.md",
-    "OS Setup/helpers/MX Update.md",
-    "Programming/Setup Cors.md",
+    "Images/postman-token-2.png",
+    "Images/postman-token-1.png",
     "Programming/Debugger-setup.md",
-    "OS Setup/helpers/Google Chrome Update.md",
-    "Programming/CancellationToken.md",
+    "Programming/Program.cs.md",
+    "Programming/Setup Cors.md",
+    "OS Setup/MX Config.md",
+    "OS Setup/helpers/Codex Installer.md",
+    "Programming/Pattern & Schema.md",
+    "Programming/GitHub.md",
     "OS Setup/helpers",
     "Programming/helpers/Fix VSCode KDE Keyring.odt",
     "Programming/helpers/fix error vscode KDE.odt",
