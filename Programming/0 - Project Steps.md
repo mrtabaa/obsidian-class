@@ -48,11 +48,11 @@ sudo apt-get update && \
 
 - [x] **If using code Extensions**, replace auto-generated **Program.cs** codes with [Program.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Program.cs) to add [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) and organization.
 
-- [ ] [[Install SSL]]
+- [x] [[Install SSL]]
 
-- [ ] Apply [[Password Salt & Hash]]
+- [x] Apply [[Password Salt & Hash]]
 
-- [ ] Add [[Token]]
+- [ ] Add [[JWT (Token)]]
 
 - [ ] Create [[Postman TokenService]]
 

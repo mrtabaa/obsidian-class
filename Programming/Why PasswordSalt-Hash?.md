@@ -1,11 +1,13 @@
-* **Raw password**
+### Raw password
 ![[1-raw.png]]
 
-* **Hashed password**
+### Hashed password
 ![[2-hash.png]]
 
-* **Salt & Hash**
+### Salt & Hash
 ![[3-salt & hash.png]]
 
-**What is better**
+### What is better
 ![[4-asp-net-identity.png]]
+
+Back to [[Password Salt & Hash]]
