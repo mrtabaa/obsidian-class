@@ -17,5 +17,6 @@
 - [x] Set route.module
 - [x] PasswordSalt & PasswordHash
 - [ ] [[JWT (Token)]]
-- [ ] move code to home & account => register & login
+- [ ] Design Register page
+- [ ] Design Login page
 - [ ] Design Navbar
