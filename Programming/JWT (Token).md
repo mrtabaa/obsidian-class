@@ -3,13 +3,86 @@ Click here to see [[Why JWT (Token)]]
 NOTE: **Token is set in `API` level**
 
 #### Create and Use Token
-1. **Command Palette** => **Nuget Gallery** => Install `System.IdentityModel.Tokens.Jwt`
-2. Place these files in `Interfaces` and `Services` folders. [[TokenService.zip]]
-3. `Program.cs` => Add this for dependency injection:
+- [ ] **Command Palette** => **Nuget Gallery** => Install `Microsoft.AspNetCore.Authentication.JwtBearer`
+
+- [ ] In `Program.cs` after `#region Cors: baraye ta'eede Angular HttpClient requests`
+```C#
+#region Authentication & Authorization
+string tokenValue = builder.Configuration["TokenKey"]!;
+
+if (!string.IsNullOrEmpty(tokenValue))
+{
+    builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+        .AddJwtBearer(options =>
+        {
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenValue)),
+                ValidateIssuer = false,
+                ValidateAudience = false
+            };
+        });
+}
+#endregion Authentication & Authorization
+```
+
+- [ ] In `Program.cs` add `app.UseAuthentication();` between `Cors` and `Authorization`:
+```C#
+app.UseCors(); // this line is added
+
+app.UseAuthentication(); // this line has to be between Cors and Authorization!
+
+app.UseAuthorization();
+```
+
+- [ ] Place these files in `Interfaces` and `Services` folders. [[TokenService.zip]] 
+
+- [ ] Open `appsettings.Development.json` and add this `TokenKey` like below:
+	NOTE: 
+	* This is for **Development** only so we can share it with github. 
+```js
+{
+  "MongoDbSettings": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "DatabaseName": "dating-app"
+  },
+  "TokenKey": "BX4RJbtQc*qBWqag Random-notsecure",
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Information"
+    }
+  }
+}
+```
+
+- [ ] Open `appsettings.json` and add this `TokenKey` like below:
+	NOTE: 
+	* This is for **Production** only so we can NOT share it with github. It's secure. 
+	* Later we add our actual secure key instead of `null`
+```js
+{
+  "MongoDbSettings": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "DatabaseName": "dating-app"
+  },
+  "TokenKey": "null",
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Information"
+    }
+  }
+}
+```
+
+- [ ] `Program.cs` => Add this for dependency injection:
 ```c#
 builder.Services.AddScoped<ITokenService, TokenService>();
 ```
-4. Update your `UserDto` with Token like this:
+
+- [ ] Update your `UserDto` with Token like this:
 ```c#
 public record UserDto(
     string Id,
@@ -18,8 +91,9 @@ public record UserDto(
 );
 ```
 
-5. Inject `ITokenService` in your Repositories.
-6. Update your returns like this:
+- [ ] Inject `ITokenService` in any Repository that needs it.
+
+- [ ] Update your returns like this:
 ```c#
 UserDto userDto = new UserDto(
 	Id: appUser.Id,
@@ -27,5 +101,10 @@ UserDto userDto = new UserDto(
 	Email: appUser.Email // amir@gmail.com
 );
 ```
+- [ ] You can check the postman's received token with [https://jwt.io](https://jwt.io/) OR [https://jwt.ms/](https://jwt.ms/)
+
+- [ ] Add `[Authorize]` Or `[AllowAnonymous]` to your Controllers' class or end-points/methods
+	
+NOTE: Any time you login, you get a NEW key!
 
 Back to [[0 - Project Steps]]

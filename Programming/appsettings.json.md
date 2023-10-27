@@ -6,7 +6,7 @@ This file is used for **Production**.
     "ConnectionString": "mongodb://localhost:27017",
     "DatabaseName": "dating-app"
   },
-  "TokenKey": "BX4RJbtQc*qBWqag Random-notsecure",
+  "TokenKey": "null",
   "Logging": {
     "LogLevel": {
       "Default": "Warning",

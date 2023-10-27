@@ -172,8 +172,11 @@
   },
   "active": "4a2522887fe9693d",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Programming/Why PasswordSalt-Hash.md",
     "Images/5-password.png",
+=======
+>>>>>>> Stashed changes
     "Programming/0 - Project Steps.md",
     "Programming/JWT (Token).md",
     "Programming/Install MongoDB.md",
@@ -209,6 +212,10 @@
     "OS Setup/helpers/MX Update.md",
     "Programming/Setup Cors.md",
     "Programming/Debugger-setup.md",
+<<<<<<< Updated upstream
+=======
+    "OS Setup/helpers/Google Chrome Update.md",
+>>>>>>> Stashed changes
     "OS Setup/helpers",
     "Programming/helpers/Fix VSCode KDE Keyring.odt",
     "Programming/helpers/fix error vscode KDE.odt",

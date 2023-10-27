@@ -24,13 +24,11 @@ sudo apt-get update && \
 
 - [x] [[Install and Create Angular Project]]
 
-- [ ] Create an API and set debugger [[New-sln,-API]]
+- [x] Create an API and set debugger [[New-sln,-API]]
 
 - [x] Setup [[GitHub]]
 
 - [x] [[Update Node & Angular]] if needed
-
-- [ ] Install [Authentication.JwtBearer and MongoDriver](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/api.csproj) from NuGet
 
 - [ ] Write Requirements
 
@@ -55,8 +53,6 @@ sudo apt-get update && \
 - [ ] Add [[JWT (Token)]]
 
 - [ ] Create [[Postman TokenService]]
-
-- [ ] Add [TokenKey and MongoConnection](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/appsettings.Development.json) if not added
 
 - [ ] Double-check [[CancellationToken]] on all repos
 

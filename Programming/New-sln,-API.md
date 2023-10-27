@@ -23,9 +23,11 @@ dotnet sln add api
 
 - [x] In `appsettings.Development.json` change `Warning` to `Information` 
 
-- [ ] Create [[appsettings.json]] for **Production**.
+- [x] Create [[appsettings.json]] for **Production**.
 
 - [x] Install official **Mongo Driver** in VSCode using **Nuget Gallery**
+
+- [x] In **Nuget Gallery** search for `Swashbuckle.AspNetCore` and `Uninstall` it.
 
 - [x] Create [api folders](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api) only without their files.
 * If want a shortcut, replace below folders/files with newly generated ones
@@ -33,7 +35,7 @@ dotnet sln add api
 
 - [x] Create [GlobalUsings.cs](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/GlobalUsing.cs) as shown in this git (**dotnet 6+**)
 
-- [ ] Create [[BaseApiController]]
+- [x] Create [[BaseApiController]]
 
 - [x] Setup Debugger for api and client [[Programming/Debugger-setup]]
 
