@@ -15,7 +15,7 @@
 - [x] Move `component.ts` code to a `service`
 - [x] Create components => not-found / no-access / navbar / home / account => login + register
 - [x] Set route.module
-- [ ] move code to home & account => register & login
 - [x] PasswordSalt & PasswordHash
 - [ ] [[JWT (Token)]]
+- [ ] move code to home & account => register & login
 - [ ] Design Navbar

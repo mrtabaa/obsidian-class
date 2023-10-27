@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/JWT (Token).md",
+                "file": "ToDo/Teach.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/JWT (Token).md"
+                "file": "ToDo/Teach.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/JWT (Token).md",
+                "file": "ToDo/Teach.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/JWT (Token).md",
+                "file": "ToDo/Teach.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -172,13 +172,11 @@
   },
   "active": "4a2522887fe9693d",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
+    "Programming/JWT (Token).md",
+    "ToDo/Teach.md",
+    "Programming/0 - Project Steps.md",
     "Programming/Why PasswordSalt-Hash.md",
     "Images/5-password.png",
-=======
->>>>>>> Stashed changes
-    "Programming/0 - Project Steps.md",
-    "Programming/JWT (Token).md",
     "Programming/Install MongoDB.md",
     "Programming/New-sln,-API.md",
     "Programming/appsettings.json.md",
@@ -193,7 +191,6 @@
     "Images/4-asp-net-identity.png",
     "Images/2-hash.png",
     "Images/1-raw.png",
-    "ToDo/Teach.md",
     "Programming/Why Use a Token?.md",
     "Programming/helpers/TokenService.zip",
     "Programming/Install SSL.md",
@@ -212,10 +209,6 @@
     "OS Setup/helpers/MX Update.md",
     "Programming/Setup Cors.md",
     "Programming/Debugger-setup.md",
-<<<<<<< Updated upstream
-=======
-    "OS Setup/helpers/Google Chrome Update.md",
->>>>>>> Stashed changes
     "OS Setup/helpers",
     "Programming/helpers/Fix VSCode KDE Keyring.odt",
     "Programming/helpers/fix error vscode KDE.odt",
