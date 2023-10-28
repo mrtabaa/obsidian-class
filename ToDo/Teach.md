@@ -16,7 +16,7 @@
 - [x] Create components => not-found / no-access / navbar / home / account => login + register
 - [x] Set route.module
 - [x] PasswordSalt & PasswordHash
-- [ ] [[JWT (Token)]]
+- [x] [[JWT (Token)]]
 - [ ] Design Register page
 - [ ] Design Login page
 - [ ] Design Navbar

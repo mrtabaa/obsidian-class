@@ -67,7 +67,7 @@ app.UseAuthorization();
     "ConnectionString": "mongodb://localhost:27017",
     "DatabaseName": "dating-app"
   },
-  "TokenKey": "null",
+  "TokenKey": null,
   "Logging": {
     "LogLevel": {
       "Default": "Information",
@@ -82,26 +82,31 @@ app.UseAuthorization();
 builder.Services.AddScoped<ITokenService, TokenService>();
 ```
 
-- [ ] Update your `UserDto` with Token like this:
+- [ ] Update your `LoggedInDto` with Token like this:
+
+- [ ] Create a new record called `LoggedInDto`. e.g. in AccountDto
 ```c#
-public record UserDto(
+public record LoggedInDto(
     string Id,
     string Email,
     string Token
 );
 ```
 
-- [ ] Inject `ITokenService` in any Repository that needs it.
+- [ ] Inject `ITokenService` in any Repository that needs it. e.g. AccountRepository
 
 - [ ] Update your returns like this:
 ```c#
-UserDto userDto = new UserDto(
+LoggedInDto loggedInDto = new LoggedInDto(
 	Id: appUser.Id,
 	Token: _tokenService.CreateToken(appUser),
 	Email: appUser.Email // amir@gmail.com
 );
 ```
-- [ ] You can check the postman's received token with [https://jwt.io](https://jwt.io/) OR [https://jwt.ms/](https://jwt.ms/)
+
+- [ ] Change your methods' return types appropriately. 
+
+- [ ] Register or login with Postman and check the postman's received token with [https://jwt.io](https://jwt.io/) OR [https://jwt.ms/](https://jwt.ms/)
 
 - [ ] Add `[Authorize]` Or `[AllowAnonymous]` to your Controllers' class or end-points/methods
 	
