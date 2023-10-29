@@ -13,7 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "ToDo/Teach.md",
+=======
+                "file": "Programming/JWT (Token).md",
+>>>>>>> Stashed changes
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +108,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "ToDo/Teach.md"
+=======
+                "file": "Programming/JWT (Token).md"
+>>>>>>> Stashed changes
               }
             }
           },
@@ -130,7 +138,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "ToDo/Teach.md",
+=======
+                "file": "Programming/JWT (Token).md",
+>>>>>>> Stashed changes
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "ToDo/Teach.md",
+=======
+                "file": "Programming/JWT (Token).md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,12 +188,21 @@
   },
   "active": "a496937260203b58",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Programming/JWT (Token).md",
     "Programming/Why JWT (Token).md",
     "ToDo/Teach.md",
     "Programming/Why PasswordSalt-Hash.md",
     "Programming/ErrorStateMatcher - matError.md",
+=======
+    "ToDo/Teach.md",
+>>>>>>> Stashed changes
     "Programming/0 - Project Steps.md",
+    "Programming/Install SSL.md",
+    "Programming/JWT (Token).md",
+    "Programming/Why PasswordSalt-Hash.md",
+    "Programming/Why Use a Token.md",
+    "Programming/Why JWT (Token).md",
     "Programming/Password Salt & Hash.md",
     "Programming/Why PasswordSalt-Hash?.md",
     "Images/5-password.png",
@@ -185,7 +210,6 @@
     "Images/3-jwt.png",
     "Images/2-jwt.png",
     "Images/1-jwt.png",
-    "Programming/Install SSL.md",
     "Programming/helpers/TokenService.zip",
     "Programming/Why Use a Token?.md",
     "Programming/Token.md",
