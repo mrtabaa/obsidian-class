@@ -38,7 +38,9 @@ sudo apt-get update && \
 
 - [x] Connect MongoDb [[Setup in Project]]
 
-- [ ] Create API [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
+- [ ] api Cleanup [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
+
+- [ ] [[client Cleanup]]
 
 - [x] [[Setup Cors]]
 
