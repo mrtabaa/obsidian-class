@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "e65f79565599ee7a",
+    "id": "8cd8401a9d2a0d52",
     "type": "split",
     "children": [
       {
-        "id": "1d6c07eef985798b",
+        "id": "dcf8b9ea73179400",
         "type": "tabs",
         "children": [
           {
-            "id": "a496937260203b58",
+            "id": "7f56d15eca82ba34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
                 "file": "ToDo/Teach.md",
-=======
-                "file": "Programming/JWT (Token).md",
->>>>>>> Stashed changes
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -29,16 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "aa16bbdd5e65b34a",
+    "id": "25dfdddfe34b22ec",
     "type": "split",
     "children": [
       {
-        "id": "a7a81c58b42b5626",
+        "id": "83092e6bfd83eb79",
         "type": "tabs",
-        "dimension": 80.91603053435115,
         "children": [
           {
-            "id": "9960bc1be28bf4e3",
+            "id": "fcd51ae4d5de5a66",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,29 +43,22 @@
             }
           },
           {
-            "id": "2a6e32c1a2c61ed9",
+            "id": "e99b79a73b3c189b",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "obj",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "57bf5fe64d6872ec",
-        "type": "tabs",
-        "dimension": 19.083969465648856,
-        "children": [
+          },
           {
-            "id": "760ccbb9cbc1652c",
+            "id": "dffd309373cd5beb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,69 +69,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "24de09b7a0275db1",
+    "id": "9c86ba60df5bc26e",
     "type": "split",
     "children": [
       {
-        "id": "4da5b3921fce1da7",
+        "id": "16ded70fe4c4f0d8",
         "type": "tabs",
         "children": [
           {
-            "id": "96e9607870849922",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "0e8bf4633200988f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "ToDo/Teach.md"
-=======
-                "file": "Programming/JWT (Token).md"
->>>>>>> Stashed changes
-              }
-            }
-          },
-          {
-            "id": "2ab7df1d871c47a3",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8ec1fa2cd32aeca7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0ef36da291f822a6",
+            "id": "0ede23f2e4dbc726",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
                 "file": "ToDo/Teach.md",
-=======
-                "file": "Programming/JWT (Token).md",
->>>>>>> Stashed changes
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -154,27 +97,53 @@
             }
           },
           {
-            "id": "359c79605add37a1",
+            "id": "d0c0402db48febbd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
                 "file": "ToDo/Teach.md",
-=======
-                "file": "Programming/JWT (Token).md",
->>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "690033dd47ef0f22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1003fc577b0dbfa9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "97e4537b2cbeaafa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ToDo/Teach.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -186,62 +155,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a496937260203b58",
+  "active": "7f56d15eca82ba34",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "Programming/JWT (Token).md",
-    "Programming/Why JWT (Token).md",
-    "ToDo/Teach.md",
-    "Programming/Why PasswordSalt-Hash.md",
-    "Programming/ErrorStateMatcher - matError.md",
-=======
-    "ToDo/Teach.md",
->>>>>>> Stashed changes
     "Programming/0 - Project Steps.md",
-    "Programming/Install SSL.md",
-    "Programming/JWT (Token).md",
-    "Programming/Why PasswordSalt-Hash.md",
-    "Programming/Why Use a Token.md",
-    "Programming/Why JWT (Token).md",
-    "Programming/Password Salt & Hash.md",
-    "Programming/Why PasswordSalt-Hash?.md",
-    "Images/5-password.png",
-    "Images/4-jwt.png",
-    "Images/3-jwt.png",
-    "Images/2-jwt.png",
-    "Images/1-jwt.png",
-    "Programming/helpers/TokenService.zip",
-    "Programming/Why Use a Token?.md",
-    "Programming/Token.md",
-    "Programming/Postman TokenService.md",
-    "Images/4-asp-net-identity.png",
-    "Images/3-salt & hash.png",
-    "Images/2-hash.png",
-    "Images/1-raw.png",
-    "ToDo/Team.md",
-    "Programming/Install and Create Angular Project.md",
-    "Programming/VSCode Setup.md",
-    "Programming/New-sln,-API.md",
-    "Programming/BaseApiController.md",
-    "OS Setup/1- Linux apps.md",
-    "Programming/Bracket Pairs.md",
-    "Programming/appsettings.json.md",
-    "OS Setup/0- MX Config.md",
-    "Images/postman-token-2.png",
-    "Programming/Debugger-setup.md",
-    "Programming/Program.cs.md",
-    "Programming/Setup Cors.md",
-    "OS Setup/MX Config.md",
-    "OS Setup/helpers/Codex Installer.md",
-    "OS Setup/helpers",
-    "Programming/helpers/Fix VSCode KDE Keyring.odt",
-    "Programming/helpers/fix error vscode KDE.odt",
-    "Programming/helpers/Buying a VPN and activating it.docx",
-    "Programming/Images/network-dns-settings",
-    "Programming/helpers/ssl-certificates.zip",
-    "Programming/helpers/generateTrustedSSL/ssl-certificates.zip",
-    "Programming/helpers/generateTrustedSSL/test/api/obj/api.csproj.nuget.dgspec.json",
-    "Programming/helpers/generateTrustedSSL/test/api/obj/b08bc5bf-9719-44a7-b544-fbc8beb3b23a.tmp",
-    "Untitled.canvas"
+    "Programming/client Cleanup.md",
+    "Programming/material module.md",
+    "Programming/component module.md",
+    "ToDo/Teach.md"
   ]
 }

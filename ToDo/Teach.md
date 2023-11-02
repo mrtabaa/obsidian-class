@@ -16,7 +16,23 @@
 - [x] Create components => not-found / no-access / navbar / home / account => login + register
 - [x] Set route.module
 - [x] PasswordSalt & PasswordHash
-- [x] [[JWT (Token)]]
-- [ ] Design Register page
-- [ ] Design Login page
+- [ ] Save `user` on the browser and stay logged-in
+- [ ] Home => Show and hide `logout` button with `ng-template`
+- [ ] Home => Move `ts` code to `ngOnInit()`
+- [x] Design Register page
+- [x] Design Login page
 - [ ] Design Navbar
+	- [ ] Move `ts` code to `ngOnInit()`
+	- [ ] Space between icon and brand
+	- [ ] Move `Login` and `Signup` buttons to `Navbar`
+	- [ ] menu with Photo placement
+- [ ] API cleanup => ExtensionMethods:
+	- [ ] ApplicationServiceExtensions => AddApplicationServices
+	- [ ] IdentityServiceExtensions => AddIdentityServices
+	- [ ] RepositoryServiceExtensions => AddRepositoryServices
+- [ ] Client cleanup => Modules:
+	- [ ] [[component module]]
+	- [ ] [[material module]]
+- [ ] [[JWT (Token)]]
+	- [ ] `jwt.interceptor.ts` => Fix `showAllUsers()` error `401-Unathorized` in `Home` by sending the `token`
+- [ ] Apply `async` pipe to DOM and remove `subscribe` (if `error` response is NOT needed) => home, navbar, etc. 
