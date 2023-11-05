@@ -16,20 +16,20 @@
 - [x] Create components => not-found / no-access / navbar / home / account => login + register
 - [x] Set route.module
 - [x] PasswordSalt & PasswordHash
-- [ ] Save `user` on the browser and stay logged-in
-- [ ] Home => Show and hide `logout` button with `ng-template`
-- [ ] Home => Move `ts` code to `ngOnInit()`
+- [x] Save `user` on the browser and stay logged-in
+- [x] Home => Show and hide `logout` button with `ng-template`
+- [x] Home => Move `ts` code to `ngOnInit()`
 - [x] Design Register page
 - [x] Design Login page
+- [ ] Switch login-register and logout places
 - [ ] Design Navbar
-	- [ ] Move `ts` code to `ngOnInit()`
-	- [ ] Space between icon and brand
-	- [ ] Move `Login` and `Signup` buttons to `Navbar`
-	- [ ] menu with Photo placement
-- [ ] API cleanup => ExtensionMethods:
-	- [ ] ApplicationServiceExtensions => AddApplicationServices
-	- [ ] IdentityServiceExtensions => AddIdentityServices
-	- [ ] RepositoryServiceExtensions => AddRepositoryServices
+	- [x] Move `ts` code to `ngOnInit()`
+	- [ ] Move `Login`, `Register` and `Logout` buttons to `Navbar`
+	- [ ] menu with Photo location
+- [x] API cleanup => ExtensionMethods:
+	- [x] ApplicationServiceExtensions => AddApplicationServices
+	- [x] IdentityServiceExtensions => AddIdentityServices
+	- [x] RepositoryServiceExtensions => AddRepositoryServices
 - [ ] Client cleanup => Modules:
 	- [ ] [[component module]]
 	- [ ] [[material module]]
