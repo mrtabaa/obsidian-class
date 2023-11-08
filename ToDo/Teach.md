@@ -21,11 +21,12 @@
 - [x] Home => Move `ts` code to `ngOnInit()`
 - [x] Design Register page
 - [x] Design Login page
-- [ ] Switch login-register and logout places
+- [x] Switch login-register and logout places
 - [ ] Design Navbar
 	- [x] Move `ts` code to `ngOnInit()`
 	- [ ] Move `Login`, `Register` and `Logout` buttons to `Navbar`
 	- [ ] menu with Photo location
+- [ ] `app.component.html` Layout (Remove div) and change scss
 - [x] API cleanup => ExtensionMethods:
 	- [x] ApplicationServiceExtensions => AddApplicationServices
 	- [x] IdentityServiceExtensions => AddIdentityServices
