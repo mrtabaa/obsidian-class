@@ -22,18 +22,21 @@
 - [x] Design Register page
 - [x] Design Login page
 - [x] Switch login-register and logout places
-- [ ] Design Navbar
+- [x] Design Navbar
 	- [x] Move `ts` code to `ngOnInit()`
-	- [ ] Move `Login`, `Register` and `Logout` buttons to `Navbar`
-	- [ ] menu with Photo location
-- [ ] `app.component.html` Layout (Remove div) and change scss
+	- [x] Move `Login`, `Register` and `Logout` buttons to `Navbar`
+	- [x] menu with Photo location
+- [x] `app.component.html` Layout (Remove div) and change scss
 - [x] API cleanup => ExtensionMethods:
 	- [x] ApplicationServiceExtensions => AddApplicationServices
 	- [x] IdentityServiceExtensions => AddIdentityServices
 	- [x] RepositoryServiceExtensions => AddRepositoryServices
-- [ ] Client cleanup => Modules:
-	- [ ] [[component module]]
-	- [ ] [[material module]]
-- [ ] [[JWT (Token)]]
-	- [ ] `jwt.interceptor.ts` => Fix `showAllUsers()` error `401-Unathorized` in `Home` by sending the `token`
+- [x] Client cleanup => Modules:
+	- [x] [[component module]]
+	- [x] [[material module]]
+- [x] [[JWT (Token)]]
+	- [x] `jwt.interceptor.ts` => Fix `showAllUsers()` error `401-Unathorized` in `Home` by sending the `token`
 - [ ] Apply `async` pipe to DOM and remove `subscribe` (if `error` response is NOT needed) => home, navbar, etc. 
+- [ ] Upgrade to .NET-Core 8.0 from [[Upgrade .NET Core]]
+- [ ] Upgrade to Angular 17 [[Update Node & Angular]]
+- [ ] Create [[Postman TokenService]]

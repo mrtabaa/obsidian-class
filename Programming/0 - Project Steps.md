@@ -1,5 +1,5 @@
 
-- [x] [Install .NET-Core SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian)
+- [x] [Install .NET-Core SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian) Or [[Upgrade .NET Core]]
 	1. Run this command
 	```bash
 	wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -38,7 +38,7 @@ sudo apt-get update && \
 
 - [x] Connect MongoDb [[Setup in Project]]
 
-- [ ] api Cleanup [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
+- [x] api Cleanup [Extension files](https://github.com/mrtabaa/HealthApp/tree/dotnet6/api/Extensions) 
 
 - [ ] [[client Cleanup]]
 
@@ -52,7 +52,7 @@ sudo apt-get update && \
 
 - [x] Apply [[Password Salt & Hash]]
 
-- [ ] Add [[JWT (Token)]]
+- [x] Add [[JWT (Token)]]
 
 - [ ] Create [[Postman TokenService]]
 
@@ -60,7 +60,7 @@ sudo apt-get update && \
 
 - [ ] Property validations
 
-- [ ] Controllers Authorizations by **Microsoft.AspNetCore.Authentication.JwtBearer** by Microsoft
+- [ ] Double-check Controllers' Authorizations by **Microsoft.AspNetCore.Authentication.JwtBearer** by Microsoft
 
 - [ ] [Repository Example](https://github.com/mrtabaa/HealthApp/blob/dotnet6/api/Repositories/LabsRepository.cs) for Db CRUD and TokenService
 

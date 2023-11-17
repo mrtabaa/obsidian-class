@@ -1,19 +1,12 @@
-1- Manage NodeJS version using NVM:
-1.  Install: <https://github.com/coreybutler/nvm-windows>
-2.  Open Terminal as Admin
-3.  Get Node version: nvm list
-4.  Get the available versions: nvm list available
-5.  e.g. nvm install 16.13.2
-6.  nvm list
-7.  nvm use 16.13.2
-8.  Uninstall the older version: nvm uninstall 16.16.0
-9.  npm i -g @angular/cli
-
-2- Check Angular version by
-
-ng version
-
-Update Angular here:
-<https://update.angular.io>
+- [ ] Install NVM: <https://github.com/coreybutler/nvm-windows>
+- [ ] Check the required `node.js` for your Angular version from here: https://update.angular.io
+- [ ] Open Terminal
+- [ ] Get the available versions: `nvm ls-remote`
+- [ ] Install a `LTS` version. e.g. `nvm install 16.13.2`
+- [ ] To get the installed `node.js` list: `nvm list`.
+- [ ] `nvm use 16.13.2` to use the installed version.
+- [ ] Uninstall the older version: `nvm uninstall 16.16.0`
+- [ ] Now install/upgrade Angular: ` npm i -g @angular/cli`
+- [ ] Check Angular version by `ng version`
 
 Back to [[0 - Project Steps]]
