@@ -2,7 +2,7 @@
 [How to use Git inside of VSCode - 2020](https://www.youtube.com/watch?v=F2DBSH2VoHQ)
 
 **IMPORTANT NOTE:**
-Make sure the name of your project and repository match!
+Make sure the names of your project and repository match!
 
 ##### INSTALLATION:
 1. Install
@@ -41,7 +41,7 @@ rm ~/.gitconfig
 2. Put [.gitignore](https://github.com/mrtabaa/HealthApp/blob/dotnet6/.gitignore) in your project's root folder
 3. **git init :** Sets the desired folder as the initialized folder to work on.
 4. Commit as First setup message
-5. Push first git OR Publish to github
+5. Push first git OR Publish to GitHub
 
 NOTE: 
 Name the repo exactly the same as the project root folder
@@ -65,19 +65,23 @@ INTERNET
 -------------------------------------
 
 
-**IF USING TERMINAL/CMD/BASH**
 
-###### DOWNLOAD
+
+
+
+
+## USING TERMINAL/CMD/BASH
+###### Download/Clone Repo
 ```bash
 git clone https://github.com/user-name/proj-name.git
 ```
  
-###### RESTORE DELETED FILES (Unstaged)
+###### Restore deleted files (Unstaged)
 ```bash
 git restore .
 ```
 
-###### Login to github
+###### Login to GitHub
 [Reza's solution - Stack Overflow](https://stackoverflow.com/a/77085369/3944285)
 
 ###### ADD TO STAGE
@@ -96,6 +100,19 @@ git add *.html
 Adds all files of the folder at once using **dot**
 ```bash
 git add .
+```
+###### Commit
+```bash
+git commit -m 'your commit message here'
+```
+###### Push
+```bash
+git push
+```
+
+Undo/Restore to the last-known-good-commit push
+```bash
+git push -f origin last_known_good_commit:branch_name
 ```
 ###### REMOVE FROM STAGE
 
@@ -201,7 +218,6 @@ npm run deploy:gh
 ```
 
 ###### IGNORE / EXCLUDE
-
 **To ignore files/folders from staging:** [Watch this video](https://youtu.be/SWYqp7iY_Tc?t=1092)
 
 NOTE:
