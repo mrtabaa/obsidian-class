@@ -36,7 +36,11 @@
 	- [x] [[material module]]
 - [x] [[JWT (Token)]]
 	- [x] `jwt.interceptor.ts` => Fix `showAllUsers()` error `401-Unathorized` in `Home` by sending the `token`
-- [ ] Apply `async` pipe to DOM and remove `subscribe` (if `error` response is NOT needed) => home, navbar, etc. 
 - [ ] Upgrade to .NET-Core 8.0 from [[Upgrade .NET Core]]
 - [ ] Upgrade to Angular 17 [[Update Node & Angular]]
+- [ ] [Client-Side Vs. Server-Side Rendering](https://www.searchenginejournal.com/client-side-vs-server-side/482574/)
+- [ ] Disable `https/ssl` for development
+- [ ] Change app's browser title
+- [ ] Apply `async` pipe to DOM and remove `subscribe` (if `error` response is NOT needed) => home, navbar, etc. 
+- [ ] .NET 8.0 Primary Constructor
 - [ ] Create [[Postman TokenService]]
