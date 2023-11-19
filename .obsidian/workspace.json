@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToDo/Teach.md",
-                "mode": "source",
+                "file": "Programming/GitHub.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDo/Teach.md",
+                "file": "Programming/GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToDo/Teach.md",
+                "file": "Programming/GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDo/Teach.md"
+                "file": "Programming/GitHub.md"
               }
             }
           }
@@ -157,12 +157,12 @@
   },
   "active": "03e2dec36a301231",
   "lastOpenFiles": [
-    "Programming/Upgrade .NET Core.md",
+    "Programming/0 - Project Steps.md",
     "ToDo/Teach.md",
+    "Programming/Upgrade .NET Core.md",
     "Programming/Update Node & Angular.md",
     "ToDo/Team.md",
     "Programming/component module.md",
-    "Programming/0 - Project Steps.md",
     "Programming/material module.md",
     "Programming/client Cleanup.md"
   ]

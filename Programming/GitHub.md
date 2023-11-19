@@ -110,7 +110,7 @@ git commit -m 'your commit message here'
 git push
 ```
 
-Undo/Restore to the last-known-good-commit push
+###### Undo/Restore to the last-known-good-commit push
 ```bash
 git push -f origin last_known_good_commit:branch_name
 ```
