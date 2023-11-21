@@ -1,4 +1,4 @@
-# Client
+	# Client
 1. Get `server.crt` & `server.key` from [[ssl-certificates.zip]]
 
 2. Create a **ssl** folder in **client** folder.
@@ -34,12 +34,12 @@ sudo dotnet dev-certs https --trust
 ```bash
 sudo cp server.crt /usr/local/share/ca-certificates/server.crt
 ```
-4. Update OS certificates list
+5. Update OS certificates list
 ```bash
 sudo update-ca-certificates
 ```
 
-1. Follow code below and change **http** to **https** in `Program.cs` **OR** [ApplicationServiceExtensions.cs](https://github.com/mrtabaa/hallboard/blob/master/api/Extensions/ApplicationServiceExtensions.cs) links to https
+6. Follow code below and change **http** to **https** in `Program.cs` **OR** [ApplicationServiceExtensions.cs](https://github.com/mrtabaa/hallboard/blob/master/api/Extensions/ApplicationServiceExtensions.cs) links to https
 ```C#
 #region Cors: baraye ta'eede Angular HttpClient requests
 builder.Services.AddCors(options =>
@@ -50,6 +50,8 @@ builder.Services.AddCors(options =>
 #endregion Cors
 ```
 
-7. Restart `dotnet`, `ng serve`, and the `browser`.
+7. In `program.cs`, enable `app.UseHttpsRedirection();`
+
+8. Restart `dotnet`, `ng serve`, and the `browser`.
 
 Back to [[0 - Project Steps]]

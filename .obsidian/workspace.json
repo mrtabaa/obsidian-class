@@ -157,7 +157,12 @@
   },
   "active": "03e2dec36a301231",
   "lastOpenFiles": [
+    "Programming/Install SSL.md",
     "Programming/0 - Project Steps.md",
+<<<<<<< Updated upstream
+=======
+    "OS Setup/1- Linux apps.md",
+>>>>>>> Stashed changes
     "ToDo/Teach.md",
     "Programming/Upgrade .NET Core.md",
     "Programming/Update Node & Angular.md",
