@@ -64,6 +64,11 @@ sudo snap install core
 sudo snap install postman
 ```
 
+VidCutter
+```bash
+sudo snap install vidcutter
+```
+
 Go back to [[0- MX Config]]
 
 ##### Flathub Packages 

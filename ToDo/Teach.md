@@ -43,16 +43,19 @@
 - [x] Change app's browser title
 - [x] Apply `async` pipe to DOM and remove `subscribe` (if `error` response is NOT needed) => home, navbar, etc. 
 - [x] .NET 8.0 Primary Constructor
-- [ ] Changed these
-	- [ ] Injected `HttpClient` in `app.config.ts`
-	- [ ] Injected `HttpClient` in `app.config.server.ts` with `withFetch()`
-	- [ ] replaced constructors' injections with `inject`
-	- [ ] accessed `localStorage` with `PLATFORM_ID`
-	- [ ] updated `jwt.interceptor.ts` codes to Angular 17 version
-	- [ ] `app.routes.ts`  => added `account` to `register` and `login`
+- [x] Changed these
+	- [x] Injected `HttpClient` in `app.config.ts`
+	- [x] Injected `HttpClient` in `app.config.server.ts` with `withFetch()`
+	- [x] replaced constructors' injections with `inject`
+	- [x] accessed `localStorage` with `PLATFORM_ID`
+	- [x] updated `jwt.interceptor.ts` codes to Angular 17 version
+	- [x] `app.routes.ts`  => added `account` to `register` and `login`
 - [ ] Added more properties to
 	- [ ] `AppUser.cs`
 	- [ ] `UserDto.cs`
 	- [ ] Created `Photo.cs`
-- [ ] Create [[Postman TokenService]]
-- [ ] client => baseApiUrl
+- [x] Create [[Postman TokenService]]
+- [x] client => `baseApiUrl` in `environment`
+```bash
+ng g environments 
+```
