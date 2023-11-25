@@ -28,9 +28,9 @@
 	- [x] menu with Photo location
 - [x] `app.component.html` Layout (Remove div) and change scss
 - [x] API cleanup => ExtensionMethods:
-	- [x] ApplicationServiceExtensions => AddApplicationServices
-	- [x] IdentityServiceExtensions => AddIdentityServices
-	- [x] RepositoryServiceExtensions => AddRepositoryServices
+	- [x] ApplicationServiceExtensions.cs => AddApplicationServices
+	- [x] IdentityServiceExtensions.cs => AddIdentityServices
+	- [x] RepositoryServiceExtensions.cs => AddRepositoryServices
 - [x] Client cleanup => Modules:
 	- [x] [[component module]]
 	- [x] [[material module]]
@@ -43,5 +43,16 @@
 - [x] Change app's browser title
 - [x] Apply `async` pipe to DOM and remove `subscribe` (if `error` response is NOT needed) => home, navbar, etc. 
 - [x] .NET 8.0 Primary Constructor
+- [ ] Changed these
+	- [ ] Injected `HttpClient` in `app.config.ts`
+	- [ ] Injected `HttpClient` in `app.config.server.ts` with `withFetch()`
+	- [ ] replaced constructors' injections with `inject`
+	- [ ] accessed `localStorage` with `PLATFORM_ID`
+	- [ ] updated `jwt.interceptor.ts` codes to Angular 17 version
+	- [ ] `app.routes.ts`  => added `account` to `register` and `login`
+- [ ] Added more properties to
+	- [ ] `AppUser.cs`
+	- [ ] `UserDto.cs`
+	- [ ] Created `Photo.cs`
 - [ ] Create [[Postman TokenService]]
 - [ ] client => baseApiUrl
