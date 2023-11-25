@@ -38,7 +38,7 @@ rm ~/.gitconfig
 ##### GIT COMMANDS using Terminal:
 
 1. Remove Client's git folder/files
-2. Put [.gitignore](https://github.com/mrtabaa/HealthApp/blob/dotnet6/.gitignore) in your project's root folder
+2. Put [.gitignore](https://github.com/mrtabaa/match-finder/blob/main/.gitignore) in your project's root folder
 3. **git init :** Sets the desired folder as the initialized folder to work on.
 4. Commit as First setup message
 5. Push first git OR Publish to GitHub
