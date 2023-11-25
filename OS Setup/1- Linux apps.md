@@ -28,6 +28,11 @@ sudo apt install git
 sudo apt install synaptic
 ```
 
+BirdTray for Thunderbird (Email client)
+```bash
+sudo apt install birdtray
+```
+
 ##### MX Package Installer
 
 - [x] Kdenlive
@@ -57,11 +62,6 @@ sudo snap install core
 - [ ] Postman (similar to ThunderClient)
 ```bash
 sudo snap install postman
-```
-
-- [x] Mailspring (Email software)
-```bash
-sudo snap install mailspring
 ```
 
 Go back to [[0- MX Config]]

@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "68e19b626a9aeb79",
+    "id": "6244202ddb70dbef",
     "type": "split",
     "children": [
       {
-        "id": "a9d3f04815e0b238",
+        "id": "bbbd895d79df6812",
         "type": "tabs",
         "children": [
           {
-            "id": "03e2dec36a301231",
+            "id": "6f5947084f636cbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/GitHub.md",
-                "mode": "preview",
+                "file": "ToDo/Teach.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "166dd65068a929ca",
+    "id": "50c8cca2db445e51",
     "type": "split",
     "children": [
       {
-        "id": "c555555d6f193e84",
+        "id": "f251817b71070e46",
         "type": "tabs",
         "children": [
           {
-            "id": "e642ead6c641cc78",
+            "id": "0e109eedbc865cc7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "e2a64618d3c5eb2e",
+            "id": "e289366cefa19c52",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "9f2f9b3c82b00f86",
+            "id": "7a68f6a276dbd1ac",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "e2af7c19e7f4a947",
+    "id": "6825f5b9c3f1edb6",
     "type": "split",
     "children": [
       {
-        "id": "80f4a4ab561c4eac",
+        "id": "ed9a7603adb93ba4",
         "type": "tabs",
         "children": [
           {
-            "id": "8e2bb36d2b00344a",
+            "id": "f097b62ce381b703",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/GitHub.md",
+                "file": "ToDo/Teach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "318f69eb1e252bc7",
+            "id": "47434b2b860e52f2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/GitHub.md",
+                "file": "ToDo/Teach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "dc26c2f4c0aa877f",
+            "id": "ea66ab7926070b60",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "45cded434e05ae12",
+            "id": "dc91f6062f6115fc",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -130,12 +130,12 @@
             }
           },
           {
-            "id": "8a2788d467d1d10d",
+            "id": "73f37cd5d6d6074b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/GitHub.md"
+                "file": "ToDo/Teach.md"
               }
             }
           }
@@ -155,20 +155,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "03e2dec36a301231",
+  "active": "6f5947084f636cbd",
   "lastOpenFiles": [
-    "Programming/Install SSL.md",
+    "Programming/New-sln,-API.md",
     "Programming/0 - Project Steps.md",
-<<<<<<< Updated upstream
-=======
+    "Programming/GitHub.md",
     "OS Setup/1- Linux apps.md",
->>>>>>> Stashed changes
-    "ToDo/Teach.md",
-    "Programming/Upgrade .NET Core.md",
-    "Programming/Update Node & Angular.md",
-    "ToDo/Team.md",
-    "Programming/component module.md",
-    "Programming/material module.md",
-    "Programming/client Cleanup.md"
+    "ToDo/Teach.md"
   ]
 }
