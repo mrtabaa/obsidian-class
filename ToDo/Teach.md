@@ -50,12 +50,16 @@
 	- [x] accessed `localStorage` with `PLATFORM_ID`
 	- [x] updated `jwt.interceptor.ts` codes to Angular 17 version
 	- [x] `app.routes.ts`  => added `account` to `register` and `login`
+- [ ] Update old Angular structural directives with Angular 17
+	- [ ] Replace `*ngFor` with `@for`. [See this page](https://medium.com/@kristiyan.velkov/angular-17-new-built-in-for-loop-86caf01b9d9e)
+	- [ ] Replace `*ngIf / else (ng-template)` with `@if / @else if / @else`. [See this page](https://blog.angular-university.io/angular-if/)
 - [ ] Added more properties to
 	- [ ] `AppUser.cs`
+	- [ ] `RegisterDto` + replace `Length(10, 500)` with `MaxLength,MinLength`
 	- [ ] `UserDto.cs`
-	- [ ] Created `Photo.cs`
+	- [ ] Create `Photo.cs`
 - [x] Create [[Postman TokenService]]
-- [x] client => `baseApiUrl` in `environment`
-```bash
-ng g environments 
-```
+- [x] client => Create environments and place `baseApiUrl` in `environment.development`
+	```bash
+	ng g environments 
+	```
