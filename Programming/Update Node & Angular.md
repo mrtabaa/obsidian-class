@@ -1,4 +1,7 @@
-- [x] Install NVM: <https://github.com/coreybutler/nvm-windows>
+- [x] Install NVM: 
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+```
 - [x] Check the required `node.js` for your Angular version from here: https://update.angular.io
 - [x] Open Terminal
 - [x] Get the available versions: `nvm ls-remote`
