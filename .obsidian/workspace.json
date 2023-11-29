@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToDo/Teach.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDo/Teach.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToDo/Teach.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDo/Teach.md"
+                "file": "OS Setup/1- Linux apps.md"
               }
             }
           }
@@ -157,10 +157,11 @@
   },
   "active": "6f5947084f636cbd",
   "lastOpenFiles": [
-    "Programming/New-sln,-API.md",
+    "Programming/Setup in Project.md",
     "Programming/0 - Project Steps.md",
+    "ToDo/Teach.md",
+    "Programming/New-sln,-API.md",
     "Programming/GitHub.md",
-    "OS Setup/1- Linux apps.md",
-    "ToDo/Teach.md"
+    "OS Setup/1- Linux apps.md"
   ]
 }
