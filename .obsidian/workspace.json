@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Update Node & Angular.md",
+                "file": "Programming/Debugger-setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Update Node & Angular.md",
+                "file": "Programming/Debugger-setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Update Node & Angular.md",
+                "file": "Programming/Debugger-setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Update Node & Angular.md"
+                "file": "Programming/Debugger-setup.md"
               }
             }
           }
@@ -157,12 +157,15 @@
   },
   "active": "6f5947084f636cbd",
   "lastOpenFiles": [
+    "Programming/Setup in Project.md",
     "Programming/0 - Project Steps.md",
+    "Programming/Pattern & Schema.md",
+    "Programming/Install MongoDB.md",
+    "OS Setup/1- Linux apps.md",
+    "Programming/Update Node & Angular.md",
     "Programming/GitHub.md",
     "Programming/VSCode Setup.md",
-    "OS Setup/1- Linux apps.md",
     "OS Setup/0- MX Config.md",
-    "Programming/Setup in Project.md",
     "ToDo/Teach.md",
     "Programming/New-sln,-API.md"
   ]

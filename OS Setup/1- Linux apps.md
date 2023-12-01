@@ -57,7 +57,7 @@ sudo apt install birdtray
 
 1. Install Snapd
 ```bash
-sudo apt install snapdv
+sudo apt install snapd
 ```
 2. Install Snap's Core
 ```bash
