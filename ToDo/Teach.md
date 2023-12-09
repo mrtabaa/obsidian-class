@@ -63,3 +63,8 @@
 	```bash
 	ng g environments 
 	```
+- [ ] Create an AppUser and return UserDto
+- [ ] Mappers
+- [ ] GetUserByEmailAsync()
+- [ ] CalculateAge() for UserDto -- DateTimeExtenstions
+- [ ] ClaimsPrincipal

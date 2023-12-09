@@ -16,12 +16,6 @@
 	```bash
 echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 	```
-	To stop Chrome from getting updated automatically:
-	```bash
-cd /etc/apt/sources.list.d
-sudo mv google-chrome.list google-chrome.list.save
-	```
-
 ##### APT Packages
 - [ ] Git
 ```bash

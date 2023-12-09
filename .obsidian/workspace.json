@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Debugger-setup.md",
+                "file": "ToDo/Teach.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Debugger-setup.md",
+                "file": "ToDo/Teach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Debugger-setup.md",
+                "file": "ToDo/Teach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Debugger-setup.md"
+                "file": "ToDo/Teach.md"
               }
             }
           }
@@ -157,16 +157,17 @@
   },
   "active": "6f5947084f636cbd",
   "lastOpenFiles": [
-    "Programming/Setup in Project.md",
+    "Programming/Debugger-setup.md",
+    "Programming/New-sln,-API.md",
     "Programming/0 - Project Steps.md",
+    "Programming/VSCode Setup.md",
+    "OS Setup/1- Linux apps.md",
+    "Programming/Setup in Project.md",
     "Programming/Pattern & Schema.md",
     "Programming/Install MongoDB.md",
-    "OS Setup/1- Linux apps.md",
     "Programming/Update Node & Angular.md",
     "Programming/GitHub.md",
-    "Programming/VSCode Setup.md",
     "OS Setup/0- MX Config.md",
-    "ToDo/Teach.md",
-    "Programming/New-sln,-API.md"
+    "ToDo/Teach.md"
   ]
 }
