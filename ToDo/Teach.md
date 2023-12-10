@@ -63,8 +63,12 @@
 	```bash
 	ng g environments 
 	```
-- [ ] Create an AppUser and return UserDto
+- [ ] `AccountRepo` => Change `var` to `UpdateDefinition<AppUser>`
+- [ ] Generate a UserDto using AppUser
 - [ ] Mappers
-- [ ] GetUserByEmailAsync()
-- [ ] CalculateAge() for UserDto -- DateTimeExtenstions
-- [ ] ClaimsPrincipal
+- [x] GetUserByEmailAsync()
+- [ ] CalculateAge() for UserDto -- [[DateTimeExtensions]]
+- [ ] [[Claim Principal]]
+- [ ] Modify the Register page
+- [ ] AuthGuard basic
+- [ ] AuthGuard advance with `MatSnackBar`
