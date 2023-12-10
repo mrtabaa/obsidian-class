@@ -53,21 +53,21 @@
 - [x] Update old Angular structural directives with Angular 17
 	- [x] Replace `*ngFor` with `@for`. [See this page](https://medium.com/@kristiyan.velkov/angular-17-new-built-in-for-loop-86caf01b9d9e)
 	- [x] Replace `*ngIf / else (ng-template)` with `@if / @else if / @else`. [See this page](https://blog.angular-university.io/angular-if/)
-- [ ] Added more properties to
+- [x] Added more properties to
 	- [x] `AppUser.cs`
 	- [x] `AccountDto` => replace `MaxLength,MinLength` with `Length(10, 500)`
-	- [ ] `UserDto.cs`
+	- [x] `UserDto.cs`
 	- [x] Create `Photo.cs`
 - [x] Create [[Postman TokenService]]
 - [x] client => Create environments and place `baseApiUrl` in `environment.development`
 	```bash
 	ng g environments 
 	```
-- [ ] `AccountRepo` => Change `var` to `UpdateDefinition<AppUser>`
-- [ ] Generate a UserDto using AppUser
-- [ ] Mappers
+- [x] `AccountRepo` => Change `var` to `UpdateDefinition<AppUser>`
+- [x] Generate a UserDto using AppUser
+- [x] Mappers
 - [x] GetUserByEmailAsync()
-- [ ] CalculateAge() for UserDto -- [[DateTimeExtensions]]
+- [x] CalculateAge() for UserDto -- [[DateTimeExtensions]]
 - [ ] [[Claim Principal]]
 - [ ] Modify the Register page
 - [ ] AuthGuard basic
