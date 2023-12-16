@@ -68,7 +68,24 @@
 - [x] Mappers
 - [x] GetUserByEmailAsync()
 - [x] CalculateAge() for UserDto -- [[DateTimeExtensions]]
+- [ ] `Count()` for `List` and `Any()` for `IEnumerable`
 - [ ] [[Claim Principal]]
-- [ ] Modify the Register page
+	- [ ] `TokenService` change `DateTime.Now` to `DateTime.UtcNow`
+	- [ ] Add `ValidateLifetime = true` to `IdentityServiceExtensions` class
+	- [ ] `UserController` => simplify `ClaimPrincipalExtensions.GetUserId(User)` to `User.GetUserId()`
+	- [ ] `ClaimPrincipalExtensions` rename `user` to `principal`
+- [ ] localStorage => Replace `user` with `token`
+	- [ ] `app.component.ts` => Get the `user` from `api` to have a fresh user on every browser's refresh to prevent expired token issue. 
+	- [ ] Update [[jwt.interceptor.ts]]
+- [ ] Create these components
+	- [ ] `ServerErrorComponent` => `path: 'server-error'` design for any server error
+	- [ ] `MemberListComponent` => `path: 'members'` to show members
+- [ ] Separate `user` and `member`
+	- [ ] Create/Rename to `member` model
+	- [ ] Create `member.service.ts`
+- [ ] Remove `id` from
+	- [ ]  client's `user.model`
+	- [ ] `LogedInUserDto`
 - [ ] AuthGuard basic
 - [ ] AuthGuard advance with `MatSnackBar`
+- [ ] Modify the Register page
