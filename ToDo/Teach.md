@@ -74,18 +74,18 @@
 	- [x] Add `ValidateLifetime = true` to `IdentityServiceExtensions` class
 	- [x] `UserController` => simplify `ClaimPrincipalExtensions.GetUserId(User)` to `User.GetUserId()`
 	- [x] `ClaimPrincipalExtensions` rename `user` to `principal`
-- [x] localStorage => Replace `user` with `token`
-	- [x] `app.component.ts` => Get the `user` from `api` to have a fresh user on every browser's refresh to prevent expired token issue. 
-	- [x] Update [[jwt.interceptor.ts]]
+- [ ] localStorage => Replace `user` with `token`
+	- [ ] `app.component.ts` => Get the `user` from `api` to have a fresh user on every browser's refresh to prevent expired token issue. 
+	- [ ] Update [[jwt.interceptor.ts]]
 - [x] Create these components
 	- [x] `ServerErrorComponent` => `path: 'server-error'` design for any server error
 	- [x] `MemberListComponent` => `path: 'members'` to show members
-- [ ] Separate `user` and `member`
-	- [ ] Create/Rename to `member` model
-	- [ ] Create `member.service.ts`
-- [ ] Remove `id` from
-	- [ ]  client's `user.model`
-	- [ ] `LogedInUserDto`
+- [x] Separate `user` and `member`
+	- [x] Create/Rename to `member` model
+	- [x] Create `member.service.ts`
+- [x] Remove `id` from
+	- [x]  client's `user.model`
+	- [x] `LogedInUserDto`
 - [ ] AuthGuard basic
 - [ ] AuthGuard advance with `MatSnackBar`
 - [ ] Modify the Register page
