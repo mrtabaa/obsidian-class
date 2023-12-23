@@ -74,12 +74,12 @@
 	- [x] Add `ValidateLifetime = true` to `IdentityServiceExtensions` class
 	- [x] `UserController` => simplify `ClaimPrincipalExtensions.GetUserId(User)` to `User.GetUserId()`
 	- [x] `ClaimPrincipalExtensions` rename `user` to `principal`
-- [ ] localStorage => Replace `user` with `token`
+- [x] localStorage => Replace `user` with `token`
 	- [x] `app.component.ts` => Get the `user` from `api` to have a fresh user on every browser's refresh to prevent expired token issue. 
 	- [x] Update [[jwt.interceptor.ts]]
-	- [ ] Reload problem was caused, api was returning `UserDto` while client was expecting `LoggedInDto`.
-		- [ ] api => Move `ReloadLoggedInUser` from `UserController` to `AccountController`.
-		- [ ] client => Move `getLoggedInUser()` from `user.service.ts` to `account.service.ts`.
+	- [x] Reload problem was caused, api was returning `UserDto` while client was expecting `LoggedInDto`.
+		- [x] api => Move `ReloadLoggedInUser` from `UserController` to `AccountController`.
+		- [x] client => Move `getLoggedInUser()` from `user.service.ts` to `account.service.ts`.
 - [x] Create these components
 	- [x] `ServerErrorComponent` => `path: 'server-error'` design for any server error
 	- [x] `MemberListComponent` => `path: 'members'` to show members
