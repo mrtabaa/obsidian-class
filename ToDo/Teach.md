@@ -89,9 +89,11 @@
 - [x] Remove `id` from
 	- [x]  client's `user.model`
 	- [x] `LogedInUserDto`
-- [ ] Basic `authGuard` with `MatSnackBar`
-- [ ] Advance `authGuard`
+- [x] Basic `authGuard` with `MatSnackBar`
+- [x] Advance `app.routes`
 - [ ] Modify the `Register` component
-	- [ ] Add `Range` to `DateOfBirth` in `RegisterDto` to prevent `1/1/1`
-	- [ ] Convert Angular `Date` to C# `DateOnly` for DateOfBirth
-	- [ ] Add all properties to the component
+	- [x] Add `Range` to `DateOfBirth` in `RegisterDto` to prevent `1/1/1`
+	- [x] Convert Angular `Date` to C# `DateOnly` for DateOfBirth
+	- [x] Add all properties to the component
+	- [ ] unsubscribe
+- [ ] error's `actualLength` and `minLength` and `maxLength`
