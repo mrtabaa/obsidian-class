@@ -89,6 +89,9 @@
 - [x] Remove `id` from
 	- [x]  client's `user.model`
 	- [x] `LogedInUserDto`
-- [ ] AuthGuard basic
-- [ ] AuthGuard advance with `MatSnackBar`
-- [ ] Modify the Register page
+- [ ] Basic `authGuard` with `MatSnackBar`
+- [ ] Advance `authGuard`
+- [ ] Modify the `Register` component
+	- [ ] Add `Range` to `DateOfBirth` in `RegisterDto` to prevent `1/1/1`
+	- [ ] Convert Angular `Date` to C# `DateOnly` for DateOfBirth
+	- [ ] Add all properties to the component
