@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "ToDo/Teach.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "update",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -126,9 +125,7 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "sortOrder": "frequency"
               }
             }
           },
@@ -158,7 +155,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e289366cefa19c52",
+  "active": "6f5947084f636cbd",
   "lastOpenFiles": [
     "Programming/jwt.interceptor.ts.md",
     "ToDo/Teach.md",

@@ -91,20 +91,19 @@
 	- [x] `LogedInUserDto`
 - [x] Basic `authGuard` with `MatSnackBar`
 - [x] Advance `app.routes`
-- [ ] Modify the `Register` component
+- [x] Modify the `Register` component
 	- [x] Add `Range` to `DateOfBirth` in `RegisterDto` to prevent `1/1/1`
 	- [x] Convert Angular `Date` to C# `DateOnly` for DateOfBirth
 	- [x] Add all properties to the component
-	- [ ] unsubscribe
+	- [x] unsubscribe
 - [ ] error's `actualLength` and `minLength` and `maxLength`
-- [ ] Add `autoFocusDir`
-- [ ] Replace `Observable` with `Signal` to improve `Angular Change Detection` 
-	- [ ] `AccountService`
-	- [ ] `Navbar`
-	- [ ] `MemberList`
-- [ ] Fix navbar 
-	- [ ] menu items' padding
-	- [ ] links to `members` and `messages`
-- [ ] Print errors wherever user submits a form
-	- [ ] `Register`: User already exists.
-	- [ ] `Login`: Wrong username or password.
+- [x] Add `autoFocusDir`
+- [x] Replace `Observable` with `Signal` to improve `Angular Change Detection` 
+	- [x] `AccountService`
+	- [x] `Navbar`
+- [x] Fix navbar 
+	- [x] menu items' padding
+	- [x] links to `members` and `messages`
+- [x] Print errors wherever user submits a form
+	- [x] `Register`: User already exists.
+	- [x] `Login`: Wrong username or password.
