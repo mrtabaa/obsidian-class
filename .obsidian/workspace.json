@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "update",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +126,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -155,7 +158,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6f5947084f636cbd",
+  "active": "e289366cefa19c52",
   "lastOpenFiles": [
     "Programming/jwt.interceptor.ts.md",
     "ToDo/Teach.md",

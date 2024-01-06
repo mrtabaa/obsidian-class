@@ -97,3 +97,14 @@
 	- [x] Add all properties to the component
 	- [ ] unsubscribe
 - [ ] error's `actualLength` and `minLength` and `maxLength`
+- [ ] Add `autoFocusDir`
+- [ ] Replace `Observable` with `Signal` to improve `Angular Change Detection` 
+	- [ ] `AccountService`
+	- [ ] `Navbar`
+	- [ ] `MemberList`
+- [ ] Fix navbar 
+	- [ ] menu items' padding
+	- [ ] links to `members` and `messages`
+- [ ] Print errors wherever user submits a form
+	- [ ] `Register`: User already exists.
+	- [ ] `Login`: Wrong username or password.
