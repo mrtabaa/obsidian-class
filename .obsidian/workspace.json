@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "161a1a4fc9cd80a4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6f5947084f636cbd",
+  "active": "161a1a4fc9cd80a4",
   "lastOpenFiles": [
     "Programming/New-sln,-API.md",
     "Programming/Debugger-setup.md",
