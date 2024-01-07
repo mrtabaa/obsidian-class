@@ -9,6 +9,12 @@
 	`launch.json`:
 ```json
 "configurations": [
+   {
+		"name": ".NET Core Attach",
+		"type": "coreclr",
+		"request": "attach",
+		"requireExactSource": false
+	},
 	{
 		"name": "Angular Client",
 		"request": "launch",
