@@ -107,16 +107,16 @@
 - [x] Print errors wherever user submits a form
 	- [x] `Register`: User already exists.
 	- [x] `Login`: Wrong username or password.
-- [ ] Fix TODOs
-	- [ ] use `requiredLength` in DOM instead of hard-coded value. 
+- [x] Fix TODOs
+	- [x] use `requiredLength` in DOM instead of hard-coded value. 
 - [ ] Photo Upload (API)
-	- [ ] Add a `Photo` record/model
-	- [ ] Install these Nuget packages
+	- [x] Add a `Photo` record/model
+	- [x] Install these Nuget packages
 		```C#
 		"SkiaSharp"
 	    "SkiaSharp.NativeAssets.Linux"
 		```
-	- [ ] Add `PhotoModifySaveService` and `IPhotoModifySaveService`
+	- [x] Add `PhotoModifySaveService` and `IPhotoModifySaveService`
 	- [ ] Add `PhotoService` and `IPhotoService`
 	- [ ] Create an endpoint in `UserController` which takes a file
 		- [ ] Validate file (`minSize`, `maxSize`) and `fileType` to be image
