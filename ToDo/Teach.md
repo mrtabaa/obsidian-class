@@ -117,7 +117,7 @@
 	    "SkiaSharp.NativeAssets.Linux"
 		```
 	- [x] Add `PhotoModifySaveService` and `IPhotoModifySaveService`
-	- [ ] Add `PhotoService` and `IPhotoService`
+	- [x] Add `PhotoService` and `IPhotoService`
 	- [ ] Create an endpoint in `UserController` which takes a file
 		- [ ] Validate file (`minSize`, `maxSize`) and `fileType` to be image
 	- [ ] Create a method in `UserRepository` and `IUserRepository`
