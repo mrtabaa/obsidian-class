@@ -109,7 +109,7 @@
 	- [x] `Login`: Wrong username or password.
 - [x] Fix TODOs
 	- [x] use `requiredLength` in DOM instead of hard-coded value. 
-- [ ] Photo Upload (API)
+- [x] Photo Upload (API)
 	- [x] Add a `Photo` record/model
 	- [x] Install these Nuget packages
 		```C#
@@ -118,11 +118,11 @@
 		```
 	- [x] Add `PhotoModifySaveService` and `IPhotoModifySaveService`
 	- [x] Add `PhotoService` and `IPhotoService`
-	- [ ] Create an endpoint in `UserController` which takes a file
-		- [ ] Validate file (`minSize`, `maxSize`) and `fileType` to be image
-	- [ ] Create a method in `UserRepository` and `IUserRepository`
-		- [ ] Add `Photo` creation in `_Mapper`
-	- [ ] Add `wwwroot` folder to `api` folder
-	- [ ] Add all new services to `RepositoryServiceExtensions`
-	- [ ] Test in `Postman`
-	- [ ] Check `MongoDbCompass` doc
+	- [x] Create an endpoint in `UserController` which takes a file
+		- [x] Validate file (`minSize`, `maxSize`) and `fileType` to be image
+	- [x] Create a method in `UserRepository` and `IUserRepository`
+		- [x] Add `Photo` creation in `_Mapper`
+	- [x] Add `wwwroot` folder to `api` folder
+	- [x] Add all new services to `RepositoryServiceExtensions`
+	- [x] Test in `Postman`
+	- [x] Check `MongoDbCompass` doc
