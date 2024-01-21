@@ -118,6 +118,7 @@
 		```
 	- [x] Add `PhotoModifySaveService` and `IPhotoModifySaveService`
 	- [x] Add `PhotoService` and `IPhotoService`
+<<<<<<< Updated upstream
 	- [x] Create an endpoint in `UserController` which takes a file
 		- [x] Validate file (`minSize`, `maxSize`) and `fileType` to be image
 	- [x] Create a method in `UserRepository` and `IUserRepository`
@@ -126,3 +127,14 @@
 	- [x] Add all new services to `RepositoryServiceExtensions`
 	- [x] Test in `Postman`
 	- [x] Check `MongoDbCompass` doc
+=======
+	- [ ] Create an endpoint in `UserController` which takes a file
+		- [ ] Validate file (`minSize`, `maxSize`) and `fileType` to be image
+	- [ ] Create a method in `UserRepository` and `IUserRepository`
+		- [ ] Add `Photo` creation in `_Mapper`
+	- [ ] Add `wwwroot` folder to `api` folder
+	- [ ] Add all new services to `RepositoryServiceExtensions`
+	- [ ] Test in `Postman`
+	- [ ] Check `MongoDbCompass` doc
+	- [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
+>>>>>>> Stashed changes
