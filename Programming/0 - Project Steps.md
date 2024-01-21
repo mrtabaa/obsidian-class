@@ -54,7 +54,7 @@ sudo apt-get update && \
 
 - [x] Add [[JWT (Token)]]
 
-- [ ] Create [[Postman TokenService]]
+- [x] Create [[Postman TokenService]]
 
 - [ ] Double-check [[CancellationToken]] on all repos
 

@@ -45,7 +45,7 @@ app.UseAuthorization();
 {
   "MongoDbSettings": {
     "ConnectionString": "mongodb://localhost:27017",
-    "DatabaseName": "dating-app"
+    "DatabaseName": "match-finder"
   },
   "TokenKey": "BX4RJbtQc*qBWqag Random-notsecure This should be at least 512 bytes",
   "Logging": {
@@ -65,7 +65,7 @@ app.UseAuthorization();
 {
   "MongoDbSettings": {
     "ConnectionString": "mongodb://localhost:27017",
-    "DatabaseName": "dating-app"
+    "DatabaseName": "match-finder"
   },
   "TokenKey": null,
   "Logging": {
