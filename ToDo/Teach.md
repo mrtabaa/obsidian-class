@@ -127,6 +127,7 @@
 	- [x] Test in `Postman`
 	- [x] Check `MongoDbCompass` doc
 - [ ] Reorganize project folders architecture
+	- [ ] Remove `PhotoModifySaveService` and `IPhotoModifySaveService` from your project
 	- [ ] Create `back-end` folder
 	- [ ] Move `api` to `back-end`
 	- [ ] Fix `match-finder.sln`'s `api` address
