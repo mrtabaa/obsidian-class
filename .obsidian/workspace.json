@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 218.5
   },
   "right": {
     "id": "6825f5b9c3f1edb6",
@@ -159,31 +159,22 @@
   },
   "active": "6f5947084f636cbd",
   "lastOpenFiles": [
-    "Programming/New-sln,-API.md",
-    "ToDo/Teach.md",
     "Programming/lodash.md",
-    "Programming/Why JWT (Token).md",
-    "Programming/Upgrade .NET Core.md",
-    "Programming/VSCode Setup.md",
-    "Programming/Update Node & Angular.md",
-    "Programming/Setup in Project.md",
-    "Programming/Setup Cors.md",
-    "Programming/Program.cs.md",
-    "Programming/Postman TokenService.md",
-    "Programming/Password Salt & Hash.md",
-    "Programming/Pattern & Schema.md",
-    "Programming/0 - Project Steps.md",
-    "Programming/appsettings.json.md",
-    "Programming/BaseApiController.md",
-    "Programming/Bracket Pairs.md",
+    "Programming/jwt.interceptor.ts.md",
+    "ToDo/Teach.md",
+    "Programming/JWT (Token).md",
     "Programming/Claim Principal.md",
-    "Programming/client Cleanup.md",
-    "Programming/CancellationToken.md",
-    "Programming/component module.md",
-    "Programming/Csharp Extension Settings.md",
     "Programming/DateTimeExtensions.md",
+    "OS Setup/1- Linux apps.md",
     "Programming/Debugger-setup.md",
-    "Programming/ErrorStateMatcher - matError.md",
-    "Programming/GitHub.md"
+    "Programming/New-sln,-API.md",
+    "Programming/0 - Project Steps.md",
+    "Programming/VSCode Setup.md",
+    "Programming/Setup in Project.md",
+    "Programming/Pattern & Schema.md",
+    "Programming/Install MongoDB.md",
+    "Programming/Update Node & Angular.md",
+    "Programming/GitHub.md",
+    "OS Setup/0- MX Config.md"
   ]
 }

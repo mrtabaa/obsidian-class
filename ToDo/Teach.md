@@ -126,27 +126,27 @@
 	- [x] Add all new services to `RepositoryServiceExtensions`
 	- [x] Test in `Postman`
 	- [x] Check `MongoDbCompass` doc
-- [ ] Reorganize project folders architecture
-	- [ ] Remove `PhotoModifySaveService` and `IPhotoModifySaveService` from your project
-	- [ ] Create `back-end` folder
-	- [ ] Move `api` to `back-end`
-	- [ ] Fix `match-finder.sln`'s `api` address
-	- [ ] From `Solution Explorer` create a `new webapi (empty)` project called `image-processing`
-	- [ ] Add required libraries from `Nuget Gallery` to `image-processing.csproj`
+- [x] Reorganize project folders architecture
+	- [x] Remove `PhotoModifySaveService` and `IPhotoModifySaveService` from your project
+	- [x] Create `backend` folder
+	- [x] Move `api` to `backend`
+	- [x] Move `match-finder.sln` to `backend` folder.
+	- [x] From `Solution Explorer` create a `new web (empty)` project called `image-processing`
+	- [x] Install required libraries from `Nuget Gallery` to `image-processing.csproj`
 		```C#
 		"SkiaSharp"
 		"SkiaSharp.NativeAssets.Linux"
 		```
-	- [ ] Remove above libraries from `api.csproj`
-	- [ ] Import the given files into `image-processing` project's folder (resources folder in git). 
-	- [ ] Add a reference of `image-processing` project to `api`
-	- [ ] Add these items to `api`'s `globalUsings.cs`
+	- [x] Uninstall above libraries from `api.csproj`
+	- [x] Import the given files into `image-processing` project's folder (_resources folder in git). 
+	- [x] Add a reference of `image-processing` project to `api`
+	- [x] Add these items to `api`'s `globalUsings.cs`
 		```C#
 		global using image_processing.Interfaces;
 		global using image_processing.Services;
 		global using image_processing.Helpers;
 		```
-	- [ ] Test Photo upload with postman. 
+	- [x] Test Photo upload with postman. 
 - [ ] Test photo in the browser
 - [ ] Setup `member-card`. (teach `@input`)
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
