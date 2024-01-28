@@ -126,14 +126,14 @@
 		- [x] Uninstall above libraries from `api.csproj` (if installed).
 		- [x] From `_resources folder` import the given folders into `image-processing` project's folder ..  (`Helpers`, `Interfaces`, `Services`)
 
-	- [ ] `api` project:
+	- [x] `api` project:
 		- [x] Add a `Photo` record/model
 		- [x] Create an endpoint `AddPhoto` in `UserController` which takes a file
 			- [x] Validate file (`minSize`, `maxSize`) and `fileType` to be image
 		- [x] Create an `UploadPhotoAsync` method in `UserRepository` and `IUserRepository`
 			- [x] Add `Photo` creation in `_Mapper`
 		- [x] Add `wwwroot` folder to `api` folder
-		- [ ] In `api` => `Program.cs`Add `app.UseStaticFiles();` before `app.UseCors();`
+		- [x] In `api` => `Program.cs`Add `app.UseStaticFiles();` before `app.UseCors();`
 		- [x] Add a reference of `image-processing` project to `api`
 		- [x] Add these items to `api`'s `globalUsings.cs`
 			```C#
@@ -141,10 +141,10 @@
 			global using image_processing.Services;
 			global using image_processing.Helpers;
 			```
-		- [ ] Add all new services to `RepositoryServiceExtensions`
-		- [ ] Make `PhotoService` to inherit from `PhotoStandardSize`
-	- [ ] Test Photo upload with `postman`. 
-	- [ ] Test the photo URL in the browser
+		- [x] Add all new services to `RepositoryServiceExtensions`
+		- [x] Make `PhotoService` to inherit from `PhotoStandardSize`
+	- [x] Test Photo upload with `postman`. 
+	- [x] Test the photo URL in the browser
 	- [x] Check `MongoDbCompass` doc
 
 
