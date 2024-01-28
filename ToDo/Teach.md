@@ -109,45 +109,46 @@
 	- [x] `Login`: Wrong username or password.
 - [x] Fix TODOs
 	- [x] use `requiredLength` in DOM instead of hard-coded value. 
-- [x] Photo Upload (API)
-	- [x] Add a `Photo` record/model
-	- [x] Install these Nuget packages
-		```C#
-		"SkiaSharp"
-	    "SkiaSharp.NativeAssets.Linux"
-		```
-	- [x] Add `PhotoModifySaveService` and `IPhotoModifySaveService`
-	- [x] Add `PhotoService` and `IPhotoService`
-	- [x] Create an endpoint in `UserController` which takes a file
-		- [x] Validate file (`minSize`, `maxSize`) and `fileType` to be image
-	- [x] Create a method in `UserRepository` and `IUserRepository`
-		- [x] Add `Photo` creation in `_Mapper`
-	- [x] Add `wwwroot` folder to `api` folder
-	- [x] Add all new services to `RepositoryServiceExtensions`
-	- [x] Test in `Postman`
-	- [x] Check `MongoDbCompass` doc
+
 - [x] Reorganize project folders architecture
 	- [x] Remove `PhotoModifySaveService` and `IPhotoModifySaveService` from your project
 	- [x] Create `backend` folder
 	- [x] Move `api` to `backend`
 	- [x] Move `match-finder.sln` to `backend` folder.
-	- [x] From `Solution Explorer` create a `new web (empty)` project called `image-processing`
-	- [x] Install required libraries from `Nuget Gallery` to `image-processing.csproj`
-		```C#
-		"SkiaSharp"
-		"SkiaSharp.NativeAssets.Linux"
-		```
-	- [x] Uninstall above libraries from `api.csproj`
-	- [x] Import the given files into `image-processing` project's folder (_resources folder in git). 
-	- [x] Add a reference of `image-processing` project to `api`
-	- [x] Add these items to `api`'s `globalUsings.cs`
-		```C#
-		global using image_processing.Interfaces;
-		global using image_processing.Services;
-		global using image_processing.Helpers;
-		```
-	- [x] Test Photo upload with postman. 
-- [ ] Test photo in the browser
+- [ ] Photo Upload (API)
+	- [ ] `image-processing` project:
+		- [ ] From `Solution Explorer` create a `new Empty web, empty` project called `image-processing`. (Credit to Iman!)
+		- [x] Add required libraries from `Nuget Gallery` to `image-processing.csproj`
+			```C#
+			"SkiaSharp"
+			"SkiaSharp.NativeAssets.Linux"
+			```
+		- [x] Uninstall above libraries from `api.csproj` (if installed).
+		- [x] From `_resources folder` import the given folders into `image-processing` project's folder ..  (`Helpers`, `Interfaces`, `Services`)
+
+	- [ ] `api` project:
+		- [x] Add a `Photo` record/model
+		- [x] Create an endpoint `AddPhoto` in `UserController` which takes a file
+			- [x] Validate file (`minSize`, `maxSize`) and `fileType` to be image
+		- [x] Create an `UploadPhotoAsync` method in `UserRepository` and `IUserRepository`
+			- [x] Add `Photo` creation in `_Mapper`
+		- [x] Add `wwwroot` folder to `api` folder
+		- [ ] In `api` => `Program.cs`Add `app.UseStaticFiles();` before `app.UseCors();`
+		- [x] Add a reference of `image-processing` project to `api`
+		- [x] Add these items to `api`'s `globalUsings.cs`
+			```C#
+			global using image_processing.Interfaces;
+			global using image_processing.Services;
+			global using image_processing.Helpers;
+			```
+		- [ ] Add all new services to `RepositoryServiceExtensions`
+		- [ ] Make `PhotoService` to inherit from `PhotoStandardSize`
+	- [ ] Test Photo upload with `postman`. 
+	- [ ] Test the photo URL in the browser
+	- [x] Check `MongoDbCompass` doc
+
+
 - [ ] Setup `member-card`. (teach `@input`)
+- [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
 
