@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbbd895d79df6812",
+        "id": "bc866a9396f72282",
         "type": "tabs",
         "children": [
           {
-            "id": "6f5947084f636cbd",
+            "id": "2e62fb6423a730e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,23 +157,25 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6f5947084f636cbd",
+  "active": "2e62fb6423a730e3",
   "lastOpenFiles": [
+    "ToDo/Team.md",
+    "Programming/Update Node & Angular.md",
+    "Programming/Install and Create Angular Project.md",
+    "Programming/0 - Project Steps.md",
+    "ToDo/Teach.md",
     "Programming/lodash.md",
     "Programming/jwt.interceptor.ts.md",
-    "ToDo/Teach.md",
     "Programming/JWT (Token).md",
     "Programming/Claim Principal.md",
     "Programming/DateTimeExtensions.md",
     "OS Setup/1- Linux apps.md",
     "Programming/Debugger-setup.md",
     "Programming/New-sln,-API.md",
-    "Programming/0 - Project Steps.md",
     "Programming/VSCode Setup.md",
     "Programming/Setup in Project.md",
     "Programming/Pattern & Schema.md",
     "Programming/Install MongoDB.md",
-    "Programming/Update Node & Angular.md",
     "Programming/GitHub.md",
     "OS Setup/0- MX Config.md"
   ]

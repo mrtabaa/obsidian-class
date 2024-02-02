@@ -151,4 +151,9 @@
 - [ ] Setup `member-card`. (teach `@input`)
 - [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
+- [ ] Upgrade Angular security
+	- [ ] `npm audit`
+	- [ ] Update `angular/cli` through `npm` 
+	- [ ] Update Angular
+	- [ ] `npm audit`
 
