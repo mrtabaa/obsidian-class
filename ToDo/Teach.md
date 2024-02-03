@@ -148,7 +148,10 @@
 	- [x] Check `MongoDbCompass` doc
 
 
-- [ ] Setup `member-card`. (teach `@input`)
+- [x] Setup `member-card`. (teach `@input`)
+- [ ] Photo Upload (client)
+	- [ ] Create `photo-editor` component
+	- [ ] Install `"ng2-file-upload",`
 - [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
 - [ ] Upgrade Angular security
@@ -156,4 +159,4 @@
 	- [ ] Update `angular/cli` through `npm` 
 	- [ ] Update Angular
 	- [ ] `npm audit`
-
+Add [Transaction](https://www.mongodb.com/products/capabilities/transactions) when needed
