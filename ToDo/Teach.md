@@ -115,9 +115,9 @@
 	- [x] Create `backend` folder
 	- [x] Move `api` to `backend`
 	- [x] Move `match-finder.sln` to `backend` folder.
-- [ ] Photo Upload (API)
-	- [ ] `image-processing` project:
-		- [ ] From `Solution Explorer` create a `new Empty web, empty` project called `image-processing`. (Credit to Iman!)
+- [x] Photo Upload (API)
+	- [x] `image-processing` project:
+		- [x] From `Solution Explorer` create a `new Empty web, empty` project called `image-processing`. (Credit to Iman!)
 		- [x] Add required libraries from `Nuget Gallery` to `image-processing.csproj`
 			```C#
 			"SkiaSharp"
@@ -150,7 +150,7 @@
 
 - [x] Setup `member-card`. (teach `@input`)
 - [ ] Photo Upload (client)
-	- [ ] Create `photo-editor` component
+	- [x] Create `photo-editor` component
 	- [ ] Install `"ng2-file-upload",`
 - [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
