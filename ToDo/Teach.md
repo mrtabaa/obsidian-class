@@ -148,11 +148,11 @@
 - [x] Setup `member-card`. (teach `@input`)
 - [ ] Install [[Postman]] again
 - [ ] Photo Upload (client)
-	- [ ] In `userController` rename `fileInput` to `file` due to the `ng2-file-upload` requirement
-	- [ ] Create `user-edit` component under `components/user` folder
-	- [ ] Move `photo-editor` to `components/user`
-	- [ ] Inject `accountService` to get the `loggedInUser` (we need his/her `id/email`)
-	- [ ] Inject `memberService` to get the `getMemberByEmail()`. Use `loggedInUser.email` to get the logged-in member.
+	- [x] In `UserController` rename `fileInput` to `file` due to the `ng2-file-upload` requirement
+	- [x] Create `user-edit` component under `components/user` folder
+	- [x] Move `photo-editor` to `components/user`
+	- [x] Inject `accountService` to get the `loggedInUser` (we need his/her `id/email`)
+	- [x] Inject `memberService` to get the `getMemberByEmail()`. Use `loggedInUser.email` to get the logged-in member.
 	- [ ] Send this member to `photo-edit.component.ts` using `@Input`
 	- [x] Create `photo-editor` component
 	- [x] Install `"ng2-file-upload",`

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "ToDo/Teach.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -161,9 +161,9 @@
   "lastOpenFiles": [
     "OS Setup/helpers/Postman.md",
     "ToDo/Teach.md",
-    "OS Setup/helpers/Qv2ray on Linux.mp4",
-    "OS Setup/helpers/postman-icon",
     "OS Setup/1- Linux apps.md",
+    "OS Setup/helpers/postman-icon",
+    "OS Setup/helpers/Qv2ray on Linux.mp4",
     "Programming/Install MongoDB.md",
     "ToDo/Team.md",
     "Programming/Update Node & Angular.md",
