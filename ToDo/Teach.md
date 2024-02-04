@@ -109,7 +109,6 @@
 	- [x] `Login`: Wrong username or password.
 - [x] Fix TODOs
 	- [x] use `requiredLength` in DOM instead of hard-coded value. 
-
 - [x] Reorganize project folders architecture
 	- [x] Remove `PhotoModifySaveService` and `IPhotoModifySaveService` from your project
 	- [x] Create `backend` folder
@@ -146,12 +145,18 @@
 	- [x] Test Photo upload with `postman`. 
 	- [x] Test the photo URL in the browser
 	- [x] Check `MongoDbCompass` doc
-
-
 - [x] Setup `member-card`. (teach `@input`)
+- [ ] Install [[Postman]] again
 - [ ] Photo Upload (client)
+	- [ ] In `userController` rename `fileInput` to `file` due to the `ng2-file-upload` requirement
+	- [ ] Create `user-edit` component under `components/user` folder
+	- [ ] Move `photo-editor` to `components/user`
+	- [ ] Inject `accountService` to get the `loggedInUser` (we need his/her `id/email`)
+	- [ ] Inject `memberService` to get the `getMemberByEmail()`. Use `loggedInUser.email` to get the logged-in member.
+	- [ ] Send this member to `photo-edit.component.ts` using `@Input`
 	- [x] Create `photo-editor` component
-	- [ ] Install `"ng2-file-upload",`
+	- [x] Install `"ng2-file-upload",`
+	- [ ] 
 - [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
 - [ ] Upgrade Angular security
