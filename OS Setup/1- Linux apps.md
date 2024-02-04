@@ -32,6 +32,9 @@ BirdTray for Thunderbird (Email client)
 sudo apt install birdtray
 ```
 
+##### From executable files
+[[Postman]]
+
 ##### MX Package Installer
 
 - [x] Kdenlive
@@ -57,13 +60,7 @@ sudo apt install snapd
 ```bash
 sudo snap install core
 ```
-
-- [ ] Postman (similar to ThunderClient)
-```bash
-sudo snap install postman
-```
-
-VidCutter
+3. VidCutter
 ```bash
 sudo snap install vidcutter
 ```
