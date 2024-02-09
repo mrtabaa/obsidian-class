@@ -148,15 +148,39 @@
 - [x] Setup `member-card`. (teach `@input`)
 - [ ] Install [[Postman]] again
 - [ ] Photo Upload (client)
-	- [ ] In `userController` rename `fileInput` to `file` due to the `ng2-file-upload` requirement
-	- [ ] Create `user-edit` component under `components/user` folder
-	- [ ] Move `photo-editor` to `components/user`
-	- [ ] Inject `accountService` to get the `loggedInUser` (we need his/her `id/email`)
-	- [ ] Inject `memberService` to get the `getMemberByEmail()`. Use `loggedInUser.email` to get the logged-in member.
-	- [ ] Send this member to `photo-edit.component.ts` using `@Input`
+	- [x] In `userController` rename `fileInput` to `file` due to the `ng2-file-upload` requirement
+	- [x] Create `user-edit` component under `components/user` folder
+	- [x] Move `photo-editor` to `components/user`
+	- [x] Inject `accountService` to get the `loggedInUser` (we need his/her `id/email`)
+	- [x] Inject `memberService` to get the `getMemberByEmail()`. Use `loggedInUser.email` to get the logged-in member.
+	- [x] Send this member to `photo-edit.component.ts` using `@Input`
 	- [x] Create `photo-editor` component
 	- [x] Install `"ng2-file-upload",`
-	- [ ] 
+	- [ ] Explained `user-edit.component.html` causing `photo-editor` not reloading on browser's refresh. 
+	- [ ] Set `navbar/profile` photo on the first upload:
+		- [ ] `api` and `client` => in `LoggedInUser` model => Add `gender` & `profilePhotoUrl` 
+		- [ ] `api` => `Mappers` => initialize `Gender` and `ProfilePhotoUrl`. `IsMain` photo should be set. 
+		- [ ] In `photo-editor-component.ts` setup `setNavbarProfilePhoto()`
+		- [ ] Now `profilePhotoUrl` is available in `loggedInUserSig`. Use it anywhere in your app like `navbar`. 
+		- [ ] Make it round with `border-radios: 50%`.
+- [ ] Set another photo as main:
+	- [ ] API
+		- [ ] Create appropriate `Controller endpoint` and `Repository method`.
+		- [ ] Test in `Postman`
+	- [ ] Client
+		- [ ] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
+		- [ ] Add `setMainPhoto()` in `user.service`
+		- [ ] Use `setMainPhoto()` in `photo-editor` component
+		- [ ] Add a button in DOM
+		- [ ] Set `loggedInUser` again to change `navbar profile photo`.
+- [ ] Delete photo:
+	- [ ] Make appropriate `Controller endpoint` and `Repository method`.
+	- [ ] Add `DeletePhotoFromDisk()` in `IPhotoService` and `PhotoService`
+	- [ ] Add `deletePhoto()` in `user.service`
+	- [ ] Use `deletePhoto()` in `photo-editor` component
+	- [ ] Add a button in DOM
+	- [ ] Test in `Postman`
+	- [ ] Check TODO items. 
 - [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
 - [ ] Upgrade Angular security
