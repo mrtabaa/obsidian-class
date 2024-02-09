@@ -171,14 +171,14 @@
 		- [ ] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
 		- [ ] Add `setMainPhoto()` in `user.service`
 		- [ ] Use `setMainPhoto()` in `photo-editor` component
-		- [ ] Add a button in DOM
+		- [ ] Add `Set profile` button in `DOM`
 		- [ ] Set `loggedInUser` again to change `navbar profile photo`.
 - [ ] Delete photo:
 	- [ ] Make appropriate `Controller endpoint` and `Repository method`.
 	- [ ] Add `DeletePhotoFromDisk()` in `IPhotoService` and `PhotoService`
 	- [ ] Add `deletePhoto()` in `user.service`
 	- [ ] Use `deletePhoto()` in `photo-editor` component
-	- [ ] Add a button in DOM
+	- [ ] Add `delete` button in `DOM`
 	- [ ] Test in `Postman`
 	- [ ] Check TODO items. 
 - [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
