@@ -156,19 +156,19 @@
 	- [x] Send this member to `photo-edit.component.ts` using `@Input`
 	- [x] Create `photo-editor` component
 	- [x] Install `"ng2-file-upload",`
-	- [ ] Explained `user-edit.component.html` causing `photo-editor` not reloading on browser's refresh. 
-	- [ ] Set `navbar/profile` photo on the first upload:
-		- [ ] `api` and `client` => in `LoggedInUser` model => Add `gender` & `profilePhotoUrl` 
-		- [ ] `api` => `Mappers` => initialize `Gender` and `ProfilePhotoUrl`. `IsMain` photo should be set. 
-		- [ ] In `photo-editor-component.ts` setup `setNavbarProfilePhoto()`
-		- [ ] Now `profilePhotoUrl` is available in `loggedInUserSig`. Use it anywhere in your app like `navbar`. 
-		- [ ] Make it round with `border-radios: 50%`.
+	- [x] Explained `user-edit.component.html` causing `photo-editor` not reloading on browser's refresh. 
+	- [x] Set `navbar/profile` photo on the first upload:
+		- [x] `api` and `client` => in `LoggedInUser` model => Add `gender` & `profilePhotoUrl` 
+		- [x] `api` => `Mappers` => initialize `Gender` and `ProfilePhotoUrl`. `IsMain` photo should be set. 
+		- [x] In `photo-editor-component.ts` setup `setNavbarProfilePhoto()`
+		- [x] Now `profilePhotoUrl` is available in `loggedInUserSig`. Use it anywhere in your app like `navbar`. 
+		- [x] Make it round with `border-radios: 50%`.
 - [ ] Set another photo as main:
-	- [ ] API
-		- [ ] Create appropriate `Controller endpoint` and `Repository method`.
-		- [ ] Test in `Postman`
+	- [x] API
+		- [x] Create appropriate `Controller endpoint` and `Repository method`.
+		- [x] Test in `Postman`
 	- [ ] Client
-		- [ ] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
+		- [x] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
 		- [ ] Add `setMainPhoto()` in `user.service`
 		- [ ] Use `setMainPhoto()` in `photo-editor` component
 		- [ ] Add `Set profile` button in `DOM`
