@@ -9,6 +9,6 @@
 
 - [x] Enable [[Bracket Pairs]]
 
-- [ ] [[Fix VSCode KDE Keyring.odt]]
+- [x] [[Fix VSCode KDE Keyring.odt]]
 
 Back to [[0 - Project Steps]]

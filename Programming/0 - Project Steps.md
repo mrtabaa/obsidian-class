@@ -1,4 +1,3 @@
-
 - [x] [Install .NET-Core SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian) Or [[Upgrade .NET Core]]
 	1. Run this command
 	```bash
@@ -18,7 +17,7 @@ sudo apt-get update && \
   sudo apt-get install -y aspnetcore-runtime-8.0
 ```
 
-- [ ] [[VSCode Setup]]
+- [x] [[VSCode Setup]]
 
 - [x] [[Install MongoDB]]
 

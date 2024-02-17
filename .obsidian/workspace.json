@@ -159,18 +159,21 @@
   },
   "active": "130d017d1d9de431",
   "lastOpenFiles": [
-    "Programming/GitHub.md",
-    "Programming/Pattern & Schema.md",
-    "Programming/Install MongoDB.md",
+    "Programming/0 - Project Steps.md",
     "ToDo/Teach.md",
+    "Programming/Pattern & Schema.md",
+    "Programming/GitHub.md",
+    "Programming/Install and Create Angular Project.md",
+    "Programming/install NVM.md",
+    "Programming/Update Node & Angular.md",
+    "Programming/Install MongoDB.md",
+    "Programming/VSCode Setup.md",
+    "OS Setup/0- MX Config.md",
+    "OS Setup/1- Linux apps.md",
     "OS Setup/helpers/Postman.md",
     "OS Setup/helpers/Qv2ray on Linux.mp4",
     "OS Setup/helpers/postman-icon",
-    "OS Setup/1- Linux apps.md",
     "ToDo/Team.md",
-    "Programming/Update Node & Angular.md",
-    "Programming/Install and Create Angular Project.md",
-    "Programming/0 - Project Steps.md",
     "Programming/lodash.md",
     "Programming/jwt.interceptor.ts.md",
     "Programming/JWT (Token).md",
@@ -178,8 +181,6 @@
     "Programming/DateTimeExtensions.md",
     "Programming/Debugger-setup.md",
     "Programming/New-sln,-API.md",
-    "Programming/VSCode Setup.md",
-    "Programming/Setup in Project.md",
-    "OS Setup/0- MX Config.md"
+    "Programming/Setup in Project.md"
   ]
 }
