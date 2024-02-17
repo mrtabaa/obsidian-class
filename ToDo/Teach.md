@@ -147,7 +147,7 @@
 	- [x] Check `MongoDbCompass` doc
 - [x] Setup `member-card`. (teach `@input`)
 - [ ] Install [[Postman]] again
-- [ ] Photo Upload (client)
+- [x] Photo Upload (client)
 	- [x] In `userController` rename `fileInput` to `file` due to the `ng2-file-upload` requirement
 	- [x] Create `user-edit` component under `components/user` folder
 	- [x] Move `photo-editor` to `components/user`
@@ -180,7 +180,14 @@
 	- [ ] Use `deletePhoto()` in `photo-editor` component
 	- [ ] Add `delete` button in `DOM`
 	- [ ] Test in `Postman`
-	- [ ] Check TODO items. 
+- [ ] Setup `user-edit`
+	- [ ] API
+		- [ ] Create `UserUpdateDto.cs` record/model.
+		- [ ] Create `UpdateUserAsync()` in `UserRepository` to update the user. 
+		- [ ] Update `IUserRepository`
+		- [ ] Test with `Postman`
+	- [ ] Client
+		- [ ] To do
 - [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
 - [ ] Upgrade Angular security
