@@ -167,8 +167,9 @@
 	- [x] API
 		- [x] Create appropriate `Controller endpoint` and `Repository method`.
 		- [x] Test in `Postman`
+		- [ ] Remove unnecessary `<string>` from `ActionResult` since we are not returning a plain string.
 	- [ ] Client
-		- [x] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
+		- [ ] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
 		- [ ] Add `setMainPhoto()` in `user.service`
 		- [ ] Use `setMainPhoto()` in `photo-editor` component
 		- [ ] Add `Set profile` button in `DOM`
