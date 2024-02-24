@@ -163,24 +163,31 @@
 		- [x] In `photo-editor-component.ts` setup `setNavbarProfilePhoto()`
 		- [x] Now `profilePhotoUrl` is available in `loggedInUserSig`. Use it anywhere in your app like `navbar`. 
 		- [x] Make it round with `border-radios: 50%`.
-- [ ] Set another photo as main:
+- [x] Set another photo as main:
 	- [x] API
 		- [x] Create appropriate `Controller endpoint` and `Repository method`.
 		- [x] Test in `Postman`
-		- [ ] Remove unnecessary `<string>` from `ActionResult` since we are not returning a plain string.
+		- [x] Remove unnecessary `<string>` from `ActionResult` since we are not returning a plain string.
 	- [ ] Client
 		- [ ] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
 		- [ ] Add `setMainPhoto()` in `user.service`
 		- [ ] Use `setMainPhoto()` in `photo-editor` component
 		- [ ] Add `Set profile` button in `DOM`
 		- [ ] Set `loggedInUser` again to change `navbar profile photo`.
-- [ ] Delete photo:
-	- [ ] Make appropriate `Controller endpoint` and `Repository method`.
-	- [ ] Add `DeletePhotoFromDisk()` in `IPhotoService` and `PhotoService`
-	- [ ] Add `deletePhoto()` in `user.service`
-	- [ ] Use `deletePhoto()` in `photo-editor` component
-	- [ ] Add `delete` button in `DOM`
-	- [ ] Test in `Postman`
+- [x] Delete photo:
+	- [x] Make appropriate `Controller endpoint` and `Repository method`.
+	- [x] Add `DeletePhotoFromDisk()` in `IPhotoService` and `PhotoService`
+	- [x] Add `deletePhoto()` in `user.service`
+	- [x] Use `deletePhoto()` in `photo-editor` component
+	- [x] Add `delete` button in `DOM`
+	- [x] Test in `Postman`
+- [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
+	- [ ] Delete line 72 of `AccountRepository` (if any).
+	- [ ] Create `LogUserActivity` class and inherit from `IAsyncActionFilter`. 
+	- [ ] Implement `UpdateLastActive` in `AccountRepository`. No `endpoint` needed!
+	- [ ] User `UpdateLastActive` in `LogUserActivity`.
+	- [ ] Add it in `ApplicationServiceExtensions` as a `scoped service`.
+	- [ ] Add `[ServiceFilter(typeof(LogUserActivity))]` to the `BaseApiController`
 - [ ] Setup `user-edit`
 	- [ ] API
 		- [ ] Create `UserUpdateDto.cs` record/model.
@@ -189,7 +196,6 @@
 		- [ ] Test with `Postman`
 	- [ ] Client
 		- [ ] To do
-- [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
 - [ ] Upgrade Angular security
 	- [ ] `npm audit`
