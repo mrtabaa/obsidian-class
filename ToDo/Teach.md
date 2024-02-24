@@ -181,13 +181,13 @@
 	- [x] Use `deletePhoto()` in `photo-editor` component
 	- [x] Add `delete` button in `DOM`
 	- [x] Test in `Postman`
-- [ ] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
-	- [ ] Delete line 72 of `AccountRepository` (if any).
-	- [ ] Create `LogUserActivity` class and inherit from `IAsyncActionFilter`. 
-	- [ ] Implement `UpdateLastActive` in `AccountRepository`. No `endpoint` needed!
-	- [ ] User `UpdateLastActive` in `LogUserActivity`.
-	- [ ] Add it in `ApplicationServiceExtensions` as a `scoped service`.
-	- [ ] Add `[ServiceFilter(typeof(LogUserActivity))]` to the `BaseApiController`
+- [x] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
+	- [x] Delete line 72 of `AccountRepository` (if any). `LoginAsync`
+	- [x] Create `LogUserActivity` class and inherit from `IAsyncActionFilter`. 
+	- [x] Implement `UpdateLastActive()` in `AccountRepository`. No `endpoint` needed!
+	- [x] Use `UpdateLastActive()` in `LogUserActivity`.
+	- [x] Add it in `ApplicationServiceExtensions` as a `scoped service`.
+	- [x] Add `[ServiceFilter(typeof(LogUserActivity))]` to the `BaseApiController`
 - [ ] Setup `user-edit`
 	- [ ] API
 		- [ ] Create `UserUpdateDto.cs` record/model.
