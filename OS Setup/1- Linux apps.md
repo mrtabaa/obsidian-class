@@ -16,6 +16,17 @@
 	```bash
 echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 	```
+- [ ] Telegram
+	1- Download 
+	https://telegram.org/dl/desktop/linux
+	
+	2- Unzip
+	3- Open Telegram
+	
+	4- Set proxy from here
+	https://telegramlite.com/proxy-for-telegram
+	** click on Connect
+
 ##### APT Packages
 - [ ] Git
 ```bash
