@@ -189,13 +189,15 @@
 	- [x] Add it in `ApplicationServiceExtensions` as a `scoped service`.
 	- [x] Add `[ServiceFilter(typeof(LogUserActivity))]` to the `BaseApiController`
 - [ ] Setup `user-edit`
-	- [ ] API
-		- [ ] Create `UserUpdateDto.cs` record/model.
-		- [ ] Create `UpdateUserAsync()` in `UserRepository` to update the user. 
-		- [ ] Update `IUserRepository`
-		- [ ] Test with `Postman`
+	- [x] API
+		- [x] Create `UserUpdateDto.cs` record/model.
+		- [x] Create `UpdateUserAsync()` in `UserRepository` to update the user. 
+		- [x] Update `IUserRepository`
+		- [x] Test with `Postman`
 	- [ ] Client
 		- [ ] To do
+- [ ] Directive. e.g. `toLower()` and `toUpper()`
+- [ ] Scripting VS Programming
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
 - [ ] Upgrade Angular security
 	- [ ] `npm audit`
