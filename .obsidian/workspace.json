@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e2f649e69a113889",
+        "id": "2e8f0f7fe69ae2da",
         "type": "tabs",
         "children": [
           {
-            "id": "130d017d1d9de431",
+            "id": "897b5e47afbd03d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,8 +157,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "130d017d1d9de431",
+  "active": "897b5e47afbd03d0",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "OS Setup/1- Linux apps.md",
     "ToDo/Teach.md",
     "Programming/0 - Project Steps.md",
@@ -170,6 +171,12 @@
     "Programming/Install MongoDB.md",
     "Programming/VSCode Setup.md",
     "OS Setup/0- MX Config.md",
+=======
+    "Programming/GitHub.md",
+    "ToDo/Teach.md",
+    "Programming/Pattern & Schema.md",
+    "Programming/Install MongoDB.md",
+>>>>>>> Stashed changes
     "OS Setup/helpers/Postman.md",
     "OS Setup/helpers/Qv2ray on Linux.mp4",
     "OS Setup/helpers/postman-icon",

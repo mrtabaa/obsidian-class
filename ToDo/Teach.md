@@ -168,12 +168,12 @@
 		- [x] Create appropriate `Controller endpoint` and `Repository method`.
 		- [x] Test in `Postman`
 		- [x] Remove unnecessary `<string>` from `ActionResult` since we are not returning a plain string.
-	- [ ] Client
-		- [ ] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
-		- [ ] Add `setMainPhoto()` in `user.service`
-		- [ ] Use `setMainPhoto()` in `photo-editor` component
-		- [ ] Add `Set profile` button in `DOM`
-		- [ ] Set `loggedInUser` again to change `navbar profile photo`.
+	- [x] Client
+		- [x] Create `UpdateResult`  model in `models/helpers/update-result.model.ts`
+		- [x] Add `setMainPhoto()` in `user.service`
+		- [x] Use `setMainPhoto()` in `photo-editor` component
+		- [x] Add `Set profile` button in `DOM`
+		- [x] Set `loggedInUser` again to change `navbar profile photo`.
 - [x] Delete photo:
 	- [x] Make appropriate `Controller endpoint` and `Repository method`.
 	- [x] Add `DeletePhotoFromDisk()` in `IPhotoService` and `PhotoService`
@@ -188,6 +188,10 @@
 	- [x] Use `UpdateLastActive()` in `LogUserActivity`.
 	- [x] Add it in `ApplicationServiceExtensions` as a `scoped service`.
 	- [x] Add `[ServiceFilter(typeof(LogUserActivity))]` to the `BaseApiController`
+- [ ] Switch from `token` to `loggedInUser` in `app.component`'s `localStorage`. Apply anywhere it's used.
+	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a reposityory.
+	- [ ] Remove `GetLoggedInUserAsync()` from `AccountRepository`
+	- [ ] Fix `authGuard`
 - [ ] Setup `user-edit`
 	- [x] API
 		- [x] Create `UserUpdateDto.cs` record/model.
