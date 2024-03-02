@@ -188,10 +188,6 @@
 	- [x] Use `UpdateLastActive()` in `LogUserActivity`.
 	- [x] Add it in `ApplicationServiceExtensions` as a `scoped service`.
 	- [x] Add `[ServiceFilter(typeof(LogUserActivity))]` to the `BaseApiController`
-- [ ] Switch from `token` to `loggedInUser` in `app.component`'s `localStorage`. Apply anywhere it's used.
-	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a reposityory.
-	- [ ] Remove `GetLoggedInUserAsync()` from `AccountRepository`
-	- [ ] Fix `authGuard`
 - [ ] Setup `user-edit`
 	- [x] API
 		- [x] Create `UserUpdateDto.cs` record/model.
@@ -199,9 +195,23 @@
 		- [x] Update `IUserRepository`
 		- [x] Test with `Postman`
 	- [ ] Client
-		- [ ] To do
+		- [ ] Implement `updateUser()` 
+- [ ] Loading using `ngx-spinner`
+	- [ ] Install `ngx-spinner`
+	- [ ] Create `LoadingService.ts`
+	- [ ] Setup the appropriate style in `angular.json`
+	- [ ] Create `LoadingInterceptor`
+	- [ ] Register it in `appConfig`
+	- [ ] Use it in `app-component`
+- [ ] Complete navbar links
+	- [ ] `MatTabsModule`,
+	- [ ] Links list
+	- [ ] Use in DOM and style it. 
+- [ ] Switch from `token` to `loggedInUser` in `app.component`'s `localStorage`. Apply anywhere it's used.
+	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a reposityory.
+	- [ ] Remove `GetLoggedInUserAsync()` from `AccountRepository`
+	- [ ] Fix `authGuard`
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
-- [ ] Scripting VS Programming
 - [ ] Install [[lodash]] to generate `numbers[]` from 18 to 99.
 - [ ] Upgrade Angular security
 	- [ ] `npm audit`
