@@ -188,25 +188,25 @@
 	- [x] Use `UpdateLastActive()` in `LogUserActivity`.
 	- [x] Add it in `ApplicationServiceExtensions` as a `scoped service`.
 	- [x] Add `[ServiceFilter(typeof(LogUserActivity))]` to the `BaseApiController`
-- [ ] Setup `user-edit`
+- [x] Setup `user-edit`
 	- [x] API
 		- [x] Create `UserUpdateDto.cs` record/model.
 		- [x] Create `UpdateUserAsync()` in `UserRepository` to update the user. 
 		- [x] Update `IUserRepository`
 		- [x] Test with `Postman`
-	- [ ] Client
-		- [ ] Implement `updateUser()` 
-- [ ] Loading using `ngx-spinner`
-	- [ ] Install `ngx-spinner`
-	- [ ] Create `LoadingService.ts`
-	- [ ] Setup the appropriate style in `angular.json`
-	- [ ] Create `LoadingInterceptor`
-	- [ ] Register it in `appConfig`
-	- [ ] Use it in `app-component`
-- [ ] Complete navbar links
-	- [ ] `MatTabsModule`,
-	- [ ] Links list
-	- [ ] Use in DOM and style it. 
+	- [x] Client
+		- [x] Implement `updateUser()` 
+- [x] Loading using `ngx-spinner`
+	- [x] Install `ngx-spinner`
+	- [x] Setup the appropriate style in `angular.json`
+	- [x] Create `LoadingService.ts`
+	- [x] Create `LoadingInterceptor`
+	- [x] Register it in `appConfig`
+	- [x] Use it in `app-component`
+- [x] Complete navbar links
+	- [x] `MatTabsModule`,
+	- [x] Links list
+	- [x] Use in DOM and style it. 
 - [ ] Switch from `token` to `loggedInUser` in `app.component`'s `localStorage`. Apply anywhere it's used.
 	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a reposityory.
 	- [ ] Remove `GetLoggedInUserAsync()` from `AccountRepository`
