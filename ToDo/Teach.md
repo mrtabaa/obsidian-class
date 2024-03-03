@@ -208,16 +208,16 @@
 	- [x] Links list
 	- [x] Use in DOM and style it. 
 - [ ] Error Handling
-	- [ ] Client
-		- [ ] Add `error.interceptor`
-		- [ ] Make sure routing addresses match `app.routes`
-		- [ ] Update `app.config`
-		- [ ] Design the error components as you like.
+	- [x] Client
+		- [x] Add `error.interceptor`
+		- [x] Make sure routing addresses match `app.routes`
+		- [x] Update `app.config`
+		- [x] Design the error components as you like.
 	- [ ] API
-		- [ ] Use `ExceptionController` as an example.
-		- [ ] Create a `ExceptionMiddleware` class
+		- [x] Use `ExceptionController` as an example.
+		- [x] Create a `ExceptionMiddleware` class
 		- [ ] Create `ApiException` record to store exceptions in DB. 
-		- [ ] Register it in `Program.cs`
+		- [x] Register it in `Program.cs`
 - [ ] Switch from `token` to `loggedInUser` in `app.component`'s `localStorage`. Apply anywhere it's used.
 	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a reposityory.
 	- [ ] Remove `GetLoggedInUserAsync()` from `AccountRepository`
