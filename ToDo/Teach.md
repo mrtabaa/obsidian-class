@@ -136,9 +136,9 @@
 		- [x] Add a reference of `image-processing` project to `api`
 		- [x] Add these items to `api`'s `globalUsings.cs`
 			```C#
-			global using image_processing.Interfaces;
-			global using image_processing.Services;
-			global using image_processing.Helpers;
+		global using image_processing.Interfaces;
+		global using image_processing.Services;
+		global using image_processing.Helpers;
 			```
 		- [x] Add all new services to `RepositoryServiceExtensions`
 		- [x] Make `PhotoService` to inherit from `PhotoStandardSize`
@@ -210,6 +210,7 @@
 - [ ] Error Handling
 	- [x] Client
 		- [x] Add `error.interceptor`
+			- [ ] Explain `modelStateErrors`
 		- [x] Make sure routing addresses match `app.routes`
 		- [x] Update `app.config`
 		- [x] Design the error components as you like.
@@ -218,8 +219,29 @@
 		- [x] Create a `ExceptionMiddleware` class
 		- [ ] Create `ApiException` record to store exceptions in DB. 
 		- [x] Register it in `Program.cs`
+- [ ] Fix `User Since / Created` in `user-edit`.
+- [ ] `Encapsulation` with traditional  `Properties/props`. (The new way is`record`).
+	- [ ] Class with one constructor - `Parameter-less`.
+	- [ ] Class with one constructor - With `Parameter/s`.
+		- [ ] with 1 parameter.
+		- [ ] with 2 parameters.
+	- [ ] `Full prop` with conditions
+	- [ ] `Short prop`
+		- [ ] Without default value
+		- [ ] With default value
+	- [ ] Remove extra lines (show in 1 line)
+- [ ] Pagination
+	- [ ] API
+		- [ ] `Helpers` folder => Create `PagedList`
+		- [ ] `Helpers` folder => Create `PaginationParams`
+		- [ ] `Extensions` folder => Add `HttpExtensions`
+		- [ ] `Models` folder => `Helpers` folder => Create a `PaginationHeader` record.
+		- [ ] `MemberController` => Adjust `GetAll` appropriately.
+		- [ ] Test it in `Postman`. Check `Response`'s `Headers`.
+	- [ ] Client
+		- [ ] Will do...
 - [ ] Switch from `token` to `loggedInUser` in `app.component`'s `localStorage`. Apply anywhere it's used.
-	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a reposityory.
+	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a repository.
 	- [ ] Remove `GetLoggedInUserAsync()` from `AccountRepository`
 	- [ ] Fix `authGuard`
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
