@@ -210,30 +210,29 @@
 - [ ] Error Handling
 	- [x] Client
 		- [x] Add `error.interceptor`
-			- [ ] Explain `modelStateErrors`
+			- [x] Explain `modelStateErrors`
 		- [x] Make sure routing addresses match `app.routes`
 		- [x] Update `app.config`
 		- [x] Design the error components as you like.
 	- [ ] API
 		- [x] Use `ExceptionController` as an example.
-		- [x] Create a `ExceptionMiddleware` class
-		- [ ] Create `ApiException` record to store exceptions in DB. 
+		- [ ] Create a `ExceptionMiddleware` class
+		- [x] Create `ApiException` record to store exceptions in DB. 
 		- [x] Register it in `Program.cs`
-- [ ] Fix `User Since / Created` in `user-edit`.
-- [ ] `Encapsulation` with traditional  `Properties/props`. (The new way is`record`).
-	- [ ] Class with one constructor - `Parameter-less`.
-	- [ ] Class with one constructor - With `Parameter/s`.
-		- [ ] with 1 parameter.
-		- [ ] with 2 parameters.
-	- [ ] `Full prop` with conditions
-	- [ ] `Short prop`
-		- [ ] Without default value
-		- [ ] With default value
-	- [ ] Remove extra lines (show in 1 line)
+- [x] Fix `User Since / Created` in `user-edit`.
+- [x] `Encapsulation` with traditional  `Properties/props`. (The new way is`record`).
+	- [x] Class with one constructor - `Parameter-less`.
+	- [x] Class with one constructor - With `Parameter/s`.
+		- [x] with 1 parameter.
+		- [x] with 2 parameters.
+	- [x] `Full prop` with conditions
+	- [x] `Short prop`
+		- [x] Without default value
+		- [x] With default value
 - [ ] Pagination
 	- [ ] API
-		- [ ] `Helpers` folder => Create `PagedList`
-		- [ ] `Helpers` folder => Create `PaginationParams`
+		- [x] `Helpers` folder => Create `PagedList`
+		- [x] `Helpers` folder => Create `PaginationParams`
 		- [ ] `Extensions` folder => Add `HttpExtensions`
 		- [ ] `Models` folder => `Helpers` folder => Create a `PaginationHeader` record.
 		- [ ] `MemberController` => Adjust `GetAll` appropriately.
