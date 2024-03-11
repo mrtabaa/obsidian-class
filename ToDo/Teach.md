@@ -146,7 +146,7 @@
 	- [x] Test the photo URL in the browser
 	- [x] Check `MongoDbCompass` doc
 - [x] Setup `member-card`. (teach `@input`)
-- [ ] Install [[Postman]] again
+- [x] Install [[Postman]] again
 - [x] Photo Upload (client)
 	- [x] In `userController` rename `fileInput` to `file` due to the `ng2-file-upload` requirement
 	- [x] Create `user-edit` component under `components/user` folder
@@ -207,16 +207,16 @@
 	- [x] `MatTabsModule`,
 	- [x] Links list
 	- [x] Use in DOM and style it. 
-- [ ] Error Handling
+- [x] Error Handling
 	- [x] Client
 		- [x] Add `error.interceptor`
 			- [x] Explain `modelStateErrors`
 		- [x] Make sure routing addresses match `app.routes`
 		- [x] Update `app.config`
 		- [x] Design the error components as you like.
-	- [ ] API
+	- [x] API
 		- [x] Use `ExceptionController` as an example.
-		- [ ] Create a `ExceptionMiddleware` class
+		- [x] Create a `ExceptionMiddleware` class
 		- [x] Create `ApiException` record to store exceptions in DB. 
 		- [x] Register it in `Program.cs`
 - [x] Fix `User Since / Created` in `user-edit`.
@@ -230,15 +230,20 @@
 		- [x] Without default value
 		- [x] With default value
 - [ ] Pagination
-	- [ ] API
+	- [x] API
 		- [x] `Helpers` folder => Create `PagedList`
 		- [x] `Helpers` folder => Create `PaginationParams`
-		- [ ] `Extensions` folder => Add `HttpExtensions`
-		- [ ] `Models` folder => `Helpers` folder => Create a `PaginationHeader` record.
-		- [ ] `MemberController` => Adjust `GetAll` appropriately.
-		- [ ] Test it in `Postman`. Check `Response`'s `Headers`.
+		- [x] `Extensions` folder => Add `HttpExtensions`
+		- [x] `Models` folder => `Helpers` folder => Create a `PaginationHeader` record.
+		- [x] `MemberController` => Adjust `GetAll` appropriately.
+		- [x] Test it in `Postman`. Check `Response`'s `Headers`.
 	- [ ] Client
-		- [ ] Will do...
+		- [x] Create `pagination.ts`
+		- [x] Create `paginatedResult.ts`
+		- [x] Modify `MemberService`
+		- [x] Use `memberService.getAll()` in `member-list`.
+		- [x] Setup and implement the `Paginator` of Angular Material.
+		- [ ] Create `paginationHandler.ts` and make pagination `Generic/Reusable`.
 - [ ] Switch from `token` to `loggedInUser` in `app.component`'s `localStorage`. Apply anywhere it's used.
 	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a repository.
 	- [ ] Remove `GetLoggedInUserAsync()` from `AccountRepository`
