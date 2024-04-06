@@ -229,7 +229,7 @@
 	- [x] `Short prop`
 		- [x] Without default value
 		- [x] With default value
-- [ ] Pagination
+- [x] Pagination
 	- [x] API
 		- [x] `Helpers` folder => Create `PagedList`
 		- [x] `Helpers` folder => Create `PaginationParams`
@@ -237,32 +237,32 @@
 		- [x] `Models` folder => `Helpers` folder => Create a `PaginationHeader` record.
 		- [x] `MemberController` => Adjust `GetAll` appropriately.
 		- [x] Test it in `Postman`. Check `Response`'s `Headers`.
-	- [ ] Client
+	- [x] Client
 		- [x] Create `pagination.ts`
 		- [x] Create `paginatedResult.ts`
 		- [x] Modify `MemberService`
 		- [x] Use `memberService.getAll()` in `member-list`.
 		- [x] Setup and implement the `Paginator` of Angular Material.
-		- [ ] Create `paginationHandler.ts` to make pagination `Generic/Reusable`.
-			- [ ] `PaginatedResult` => Rename `result` to `body`
-			- [ ] Create a folder called `extensions`
-			- [ ] Create a class called `PaginationHandler` and implement its `getPaginatedResult<T>(...)` method. 
-			- [ ] Send  `url` and `params` and get the `paginatedResult` anywhere needed in the app.
-- [ ] On page refresh: Switch from `token` to `loggedInUser`.
-	- [ ] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a repository.
-	- [ ] Remove `GetLoggedInUserAsync()` from `AccountRepository`
-	- [ ] `AccountService` => 
-		- [ ] Create `authorizeLoggedInUser()`
-		- [ ] Delete `getLoggedInUser()`
-		- [ ] In `setCurrentUser` change `token` to `loggedInUser`
-	- [ ] `AppComponent` =>
-		- [ ] Create `initUserOnPageRefresh()`
-		- [ ] Delete `getLocalStorageCurrentValues()`
-	- [ ] Change `token` codes to `loggedInUser`
-		- [ ] `authGuard`
-		- [ ] `authLoggedInGuard` 
-		- [ ] `jwtInterceptor`
-	- [ ] `UserEditComponent` => Get the `loggedInUser` from `localStorge` instead of `api`
+		- [x] Create `paginationHandler.ts` to make pagination `Generic/Reusable`.
+			- [x] `PaginatedResult` => Rename `result` to `body`
+			- [x] Create a folder called `extensions`
+			- [x] Create a class called `PaginationHandler` and implement its `getPaginatedResult<T>(...)` method. 
+			- [x] Send  `url` and `params` and get the `paginatedResult` anywhere needed in the app.
+- [x] On page refresh: Switch from `token` to `loggedInUser`.
+	- [x] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a repository.
+	- [x] Remove `GetLoggedInUserAsync()` from `AccountRepository`
+	- [x] `AccountService` => 
+		- [x] Create `authorizeLoggedInUser()`
+		- [x] Delete `getLoggedInUser()`
+		- [x] In `setCurrentUser` change `token` to `loggedInUser`
+	- [x] `AppComponent` =>
+		- [x] Create `initUserOnPageRefresh()`
+		- [x] Delete `getLocalStorageCurrentValues()`
+	- [x] Change `token` codes to `loggedInUser`
+		- [x] `authGuard`
+		- [x] `authLoggedInGuard` 
+		- [x] `jwtInterceptor`
+	- [x] `UserEditComponent` => Get the `loggedInUser` from `localStorge` instead of `api`.
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
 - [ ] Implement [[NET User Secrets]]
 - [ ] Upgrade Angular security

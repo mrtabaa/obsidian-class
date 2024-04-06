@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "ToDo/Teach.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -159,12 +159,9 @@
   },
   "active": "6e0c2e0ae38b9778",
   "lastOpenFiles": [
-    "Programming/GitHub.md",
     "Programming/NET User Secrets.md",
+    "OS Setup/helpers/Postman.md",
     "ToDo/Teach.md",
-    "Programming/New-sln,-API.md",
-    "Programming/0 - Project Steps.md",
-    "ToDo/Team.md",
-    "OS Setup/helpers/Postman.md"
+    "ToDo/Team.md"
   ]
 }
