@@ -147,6 +147,7 @@
 	- [x] Check `MongoDbCompass` doc
 - [x] Setup `member-card`. (teach `@input`)
 - [x] Install [[Postman]] again
+
 - [x] Photo Upload (client)
 	- [x] In `userController` rename `fileInput` to `file` due to the `ng2-file-upload` requirement
 	- [x] Create `user-edit` component under `components/user` folder
@@ -163,6 +164,7 @@
 		- [x] In `photo-editor-component.ts` setup `setNavbarProfilePhoto()`
 		- [x] Now `profilePhotoUrl` is available in `loggedInUserSig`. Use it anywhere in your app like `navbar`. 
 		- [x] Make it round with `border-radios: 50%`.
+
 - [x] Set another photo as main:
 	- [x] API
 		- [x] Create appropriate `Controller endpoint` and `Repository method`.
@@ -174,6 +176,7 @@
 		- [x] Use `setMainPhoto()` in `photo-editor` component
 		- [x] Add `Set profile` button in `DOM`
 		- [x] Set `loggedInUser` again to change `navbar profile photo`.
+
 - [x] Delete photo:
 	- [x] Make appropriate `Controller endpoint` and `Repository method`.
 	- [x] Add `DeletePhotoFromDisk()` in `IPhotoService` and `PhotoService`
@@ -188,6 +191,7 @@
 	- [x] Use `UpdateLastActive()` in `LogUserActivity`.
 	- [x] Add it in `ApplicationServiceExtensions` as a `scoped service`.
 	- [x] Add `[ServiceFilter(typeof(LogUserActivity))]` to the `BaseApiController`
+
 - [x] Setup `user-edit`
 	- [x] API
 		- [x] Create `UserUpdateDto.cs` record/model.
@@ -196,6 +200,7 @@
 		- [x] Test with `Postman`
 	- [x] Client
 		- [x] Implement `updateUser()` 
+
 - [x] Loading using `ngx-spinner`
 	- [x] Install `ngx-spinner`
 	- [x] Setup the appropriate style in `angular.json`
@@ -203,10 +208,12 @@
 	- [x] Create `LoadingInterceptor`
 	- [x] Register it in `appConfig`
 	- [x] Use it in `app-component`
+
 - [x] Complete navbar links
 	- [x] `MatTabsModule`,
 	- [x] Links list
 	- [x] Use in DOM and style it. 
+
 - [x] Error Handling
 	- [x] Client
 		- [x] Add `error.interceptor`
@@ -219,7 +226,9 @@
 		- [x] Create a `ExceptionMiddleware` class
 		- [x] Create `ApiException` record to store exceptions in DB. 
 		- [x] Register it in `Program.cs`
+
 - [x] Fix `User Since / Created` in `user-edit`.
+
 - [x] `Encapsulation` with traditional  `Properties/props`. (The new way is`record`).
 	- [x] Class with one constructor - `Parameter-less`.
 	- [x] Class with one constructor - With `Parameter/s`.
@@ -229,6 +238,7 @@
 	- [x] `Short prop`
 		- [x] Without default value
 		- [x] With default value
+
 - [x] Pagination
 	- [x] API
 		- [x] `Helpers` folder => Create `PagedList`
@@ -248,6 +258,7 @@
 			- [x] Create a folder called `extensions`
 			- [x] Create a class called `PaginationHandler` and implement its `getPaginatedResult<T>(...)` method. 
 			- [x] Send  `url` and `params` and get the `paginatedResult` anywhere needed in the app.
+
 - [x] On page refresh: Switch from `token` to `loggedInUser`.
 	- [x] In `AccountController` change `GetLoggedInUser()` to `AuthorizeLoggedInUser()`. No need to call a repository.
 	- [x] Remove `GetLoggedInUserAsync()` from `AccountRepository`
@@ -263,6 +274,27 @@
 		- [x] `authLoggedInGuard` 
 		- [x] `jwtInterceptor`
 	- [x] `UserEditComponent` => Get the `loggedInUser` from `localStorge` instead of `api`.
+
+- [ ] Handle Users by `AspNetCore.Identity.MongoDbCore`:
+	- [ ] Rename `MongoDbSettings` and `IMongoDbSettings` to `MyMongoDbSettings` and `IMyMongoDbSettings`. (Including file names)
+	- [ ] From `Nuget Manager` install `AspNetCore.Identity.MongoDbCore`
+	- [ ] `IdentityServiceExtension`=> Add `MongoIdentity & Role` section.
+	- [ ] `AppUser`=> 
+		- [ ] Convert `record` to `class` with `props`. 
+		- [ ] Add `[CollectionName("users")]`
+		- [ ] Inherit from `MongoIdentityUser<ObjectId>`
+		- [ ] Remove anything that `MongoIdentityUser` provides like: `Email, Password, Username, Created, etc.`
+	- [ ] `Mapper` => 
+		- [ ] Update `ConvertRegisterDtoToAppUser` by convert `AppUser` from `record` structure to `class`.
+		- [ ] Find other errors in other methods and fix them.
+	- [ ] Improve `LoggedInDto` by converting from `record` to `class`. Add some `boolean` 
+	- [ ] `AccountRepository` => Use `UserManager<AppUser>` to `Create/Login` users instead of manual way. 
+	- [ ] Convert all `string Id` to `ObjectId Id`.
+	- [ ] Fix any other errors that might happen appropriately. 
+	- [ ] Test the `api` with `Postman`
+- [ ] Assign `Roles` to `users/members`:
+	- [ ] 
+
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
 - [ ] Implement [[NET User Secrets]]
 - [ ] Upgrade Angular security
