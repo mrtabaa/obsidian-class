@@ -274,62 +274,58 @@
 		- [x] `authLoggedInGuard` 
 		- [x] `jwtInterceptor`
 	- [x] `UserEditComponent` => Get the `loggedInUser` from `localStorge` instead of `api`.
-	- [ ] `AccountRepository` => Remove `ReloadLoggedInUserAsync()`
+	- [x] `AccountRepository` => Remove `ReloadLoggedInUserAsync()`
 
 - [ ] Handle Users by `AspNetCore.Identity.MongoDbCore`:
 	- [ ] API
 		###### Setup
-		- [ ] Rename to prevent `AspNetCore.Identity.MongoDbCore` conflicts:
-			- [ ] `MongoDbSettings` to `MyMongoDbSettings`.
-			- [ ] `IMongoDbSettings` to  and `IMyMongoDbSettings`. 
-			- [ ] Rename their file names.
-			- [ ] `appsettings.development.json` => Rename `MongoDbSettings` to `MyMongoDbSettings`
-			- [ ] From `Nuget Manager` install `AspNetCore.Identity.MongoDbCore`
+		- [x] Rename to prevent `AspNetCore.Identity.MongoDbCore` conflicts:
+			- [x] `MongoDbSettings` to `MyMongoDbSettings`.
+			- [x] `IMongoDbSettings` to  and `IMyMongoDbSettings`. 
+			- [x] Rename their file names.
+			- [x] `appsettings.development.json` => Rename `MongoDbSettings` to `MyMongoDbSettings`
+			- [x] From `Nuget Manager` install `AspNetCore.Identity.MongoDbCore`
 		###### Create/Login user
-		- [ ] `Models` folder => Place `AppRole` model. (Will be used in `Assign Roles`)
-		- [ ] `IdentityServiceExtension`=> Add `MongoIdentity & Role` section.
-		- [ ] `AppUser`=> 
-			- [ ] Convert `record` to `class` with `props`. 
-			- [ ] Add `[CollectionName("users")]`
-			- [ ] Inherit from `MongoIdentityUser<ObjectId>`
-			- [ ] Remove anything that `MongoIdentityUser` provides like: `Email, Password, Username, Created, etc.`
-		- [ ] `Mapper` => 
-			- [ ] Update `ConvertRegisterDtoToAppUser` by convert `AppUser` from `record` structure to `class`.
-			- [ ] Find other errors in other methods and fix them.
-		- [ ] Improve `LoggedInDto` by converting from `record` to `class`. Add some `boolean` 
-		- [ ] `AccountRepository` => Use `UserManager<AppUser>`:
-			- [ ] `CreateAsync` => Use `UserManager` to create a user.
-			- [ ] `LoginAsync` => Use `UserManager` to login the user.
-		- [ ] Convert all `ObjectId Id` to `string Id`. (If Advance+ => Using a `hashed Objcedid`)
-		- [ ] Fix any other errors that might happen appropriately. 
-		- [ ] `Postman`:
-			- [ ] Register an account.
-			- [ ] Login to the account.
+		- [x] `Models` folder => Place `AppRole` model. (Will be used in `Assign Roles`)
+		- [x] `IdentityServiceExtension`=> Add `MongoIdentity & Role` section.
+		- [x] `AppUser`=> 
+			- [x] Convert `record` to `class` with `props`. 
+			- [x] Add `[CollectionName("users")]`
+			- [x] Inherit from `MongoIdentityUser<ObjectId>`
+			- [x] Remove anything that `MongoIdentityUser` provides like: `Email, Password, Username, Created, etc.`
+		- [x] `Mapper` => 
+			- [x] Update `ConvertRegisterDtoToAppUser` by convert `AppUser` from `record` structure to `class`.
+			- [x] Find other errors in other methods and fix them.
+		- [x] Improve `LoggedInDto` by converting from `record` to `class`. Add some `boolean` 
+		- [x] `AccountRepository` => Use `UserManager<AppUser>`:
+			- [x] `CreateAsync` => Use `UserManager` to create a user. Add `member` role to any user which will be created from now on.
+			- [x] `LoginAsync` => Use `UserManager` to login the user.
+		- [x] Convert all `ObjectId Id` to `string Id`. (If Advance+ => Using a `hashed Objcedid`)
+		- [x] Fix any other errors that might happen appropriately. 
+		- [x] `Postman`:
+			- [x] Register an account.
+			- [x] Login to the account.
 		###### Assign `Roles`
-		- [ ] Create base users and roles:
-			- [ ] Drop the old database.
-			- [ ] `Controllers` folder => `Help` folder => Create `SeedController`
-			- [ ] Run it in `Postman`
+		- [x] Create base users and roles:
+			- [x] Drop the old database.
+			- [x] `Controllers` folder => `Help` folder => Create `SeedController`
+			- [x] Run it in `Postman`
 		- [ ] Manage and Apply Roles (Advanced way):
-			- [ ] `IdentityServiceExtensions` => Create as many `policy` as needed. e.g. `RequiredAdminRole`.
+			- [ ] `IdentityServiceExtensions` => Create as many `policy` as needed. Example: `RequiredAdminRole`.
 			- [ ] `TokenService` => Add roles to the `token`'s `claims`:
-				- [ ] Add `UserManager<AppUser>`
-				- [ ] Convert `CreateToken()` to `async` and add `CancellationToken` wherever needed.
-				- [ ] Fix all `console` errors.
-				- [ ] `TokenService` => get the logged-in `AppUser`'s roles and add them to the `token`.
+				- [x] Add `UserManager<AppUser>`
+				- [x] Fix all `console` errors.
+				- [x] `TokenService` => get the logged-in `AppUser`'s roles and add them to the `token`.
 			- [ ] Create `AdminController` and `AdminRepository`  
-				- [ ] Use `RequiredAdminRole` policy on the `class` or an `endpoint`
-				- [ ] Create `GetUsersWithRoles()` to get all users with their roles. 
+				- [ ] Apply `RequiredAdminRole` policy on the `class` or an `endpoint`
+				- [ ] Create `MemberWithRoleDto`
 				- [ ] Create `GetUsersWithRoles()` to get all users with their roles. 
 				- [ ] Create other methods to `Manage Roles` as needed. 
-		- [ ] `AccountRepository` => `CreateAsync` => Add `member` role to any user which will be created from now on.
-		- [ ] Register a `UserName / Email` called `admin / admin@a.com`
-		- [ ] `Mongo Compass` => `users` => `admin` => Change its role to `admin` and save. 
-		- [ ] Create `AdminController` and `AdminRepository` to create roles. 
 	- [ ] CLIENT
 		- [ ] 
 
 Advance+
+- [ ] Filter by age, activities and gender.
 - [ ] Change `string Id` to `ObjectId Id` and `hash` them. 
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
 - [ ] Implement [[NET User Secrets]]
