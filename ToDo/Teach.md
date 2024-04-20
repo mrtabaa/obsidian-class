@@ -338,6 +338,8 @@
 Advance+
 - [ ] Filter by age, activities and gender.
 - [ ] Change `string Id` to `ObjectId Id` and `hash` them. 
+- [ ] `HasRoleDirective` for advanced client role management.
+- [ ] Separate `AdminPanel` from `UserManagement` and `PhotoManagement`
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
 - [ ] Implement [[NET User Secrets]]
 - [ ] Upgrade Angular security
