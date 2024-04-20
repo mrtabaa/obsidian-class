@@ -318,12 +318,23 @@
 				- [x] `TokenService` => get the logged-in `AppUser`'s roles and add them to the `token`.
 			- [ ] Create `AdminController` and `AdminRepository`  
 				- [ ] Apply `RequiredAdminRole` policy on the `class` or an `endpoint`
-				- [ ] Create `MemberWithRoleDto`
+				- [ ] Create `UserWithRoleDto`
 				- [ ] Create `GetUsersWithRoles()` to get all users with their roles. 
+					- [ ] Test `policy` in `Postman` from `admin@a.com` and `a@a.com`.
+				- [ ] Create `SuspendMember()`
+				- [ ] Create `DeleteMember()`
 				- [ ] Create other methods to `Manage Roles` as needed. 
 	- [ ] CLIENT
-		- [ ] 
-
+		- [ ] `errorInterceptor` => Add the `403` error for `Forbiden` requests and navigate to `NoAccessComponent`.
+		- [ ] Create `AdminService` and implement the needed `HttpClient` requests. 
+		- [ ] Create `AdminPanelComponent` and try to show all users with roles.
+			- [ ] Try both `admin@a.com` and `a@a.com`.
+		- [ ] Hide parts based on the `loggedInUser`'s roles. 
+			- [ ] `AccountService` => Create `setLoggedInUserRoles()`
+				- [ ] Decode the token using `atob`
+			- [ ] Add it to `setCurrentUser()` and update `loggedInUserSig`
+			- [ ] Call the `roles` from `NavbarComponent` and hide the `admin` tab using `@if / @else if`
+		- [ ] Login to `a@a.com` and manually enter `localhost:4200/admin` to test the protection. 
 Advance+
 - [ ] Filter by age, activities and gender.
 - [ ] Change `string Id` to `ObjectId Id` and `hash` them. 
