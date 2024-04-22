@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0919f1c5de8e7d19",
+        "id": "d789d47e81bf6052",
         "type": "tabs",
         "children": [
           {
-            "id": "6e0c2e0ae38b9778",
+            "id": "048cd4241babd9a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,11 +157,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6e0c2e0ae38b9778",
+  "active": "048cd4241babd9a5",
   "lastOpenFiles": [
+    "Programming/install NVM.md",
+    "Programming/Install and Create Angular Project.md",
+    "ToDo/Teach.md",
     "ToDo/Team.md",
     "OS Setup/helpers/Postman.md",
-    "ToDo/Teach.md",
     "Programming/NET User Secrets.md"
   ]
 }
