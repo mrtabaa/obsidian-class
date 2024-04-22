@@ -344,10 +344,11 @@ Advance+
 - [ ] Separate `AdminPanel` from `UserManagement` and `PhotoManagement`
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
 - [ ] Implement [[NET User Secrets]]
+- [ ] Add db [Transaction](https://www.mongodb.com/products/capabilities/transactions) 
+	- [ ] Activate `MongoDb Replica`
+- [ ] Server deployment by `VPS` and `Nginx`
 - [ ] Upgrade Angular security
 	- [ ] `npm audit`
 	- [ ] Update `angular/cli` through `npm` 
 	- [ ] Update Angular
 	- [ ] `npm audit`
-- [ ] Add db [Transaction](https://www.mongodb.com/products/capabilities/transactions) 
-	- [ ] Activate `MongoDb Replica`
