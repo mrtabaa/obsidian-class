@@ -351,4 +351,11 @@ Advance+
 	- [ ] `npm audit`
 	- [ ] Update `angular/cli` through `npm` 
 	- [ ] Update Angular
+<<<<<<< Updated upstream
 	- [ ] `npm audit`
+=======
+	- [ ] `npm audit`
+- [ ] Add db [Transaction](https://www.mongodb.com/products/capabilities/transactions) 
+	- [ ] Activate `MongoDb Replica`
+- [ ] SignalR
+>>>>>>> Stashed changes
