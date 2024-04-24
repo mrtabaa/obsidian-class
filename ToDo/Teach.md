@@ -355,4 +355,5 @@ Advance+
 	- [ ] `npm audit`
 - [ ] Add db [Transaction](https://www.mongodb.com/products/capabilities/transactions) 
 	- [ ] Activate `MongoDb Replica`
+- [ ] SQL (Entity Framework)
 - [ ] SignalR
