@@ -340,6 +340,7 @@ Advance+
 - [ ] Filter by age, activities and gender.
 - [ ] Modify users' roles. 
 - [ ] Change `string Id` to `ObjectId Id` and `hash` them. 
+- [ ] Store sensitive data in `secrets.json` e.g. `ConnectionString`
 - [ ] `HasRoleDirective` for advanced client role management.
 - [ ] Separate `AdminPanel` from `UserManagement` and `PhotoManagement`
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
