@@ -343,14 +343,21 @@ Advance+
 - [ ] Store sensitive data in `secrets.json` e.g. `ConnectionString`
 - [ ] `HasRoleDirective` for advanced client role management.
 - [ ] Separate `AdminPanel` from `UserManagement` and `PhotoManagement`
+- [ ] Followers/Followings
 - [ ] Directive. e.g. `toLower()` and `toUpper()`
 - [ ] Implement [[NET User Secrets]]
+<<<<<<< Updated upstream
 - [ ] Add db [Transaction](https://www.mongodb.com/products/capabilities/transactions) 
 	- [ ] Activate `MongoDb Replica`
 - [ ] Server deployment by `VPS` and `Nginx`
+=======
+- [ ] Nginx (deployment Host)
+- [ ] VPS
+- [ ] MySQL
+>>>>>>> Stashed changes
 - [ ] Upgrade Angular security
 	- [ ] `npm audit`
-	- [ ] Update `angular/cli` through `npm` 
+	- [ ] Update `angular/cli` through `npm`
 	- [ ] Update Angular
 	- [ ] `npm audit`
 	- [ ] `npm audit`
