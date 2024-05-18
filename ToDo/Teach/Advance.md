@@ -1,6 +1,6 @@
 - [x] Async Task
 - [x] CancellationToken
-- [x] GlobalUsingskde
+- [x] GlobalUsing
 - [x] DTO
 - [x] https => api
 - [x] https => client
@@ -184,9 +184,9 @@
 	- [x] Use `deletePhoto()` in `photo-editor` component
 	- [x] Add `delete` button in `DOM`
 	- [x] Test in `Postman`
-- [x] Update `LastActive` with `IAsyncActionFilter` instead of on login. 
+- [x] Update `LastActive` with `IAsyncActionFilter` instead of on login.
 	- [x] Delete line 72 of `AccountRepository` (if any). `LoginAsync`
-	- [x] Create `LogUserActivity` class and inherit from `IAsyncActionFilter`. 
+	- [x] Create `LogUserActivity` class and inherit from `IAsyncActionFilter`.
 	- [x] Implement `UpdateLastActive()` in `AccountRepository`. No `endpoint` needed!
 	- [x] Use `UpdateLastActive()` in `LogUserActivity`.
 	- [x] Add it in `ApplicationServiceExtensions` as a `scoped service`.
@@ -277,7 +277,7 @@
 	- [x] `AccountRepository` => Remove `ReloadLoggedInUserAsync()`
 
 - [ ] Handle Users by `AspNetCore.Identity.MongoDbCore`:
-	- [ ] API
+	- [x] API
 		###### Setup
 		- [x] Rename to prevent `AspNetCore.Identity.MongoDbCore` conflicts:
 			- [x] `MongoDbSettings` to `MyMongoDbSettings`.
@@ -337,6 +337,7 @@
 			- [x] Call the `roles` from `NavbarComponent` and hide the `admin` tab using `@if / @else if`
 		- [x] Login to `a@a.com` and manually enter `localhost:4200/admin` to test the protection. 
 Advance+
+- [ ] Cache members
 - [ ] Filter by age, activities and gender.
 - [ ] Modify users' roles. 
 - [ ] Change `string Id` to `ObjectId Id` and `hash` them. 
@@ -349,12 +350,19 @@ Advance+
 <<<<<<< Updated upstream
 - [ ] Add db [Transaction](https://www.mongodb.com/products/capabilities/transactions) 
 	- [ ] Activate `MongoDb Replica`
+<<<<<<< Updated upstream:ToDo/Teach.md
 - [ ] Server deployment by `VPS` and `Nginx`
 =======
 - [ ] Nginx (deployment Host)
 - [ ] VPS
 - [ ] MySQL
 >>>>>>> Stashed changes
+=======
+- [ ] Server deployment by `VPS` and `Nginx` (DevOps)
+	- [ ] Buying domian.
+	- [ ] Set DNS 
+	- [ ] Hosting
+>>>>>>> Stashed changes:ToDo/Teach/Advance.md
 - [ ] Upgrade Angular security
 	- [ ] `npm audit`
 	- [ ] Update `angular/cli` through `npm`

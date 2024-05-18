@@ -13,4 +13,4 @@ export const jwtInterceptor: HttpInterceptorFn = (req, next) => {
 
 ```
 
-Back to [[Teach]]
+Back to [[Advance]]
