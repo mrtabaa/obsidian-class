@@ -1,4 +1,4 @@
-- [ ] `AccountService` => Debugged line 91 `loggedInUser.roles = [];`
+- [x] `AccountService` => Debugged line 91 `loggedInUser.roles = [];`
 - [ ] `AccountController` => Improve `login/register` errors handling.
 - [ ] `AccountController` and `AccountRepository` => Replace `AuthorizeLoggedInUser()` with `ReloadLoggedInUser()`
 - [ ] Add `VariablesExtensions`
