@@ -1,7 +1,7 @@
-- [x] `AccountService` => Debugged line 91 `loggedInUser.roles = [];`
-- [ ] `AccountController` => Improve `login/register` errors handling.
-- [ ] `AccountController` and `AccountRepository` => Replace `AuthorizeLoggedInUser()` with `ReloadLoggedInUser()`
-- [ ] Add `VariablesExtensions`
+- [x] `AccountService` => Debugged line 91 `loggedInUser.roles = [];` 
+- [x] `AccountController` => Improve `login/register` errors handling.
+- [x] `AccountController` and `AccountRepository` => Replace `AuthorizeLoggedInUser()` with `ReloadLoggedInUser()`
+- [x] Add `VariablesExtensions`
 - [ ] Replace `string Id` with `ObjectId Id`
 	- [ ] Install `BCrypt`
 	- [ ] Modify Token with Id hashing
