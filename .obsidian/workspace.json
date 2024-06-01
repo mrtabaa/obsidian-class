@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToDo/Teach/Advance+.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDo/Teach/Advance+.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToDo/Teach/Advance+.md",
+                "file": "OS Setup/1- Linux apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDo/Teach/Advance+.md"
+                "file": "OS Setup/1- Linux apps.md"
               }
             }
           }
@@ -159,7 +159,13 @@
   },
   "active": "faefe7ef455f968e",
   "lastOpenFiles": [
+    "Programming/0 - Project Steps.md",
     "ToDo/Teach/Advance.md",
+    "Programming/New-sln,-API.md",
+    "Programming/VSCode Setup.md",
+    "Programming/Bracket Pairs.md",
+    "OS Setup/1- Linux apps.md",
+    "OS Setup/0- MX Config.md",
     "ToDo/Teach/Advance+.md",
     "ToDo/Teach",
     "ToDo/Teach.md",
