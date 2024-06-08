@@ -3,7 +3,9 @@
 - [ ] Right-click on `api.csproj` and use `Manage User Secrets`
 - [ ] Set your variables. e.g. Generate a secure key [Key Generator](https://it-tools.tech/token-generator)
 - [ ] Add this line to `Program.cs`
-```C#
+
+It should work by default, but if didn't:
+```cs
 builder.Configuration.AddUserSecrets<Program>(); // Register User Secrets
 ```
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/1- Linux apps.md",
+                "file": "Programming/NET User Secrets.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "secret",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS Setup/1- Linux apps.md",
+                "file": "Programming/NET User Secrets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS Setup/1- Linux apps.md",
+                "file": "Programming/NET User Secrets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/1- Linux apps.md"
+                "file": "Programming/NET User Secrets.md"
               }
             }
           }
@@ -159,12 +160,12 @@
   },
   "active": "faefe7ef455f968e",
   "lastOpenFiles": [
-    "Programming/0 - Project Steps.md",
     "ToDo/Teach/Advance.md",
+    "OS Setup/1- Linux apps.md",
+    "Programming/0 - Project Steps.md",
     "Programming/New-sln,-API.md",
     "Programming/VSCode Setup.md",
     "Programming/Bracket Pairs.md",
-    "OS Setup/1- Linux apps.md",
     "OS Setup/0- MX Config.md",
     "ToDo/Teach/Advance+.md",
     "ToDo/Teach",
