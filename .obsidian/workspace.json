@@ -13,8 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "ToDo/Teach/Advance+.md",
                 "mode": "preview",
+=======
+                "file": "Programming/Install and Create Angular Project.md",
+                "mode": "source",
+>>>>>>> Stashed changes
                 "source": false
               }
             }
@@ -85,7 +90,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "ToDo/Teach/Advance+.md",
+=======
+                "file": "Programming/Install and Create Angular Project.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "ToDo/Teach/Advance+.md",
+=======
+                "file": "Programming/Install and Create Angular Project.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "ToDo/Teach/Advance+.md"
+=======
+                "file": "Programming/Install and Create Angular Project.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -159,12 +176,21 @@
   },
   "active": "aeaa987e95eecc99",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "ToDo/Team.md",
     "Programming/GitHub.md",
     "Programming/NET User Secrets.md",
     "ToDo/Teach/Advance.md",
     "OS Setup/1- Linux apps.md",
+=======
+    "Programming/Install FNM.md",
+    "Programming/install NVM.md",
+    "Programming/Install and Create Angular Project.md",
+>>>>>>> Stashed changes
     "Programming/0 - Project Steps.md",
+    "OS Setup/1- Linux apps.md",
+    "Programming/NET User Secrets.md",
+    "ToDo/Teach/Advance.md",
     "Programming/New-sln,-API.md",
     "Programming/VSCode Setup.md",
     "Programming/Bracket Pairs.md",
@@ -172,8 +198,12 @@
     "ToDo/Teach/Advance+.md",
     "ToDo/Teach",
     "ToDo/Teach.md",
+<<<<<<< Updated upstream
     "Programming/install NVM.md",
     "Programming/Install and Create Angular Project.md",
+=======
+    "ToDo/Team.md",
+>>>>>>> Stashed changes
     "OS Setup/helpers/Postman.md"
   ]
 }

@@ -28,4 +28,6 @@ export NVM_DIR="$HOME/.nvm"
 source ~/.bashrc
 ```
 
+
+
 Back to [[Install and Create Angular Project]]
