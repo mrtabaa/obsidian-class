@@ -4,24 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5fa8aae046c3ddb4",
+        "id": "fd96c498c72545de",
         "type": "tabs",
         "children": [
           {
-            "id": "aeaa987e95eecc99",
+            "id": "8f2fc5e4613cfc0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "ToDo/Teach/Advance+.md",
-                "mode": "preview",
-=======
-                "file": "Programming/Install and Create Angular Project.md",
-                "mode": "source",
->>>>>>> Stashed changes
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -90,11 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "ToDo/Teach/Advance+.md",
-=======
-                "file": "Programming/Install and Create Angular Project.md",
->>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,11 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "ToDo/Teach/Advance+.md",
-=======
-                "file": "Programming/Install and Create Angular Project.md",
->>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,13 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "ToDo/Teach/Advance+.md"
-=======
-                "file": "Programming/Install and Create Angular Project.md"
->>>>>>> Stashed changes
-              }
+              "state": {}
             }
           }
         ]
@@ -174,36 +149,25 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "aeaa987e95eecc99",
+  "active": "8f2fc5e4613cfc0e",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
+    "ToDo/Teach/CSharp Type Conversions.md",
+    "ToDo/Teach/Advance+.md",
+    "Programming/Install FNM.md",
     "ToDo/Team.md",
     "Programming/GitHub.md",
     "Programming/NET User Secrets.md",
     "ToDo/Teach/Advance.md",
     "OS Setup/1- Linux apps.md",
-=======
-    "Programming/Install FNM.md",
-    "Programming/install NVM.md",
-    "Programming/Install and Create Angular Project.md",
->>>>>>> Stashed changes
     "Programming/0 - Project Steps.md",
-    "OS Setup/1- Linux apps.md",
-    "Programming/NET User Secrets.md",
-    "ToDo/Teach/Advance.md",
     "Programming/New-sln,-API.md",
     "Programming/VSCode Setup.md",
     "Programming/Bracket Pairs.md",
     "OS Setup/0- MX Config.md",
-    "ToDo/Teach/Advance+.md",
     "ToDo/Teach",
     "ToDo/Teach.md",
-<<<<<<< Updated upstream
     "Programming/install NVM.md",
     "Programming/Install and Create Angular Project.md",
-=======
-    "ToDo/Team.md",
->>>>>>> Stashed changes
     "OS Setup/helpers/Postman.md"
   ]
 }
