@@ -14,6 +14,7 @@
 	- [ ] Create `ConfirmComponent`
 	- [ ] Create `CommonService`
 	- [ ] Create `preventUnsavedChangesGuard`
+		- [ ] Apply in `app-route`
 	- [ ] `UserEdit` 
 		- [ ] Create `isAnyValueChanged(): boolean` method
 			- [ ] Apply it to `submit` button and `warning`
