@@ -7,7 +7,8 @@
 	- [x] Modify Token with Id hashing
 - [x] Install Replication
 	[replication - How to configure a replica set with MongoDB - Stack Overflow](https://stackoverflow.com/a/77932054/3944285)
-- [ ] Remove `member-card` if unfollowed
+- [x] Remove `member-card` if unfollowed
+- [ ] Implement `FriendsComponent` pagination
 - [ ] Debug `Edit Profile`
 - [ ] Prevent leaving page if modified
 	- [ ] See Angular Dialog
@@ -18,4 +19,8 @@
 	- [ ] `UserEdit` 
 		- [ ] Create `isAnyValueChanged(): boolean` method
 			- [ ] Apply it to `submit` button and `warning`
-- [ ] Create `MemberDetails`
+	- [ ] Create `MemberDetails`
+- [ ] Filter, Search
+- [ ] Deployment
+- [ ] SignalR
+- [ ] `EntityFramework Core` ORM => `MySQL`
