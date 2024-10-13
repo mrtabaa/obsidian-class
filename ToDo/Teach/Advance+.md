@@ -8,8 +8,9 @@
 - [x] Install Replication
 	[replication - How to configure a replica set with MongoDB - Stack Overflow](https://stackoverflow.com/a/77932054/3944285)
 - [x] Remove `member-card` if unfollowed
-- [ ] Debug `Edit Profile` 
 - [ ] Implement `FriendsComponent` pagination
+- [ ] Debug `Edit Profile` 
+- [ ] Implement `MemberDetails`
 - [ ] Prevent leaving page if modified
 	- [ ] See Angular Dialog
 	- [ ] Create `ConfirmComponent`
@@ -20,7 +21,6 @@
 		- [ ] Create `isAnyValueChanged(): boolean` method
 			- [ ] Apply it to `submit` button and `warning`
 	- [ ] Create `MemberDetails`
-- [ ] Implement `MemberDetails`
 - [ ] Filter, Search
 - [ ] Detect Desktop/Mobile by `observer` in `TS`
 - [ ] Deployment
