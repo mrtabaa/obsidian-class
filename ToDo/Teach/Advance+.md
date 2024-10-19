@@ -8,8 +8,8 @@
 - [x] Install Replication
 	[replication - How to configure a replica set with MongoDB - Stack Overflow](https://stackoverflow.com/a/77932054/3944285)
 - [x] Remove `member-card` if unfollowed
-- [ ] Implement `FriendsComponent` pagination
-- [ ] Debug `Edit Profile` 
+- [x] Implement `FriendsComponent` pagination
+- [x] Debug `Edit Profile` 
 - [ ] Implement `MemberDetails`
 - [ ] Prevent leaving page if modified
 	- [ ] See Angular Dialog
@@ -22,6 +22,7 @@
 			- [ ] Apply it to `submit` button and `warning`
 	- [ ] Create `MemberDetails`
 - [ ] Filter, Search
+- [ ] Debug Navbar menu `profilePhoto`
 - [ ] Detect Desktop/Mobile by `observer` in `TS`
 - [ ] Deployment
 - [ ] SignalR
