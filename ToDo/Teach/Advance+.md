@@ -7,3 +7,23 @@
 	- [x] Modify Token with Id hashing
 - [x] Install Replication
 	[replication - How to configure a replica set with MongoDB - Stack Overflow](https://stackoverflow.com/a/77932054/3944285)
+- [x] Remove `member-card` if unfollowed
+- [x] Implement `FriendsComponent` pagination
+- [x] Debug `Edit Profile` 
+- [ ] Implement `MemberDetails`
+- [ ] Prevent leaving page if modified
+	- [ ] See Angular Dialog
+	- [ ] Create `ConfirmComponent`
+	- [ ] Create `CommonService`
+	- [ ] Create `preventUnsavedChangesGuard`
+		- [ ] Apply in `app-route`
+	- [ ] `UserEdit` 
+		- [ ] Create `isAnyValueChanged(): boolean` method
+			- [ ] Apply it to `submit` button and `warning`
+	- [ ] Create `MemberDetails`
+- [ ] Filter, Search
+- [ ] Debug Navbar menu `profilePhoto`
+- [ ] Detect Desktop/Mobile by `observer` in `TS`
+- [ ] Deployment
+- [ ] SignalR
+- [ ] `EntityFramework Core` ORM => `MySQL`
