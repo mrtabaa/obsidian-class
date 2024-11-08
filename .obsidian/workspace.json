@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apps/Rider (JetBrain).md",
+                "file": "Programming/appsettings.json.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rider (JetBrain)"
+              "title": "appsettings.json"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apps/Rider (JetBrain).md",
+                "file": "Programming/Update Node & Angular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rider (JetBrain)"
+              "title": "Backlinks for Update Node & Angular"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apps/Rider (JetBrain).md",
+                "file": "Programming/Update Node & Angular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rider (JetBrain)"
+              "title": "Outgoing links from Update Node & Angular"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apps/Rider (JetBrain).md"
+                "file": "Programming/Update Node & Angular.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Rider (JetBrain)"
+              "title": "Outline of Update Node & Angular"
             }
           }
         ]
@@ -177,25 +177,31 @@
   },
   "active": "aeaa987e95eecc99",
   "lastOpenFiles": [
-    "ToDo/Teach/CSharp Type Conversions.md",
-    "Programming/Install FNM.md",
+    "Programming/New-sln,-API.md",
+    "Programming/0 - Project Steps.md",
+    "Programming/Setup in Project.md",
+    "Programming/Install MongoDB.md",
+    "Programming/Update Node & Angular.md",
+    "OS Setup/helpers/Rider (JetBrain) Settings.md",
+    "OS Setup/1- Linux apps.md",
     "ToDo/Teach/Advance+.md",
-    "Apps/Rider (JetBrain).md",
+    "OS Setup/helpers/Postman.md",
+    "OS Setup/helpers/Google Chrome Update.md",
+    "OS Setup/helpers/Debugger-setup.md",
+    "OS Setup/helpers/Codex Installer.md",
+    "Programming/install NVM.md",
+    "Programming/Install and Create Angular Project.md",
+    "Programming/Install FNM.md",
+    "OS Setup/0- MX Config.md",
+    "ToDo/Teach/CSharp Type Conversions.md",
     "Apps",
     "ToDo/Team.md",
     "Programming/GitHub.md",
     "Programming/NET User Secrets.md",
     "ToDo/Teach/Advance.md",
-    "OS Setup/1- Linux apps.md",
-    "Programming/0 - Project Steps.md",
-    "Programming/New-sln,-API.md",
     "Programming/VSCode Setup.md",
     "Programming/Bracket Pairs.md",
-    "OS Setup/0- MX Config.md",
     "ToDo/Teach",
-    "ToDo/Teach.md",
-    "Programming/install NVM.md",
-    "Programming/Install and Create Angular Project.md",
-    "OS Setup/helpers/Postman.md"
+    "ToDo/Teach.md"
   ]
 }

@@ -2,7 +2,7 @@
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
-- [x] Check the required `node.js` for your Angular version from here: https://update.angular.io
+- [x] Check the required `node.js` for your Angular version from here: [Update Angular](https://angular.dev/update-guide?v=17.0-18.0&l=1)
 - [x] Open Terminal
 - [x] Get the available versions: `nvm ls-remote`
 - [x] Install a `LTS` version. e.g. `nvm install 16.13.2`

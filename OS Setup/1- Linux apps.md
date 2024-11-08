@@ -1,9 +1,12 @@
 #### APPLICATIONS
 ----------------
 ##### Website Packages
-- [ ] [AppImageLauncher - bionic_amd64.deb](https://github.com/TheAssassin/AppImageLauncher/releases)
+- [ ] [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
+	- [ ] Install `Toolbox`
+	- [ ] Install `Rider` (Use VPN or [Shecan DNS](https://shecan.ir/))
+	- [ ] Apply these settings: [[Rider (JetBrain) Settings]]
 
-- [ ] [VS Code - .deb](https://code.visualstudio.com/download)
+- [ ] [AppImageLauncher - bionic_amd64.deb](https://github.com/TheAssassin/AppImageLauncher/releases)
 
 - [x] [Xtreme Downloader Manager](https://github.com/subhra74/xdm/releases)
 
@@ -28,11 +31,18 @@ echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sud
 	** click on Connect
 
 ##### APT Packages
+- [ ] VSCode
+```bash
+sudo apt install code
+```
 - [ ] Git
 ```bash
 sudo apt install git
 ```
-
+- [ ] OBS Studio
+```bash
+sudo apt install obs-studio
+```
 - [ ] Synaptic package
 ```bash
 sudo apt install synaptic
@@ -60,8 +70,6 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-package
 - [x] Audacity
 
 - [x] Gimp
-
-- [x] OBS Studio
 
 - [x] VLC
 
