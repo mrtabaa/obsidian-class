@@ -31,4 +31,4 @@ npm version
 
 Back to [[Install and Create Angular Project]]
 OR
-Back to [[Linux apps]]
+Back to [[Linux apps & update]]

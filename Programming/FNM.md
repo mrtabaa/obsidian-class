@@ -50,4 +50,4 @@ node -v # should print `v20.16.0`
 
 Back to [[Install and Create Angular Project]]
 OR
-Back to [[Linux apps]]
+Back to [[Linux apps & update]]

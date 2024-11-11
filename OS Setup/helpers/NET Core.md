@@ -13,7 +13,7 @@ sudo apt-get update && \
   sudo apt-get install -y aspnetcore-runtime-8.0
 ```
 
-Back to [[Linux apps]]
+Back to [[Linux apps & update]]
 
 # MX Linux (Debian)
 1. First run this command:
@@ -35,7 +35,7 @@ sudo apt-get update && \
   sudo apt-get install -y aspnetcore-runtime-8.0
 ```
 
-Back to [[Linux apps]]
+Back to [[Linux apps & update]]
 
 # Upgrade
 [[Upgrade .NET Core]]

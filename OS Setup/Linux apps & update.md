@@ -1,3 +1,18 @@
+#### Linux Update and Cleanup
+Keep your Linux and your apps updated and clean with these:
+##### Update
+```bash
+# This will update your linux and apt applications
+sudo apt update && sudo apt upgrade
+```
+##### Cleanup
+```bash
+sudo apt autoremove
+```
+```bash
+sudo apt autoclean
+```
+
 #### APPLICATIONS
 ----------------
 ##### Main Apps
@@ -23,16 +38,16 @@ sudo apt install git
 
 - [ ] [Insomnia](https://insomnia.rest/download)
 
-- [ ] VSCode & [Extensions](https://docs.google.com/document/d/1sFEyufsm_JEGFfIeO0ezqVFUIw7tEc6Hgy3vS3PUFRA/edit?usp=sharing)
-```bash
-sudo apt install code
-```
-
 - [ ] [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
 	- [ ] Install `Toolbox`
 	- [ ] Install `Rider` (Use VPN or [Shecan DNS](https://shecan.ir/))
 	- [ ] Apply these settings: [[Rider (JetBrain) Settings]]
 
+
+- [ ] VSCode & [Extensions](https://docs.google.com/document/d/1sFEyufsm_JEGFfIeO0ezqVFUIw7tEc6Hgy3vS3PUFRA/edit?usp=sharing) (No need)
+```bash
+sudo apt install code
+```
 ##### Other Apps
 - [x] [Xtreme Downloader Manager](https://github.com/subhra74/xdm/releases)
 
