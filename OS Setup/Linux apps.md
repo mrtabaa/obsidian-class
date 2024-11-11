@@ -1,23 +1,45 @@
 #### APPLICATIONS
 ----------------
-##### Website Packages
+##### Main Apps
+- [ ] [AppImageLauncher - bionic_amd64.deb](https://github.com/TheAssassin/AppImageLauncher/releases)
+
+- [ ] Git
+```bash
+sudo apt install git
+```
+
+- [ ] GitHub Desktop
+	1. Find the `Latest` release
+	2. Download `GitHubDesktop-linux-amd64-x.x.x-linux1.deb`
+	3. Install it
+
+- [ ] Download `Deb` file: [Obsidian](https://obsidian.md/download)
+
+- [ ] [[Upgrade .NET Core]]
+
+- [ ]  [[NET Core]]
+
+- [ ] A `NodeJs` manager:  [[NVM]] or [[FNM]] 
+
+- [ ] [[Install and Create Angular Project]]
+
+- [ ] [Insomnia](https://insomnia.rest/download)
+
+- [ ] VSCode
+```bash
+sudo apt install code
+```
+
 - [ ] [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
 	- [ ] Install `Toolbox`
 	- [ ] Install `Rider` (Use VPN or [Shecan DNS](https://shecan.ir/))
 	- [ ] Apply these settings: [[Rider (JetBrain) Settings]]
 
-- [ ] [AppImageLauncher - bionic_amd64.deb](https://github.com/TheAssassin/AppImageLauncher/releases)
-
+##### Other Apps
 - [x] [Xtreme Downloader Manager](https://github.com/subhra74/xdm/releases)
 
 - [x] [RClone Browser](https://rclone.org/downloads/) and [YouTube setup tutorial](https://youtu.be/ff8Ogk8NIPU)
 
-- [x] [Ledger](https://www.ledger.com/ledger-live)
-
-- [ ] [Google Chorme](https://www.google.com/chrome/)
-	- [ ] Fix Google Chrome update
-	```bash
-echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 	```
 - [ ] Telegram
 	1- Download 
@@ -30,15 +52,6 @@ echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sud
 	https://telegramlite.com/proxy-for-telegram
 	** click on Connect
 
-##### APT Packages
-- [ ] VSCode
-```bash
-sudo apt install code
-```
-- [ ] Git
-```bash
-sudo apt install git
-```
 - [ ] OBS Studio
 ```bash
 sudo apt install obs-studio
@@ -52,16 +65,6 @@ BirdTray for Thunderbird (Email client)
 ```bash
 sudo apt install birdtray
 ```
-
-Install GitHub Desktop
-```bash
-wget -qO - https://apt.packages.shiftkey.dev/gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/shiftkey-packages.gpg > /dev/null
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-packages.gpg] https://apt.packages.shiftkey.dev/ubuntu/ any main" > /etc/apt/sources.list.d/shiftkey-packages.list' && sudo apt update && sudo apt install github-desktop
-```
-##### From executable files
-[[Postman]]
-
-##### MX Package Installer
 
 - [x] Kdenlive
 
@@ -88,8 +91,6 @@ sudo snap install core
 ```bash
 sudo snap install vidcutter
 ```
-
-Go back to [[0- MX Config]]
 
 ##### Flathub Packages 
 ###### (NOT working in IRAN!)

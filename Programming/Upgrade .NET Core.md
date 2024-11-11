@@ -22,4 +22,4 @@ dotnet --list-sdks
 sudo apt purge dotnet-sdk-7.0 && sudo apt autoremove
 ```
 
-Back to [[0 - Project Steps]]
+Back to [[NET Core]]

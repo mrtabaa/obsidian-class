@@ -1,21 +1,4 @@
-- [x] [Install .NET-Core SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian) Or [[Upgrade .NET Core]]
-	1. Run this command
-	```bash
-	wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-	sudo dpkg -i packages-microsoft-prod.deb
-	rm packages-microsoft-prod.deb
-	```
-	2. Now install the SDK
-	```bash
-	sudo apt-get update && \
-	  sudo apt-get install -y dotnet-sdk-8.0
-	```
 
-- [x] Install .NET-Core Runtime (On real server ONLY)
-```bash
-sudo apt-get update && \
-  sudo apt-get install -y aspnetcore-runtime-8.0
-```
 
 - [x] [[VSCode Setup]]
 
