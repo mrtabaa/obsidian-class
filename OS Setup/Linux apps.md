@@ -7,11 +7,7 @@
 ```bash
 sudo apt install git
 ```
-
-- [ ] GitHub Desktop
-	1. Find the `Latest` release
-	2. Download `GitHubDesktop-linux-amd64-x.x.x-linux1.deb`
-	3. Install it
+- [ ] [[Github Desktop]]
 
 - [ ] Download `Deb` file: [Obsidian](https://obsidian.md/download)
 
@@ -23,9 +19,11 @@ sudo apt install git
 
 - [ ] [[Install and Create Angular Project]]
 
+- [ ] [[MongoDB]]
+
 - [ ] [Insomnia](https://insomnia.rest/download)
 
-- [ ] VSCode
+- [ ] VSCode & [Extensions](https://docs.google.com/document/d/1sFEyufsm_JEGFfIeO0ezqVFUIw7tEc6Hgy3vS3PUFRA/edit?usp=sharing)
 ```bash
 sudo apt install code
 ```

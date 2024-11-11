@@ -2,7 +2,7 @@
 
 - [x] [[VSCode Setup]]
 
-- [x] [[Install MongoDB]]
+- [x] [[MongoDB]]
 
 - [x] [[Install and Create Angular Project]]
 

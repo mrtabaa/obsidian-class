@@ -177,9 +177,12 @@
   },
   "active": "aeaa987e95eecc99",
   "lastOpenFiles": [
-    "Programming/0 - Project Steps.md",
-    "Programming/Install and Create Angular Project.md",
+    "Programming/MongoDB.md",
     "OS Setup/Linux apps.md",
+    "OS Setup/helpers/MongoDB.md",
+    "Programming/0 - Project Steps.md",
+    "OS Setup/helpers/Github Desktop.md",
+    "Programming/Install and Create Angular Project.md",
     "OS Setup/helpers/NET Core.md",
     "Programming/FNM.md",
     "Programming/NVM.md",
@@ -201,8 +204,6 @@
     "Programming/New-sln,-API.md",
     "Programming/VSCode Setup.md",
     "Programming/Bracket Pairs.md",
-    "Teach",
-    "ToDo/Teach.md",
-    "OS Setup/helpers/Postman.md"
+    "Teach"
   ]
 }
