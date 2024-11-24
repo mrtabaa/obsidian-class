@@ -177,9 +177,10 @@
   },
   "active": "aeaa987e95eecc99",
   "lastOpenFiles": [
-    "Teach/CSharp Type Conversions.md",
-    "Teach/Advance+.md",
+    "Programming/helpers/Fix MondoDB Service.md",
     "Programming/MongoDB.md",
+    "Teach/Advance+.md",
+    "Teach/CSharp Type Conversions.md",
     "OS Setup/Linux apps & update.md",
     "OS Setup/helpers/MongoDB.md",
     "Programming/0 - Project Steps.md",
@@ -203,7 +204,6 @@
     "Programming/NET User Secrets.md",
     "Programming/New-sln,-API.md",
     "Programming/VSCode Setup.md",
-    "Programming/Bracket Pairs.md",
     "Teach"
   ]
 }

@@ -9,11 +9,21 @@
 ```bash
 sudo systemctl status mongod
 ```
- 
+
+If server/service  is `Active: failed`
+	[[Fix MondoDB Service]]
+
  **If not running**, start the server 
 ```bash
 sudo systemctl enable mongod
 sudo systemctl start mongod
+```
+
+##### Uninstall
+```bash
+sudo service mongod stop
+sudo apt-get purge mongodb-org*
+sudo rm -r /var/log/mongodb /var/lib/mongodb
 ```
 
 Back to [[Linux apps & update]]
