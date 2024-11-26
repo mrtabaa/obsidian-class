@@ -10,6 +10,7 @@
 - [x] Remove `member-card` if unfollowed
 - [x] Implement `FriendsComponent` pagination
 - [x] Debug `Edit Profile` 
+- [ ] Upgrade `ng2-file-upload` to `7`
 - [ ] Implement `MemberDetails`
 - [ ] Prevent leaving page if modified
 	- [ ] See Angular Dialog
