@@ -10,8 +10,8 @@
 - [x] Remove `member-card` if unfollowed
 - [x] Implement `FriendsComponent` pagination
 - [x] Debug `Edit Profile` 
-- [ ] Upgrade `ng2-file-upload` to `7`
-- [ ] Implement `MemberDetails`
+- [x] Upgrade `ng2-file-upload` to `7`
+- [x] Implement `MemberDetails`
 - [ ] Prevent leaving page if modified
 	- [ ] See Angular Dialog
 	- [ ] Create `ConfirmComponent`
@@ -28,3 +28,4 @@
 - [ ] Deployment
 - [ ] SignalR
 - [ ] `EntityFramework Core` ORM => `MySQL`
+- [ ] `Clean Architecture` and `SOLID`

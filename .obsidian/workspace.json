@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apps/Rider (JetBrain).md",
+                "file": "Programming/Update Node & Angular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rider (JetBrain)"
+              "title": "Backlinks for Update Node & Angular"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apps/Rider (JetBrain).md",
+                "file": "Programming/Update Node & Angular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rider (JetBrain)"
+              "title": "Outgoing links from Update Node & Angular"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apps/Rider (JetBrain).md"
+                "file": "Programming/Update Node & Angular.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Rider (JetBrain)"
+              "title": "Outline of Update Node & Angular"
             }
           }
         ]
@@ -177,33 +177,34 @@
   },
   "active": "aeaa987e95eecc99",
   "lastOpenFiles": [
-    "Programming/MongoDB.md",
-    "Programming/helpers/Fix MondoDB Service.md",
-    "Teach/Advance+.md",
-    "Teach/CSharp Type Conversions.md",
-    "OS Setup/Linux apps & update.md",
-    "OS Setup/helpers/MongoDB.md",
-    "Programming/0 - Project Steps.md",
-    "OS Setup/helpers/Github Desktop.md",
-    "Programming/Install and Create Angular Project.md",
-    "OS Setup/helpers/NET Core.md",
-    "Programming/FNM.md",
-    "Programming/NVM.md",
-    "Programming/Upgrade .NET Core.md",
-    "OS Setup/helpers/MX Config.md",
-    "Programming/component module.md",
-    "Programming/Claim Principal.md",
-    "Programming/CancellationToken.md",
-    "Teach/Advance.md",
     "ToDo/Team.md",
-    "Apps/Rider (JetBrain).md",
-    "OS Setup/helpers/Rider (JetBrain) Settings.md",
-    "OS Setup/2- Mint.md",
-    "Apps",
-    "Programming/GitHub.md",
-    "Programming/NET User Secrets.md",
+    "Teach/CSharp Type Conversions.md",
+    "Teach/Advance.md",
+    "Teach/Advance+.md",
+    "Teach",
+    "Programming/helpers/Fix MondoDB Service.md",
+    "Programming/NVM.md",
+    "Programming/MongoDB.md",
+    "Programming/FNM.md",
+    "OS Setup/helpers/NET Core.md",
+    "OS Setup/helpers/MX Config.md",
+    "OS Setup/helpers/Github Desktop.md",
+    "OS Setup/Linux apps & update.md",
+    "ToDo/Teach/Advance+.md",
+    "Programming/appsettings.json.md",
     "Programming/New-sln,-API.md",
-    "Programming/VSCode Setup.md",
-    "Teach"
+    "Programming/0 - Project Steps.md",
+    "Programming/Setup in Project.md",
+    "Programming/Install MongoDB.md",
+    "Programming/Update Node & Angular.md",
+    "OS Setup/helpers/Rider (JetBrain) Settings.md",
+    "OS Setup/1- Linux apps.md",
+    "OS Setup/helpers/Postman.md",
+    "OS Setup/helpers/Google Chrome Update.md",
+    "OS Setup/helpers/Debugger-setup.md",
+    "OS Setup/helpers/Codex Installer.md",
+    "Programming/install NVM.md",
+    "Apps",
+    "ToDo/Teach"
   ]
 }
