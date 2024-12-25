@@ -24,8 +24,18 @@ nvm install 20.12.2
 ```bash
 nvm list
 ```
+7. To use the `npm`
+```bash
+nvm use 20.12.2
+```
+8. Check the `npm` version
 ```bash
 npm version
+```
+
+Uninstall an `npm` version `20.12.2`
+```bash
+nvm uninstall 20.12.2
 ```
 
 
