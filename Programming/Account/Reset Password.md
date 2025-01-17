@@ -1,7 +1,16 @@
 Implementing password recovery in an application managed by Microsoft Identity involves a secure process that allows users to reset their passwords if they forget them. Here's a step-by-step guide to implement this feature:
+### **Flow Overview**
+
+1. User receives an email with the reset link.
+2. User clicks the link and is redirected to `https://yourapp.com/reset-password?token=...&email=...`.
+3. Angular component extracts the token and email from query parameters.
+4. User enters their new password and submits the form.
+5. Angular sends the token, email, and new password to the backend API.
+6. Backend validates the token and updates the password.
+7. If successful, Angular navigates the user back to the login page.
 
 ---
-
+## Back_End
 ### Step 1: Generate a Password Reset Token
 
 1. **Expose an API Endpoint** Create an endpoint in your `AccountController` to initiate the password reset process.
@@ -101,3 +110,74 @@ services.Configure<IdentityOptions>(options =>
 2. **Throttle Requests** Limit the number of password reset requests per user to prevent abuse.
     
 3. **Notify on Reset** Send a notification email to the user when their password is successfully reset.
+
+## Front-End
+1. **Create a Password Reset Component:**
+**Example:** `reset-password.component.ts`
+```ts
+import { Component } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { ActivatedRoute, Router } from '@angular/router';
+import { AuthService } from '../services/auth.service';
+
+@Component({
+  selector: 'app-reset-password',
+  templateUrl: './reset-password.component.html',
+})
+export class ResetPasswordComponent {
+  resetPasswordForm: FormGroup;
+  token: string | null = null;
+  email: string | null = null;
+  isSubmitting = false;
+
+  constructor(
+    private fb: FormBuilder,
+    private route: ActivatedRoute,
+    private router: Router,
+    private authService: AuthService
+  ) {
+    this.resetPasswordForm = this.fb.group({
+      newPassword: ['', [Validators.required, Validators.minLength(8)]],
+      confirmPassword: ['', [Validators.required]],
+    });
+  }
+
+  ngOnInit(): void {
+    // Extract token and email from query params
+    this.token = this.route.snapshot.queryParamMap.get('token');
+    this.email = this.route.snapshot.queryParamMap.get('email');
+  }
+
+  onSubmit(): void {
+    if (this.resetPasswordForm.invalid) return;
+
+    const { newPassword, confirmPassword } = this.resetPasswordForm.value;
+    if (newPassword !== confirmPassword) {
+      alert('Passwords do not match');
+      return;
+    }
+
+    this.isSubmitting = true;
+    this.authService.resetPassword(this.token!, this.email!, newPassword)
+      .subscribe({
+        next: () => {
+          alert('Password reset successfully.');
+          this.router.navigate(['/login']);
+        },
+        error: (err) => {
+          console.error(err);
+          alert('Failed to reset password.');
+        },
+        complete: () => this.isSubmitting = false,
+      });
+  }
+}
+```
+2. **Add Routing for the Component:**
+**Example:** `app-routing.module.ts`
+```ts
+const routes: Routes = [
+  { path: 'reset-password', component: ResetPasswordComponent },
+  // other routes
+];
+```
