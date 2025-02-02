@@ -12,19 +12,19 @@
 - [x] Debug `Edit Profile` 
 - [x] Upgrade `ng2-file-upload` to `7`
 - [x] Implement `MemberDetails`
-- [ ] Prevent leaving page if modified
-	- [ ] See Angular Dialog
-	- [ ] Create `ConfirmComponent`
-	- [ ] Create `CommonService`
-	- [ ] Create `preventUnsavedChangesGuard`
-		- [ ] Apply in `app-route`
-	- [ ] `UserEdit` 
-		- [ ] Create `isAnyValueChanged(): boolean` method
-			- [ ] Apply it to `submit` button and `warning`
-	- [ ] Create `MemberDetails`
-- [ ] Improve security by removing `UserName` from the token
-	- [ ] Create a `GetUserNameByHashedUserId()` in the `UserRepo`
-	- [ ] Modify the `TokenService`
+- [x] Prevent leaving page if modified
+	- [x] See Angular Dialog
+	- [x] Create `ConfirmComponent`
+	- [x] Create `CommonService`
+	- [x] Create `preventUnsavedChangesGuard`
+		- [x] Apply in `app-route`
+	- [x] `UserEdit` 
+		- [x] Create `CheckisAnyValueChanged(): boolean` method
+			- [x] Apply it to `submit` button and `warning`
+	- [x] Create `MemberDetails`
+- [x] Improve security by removing `UserName` from the token
+	- [x] Create a `GetUserNameByHashedUserId()` in the `UserRepo`
+	- [x] Modify the `TokenService`
 	```C#
 	var claims = new List<Claim>
 		{
@@ -32,9 +32,10 @@
 			new(JwtRegisteredClaimNames.Jti, jtiValue) // session identifier or token ID, // TODO: store in db/cache to prevent multiple login sessions with one token. If already exists, reject new login.
 		};
 	```
-- [ ] Filter, Search
 - [ ] Debug Navbar menu `profilePhoto`
+- [ ] Filter, Search
 - [ ] Detect Desktop/Mobile by `observer` in `TS`
+- [ ] refresh/access tokens
 - [ ] Deployment
 - [ ] SignalR
 - [ ] `EntityFramework Core` ORM => `MySQL`

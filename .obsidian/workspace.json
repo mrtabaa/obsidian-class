@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Account/Reset Password.md",
+                "file": "Teach/Advance+.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reset Password"
+              "title": "Advance+"
             }
           }
         ],
@@ -192,10 +192,10 @@
   },
   "active": "3c5389b796d05572",
   "lastOpenFiles": [
+    "Programming/Account/Reset Password.md",
     "Programming/Account/Verify Account.md",
     "Programming/0 - Project Steps.md",
     "Programming/Account",
-    "Programming/Account/Reset Password.md",
     "Teach/Advance+.md",
     "ToDo/Team.md",
     "Teach/CSharp Type Conversions.md",
