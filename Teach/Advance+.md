@@ -22,9 +22,9 @@
 		- [x] Create `CheckisAnyValueChanged(): boolean` method
 			- [x] Apply it to `submit` button and `warning`
 	- [x] Create `MemberDetails`
-- [x] Improve security by removing `UserName` from the token
-	- [x] Create a `GetUserNameByHashedUserId()` in the `UserRepo`
-	- [x] Modify the `TokenService`
+- [ ] Improve security by removing `UserName` from the token
+	- [ ] Create a `GetUserNameByHashedUserId()` in the `UserRepo`
+	- [ ] Modify the `TokenService`
 	```C#
 	var claims = new List<Claim>
 		{
