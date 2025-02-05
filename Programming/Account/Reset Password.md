@@ -10,15 +10,15 @@ Implementing password recovery in an application managed by Microsoft Identity i
 7. If successful, Angular navigates the user back to the login page.
 
 ---
-## Back_End
+## Backend
 ### Step 1: Generate a Password Reset Token
 
 1. **Expose an API Endpoint** Create an endpoint in your `AccountController` to initiate the password reset process.
     
 2. **Generate a Token** Use the `UserManager` to generate a password reset token for the user.
 ```C#
-[HttpPost("request-password-reset")]
-public async Task<IActionResult> RequestPasswordReset([FromBody] string email)
+[HttpPost("request-password-reset/{email}")]
+public async Task<ActionResult> RequestPasswordReset(string email)
 {
     var user = await _userManager.FindByEmailAsync(email);
     if (user == null || !await _userManager.IsEmailConfirmedAsync(user))
@@ -51,7 +51,7 @@ public async Task<IActionResult> RequestPasswordReset([FromBody] string email)
 2. **Validate the Token** Use `UserManager.ResetPasswordAsync` to verify the token and reset the password.
 ```C#
 [HttpPost("reset-password")]
-public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDto resetPasswordDto)
+public async Task<ActionResult> ResetPassword([FromBody] ResetPasswordDto resetPasswordDto)
 {
     var user = await _userManager.FindByEmailAsync(resetPasswordDto.Email);
     if (user == null)
@@ -97,21 +97,15 @@ services.Configure<IdentityOptions>(options =>
     
 4. Recaptcha for Requests Use reCAPTCHA to prevent bots from flooding the password reset request endpoint.
 
-### Step 4: Frontend Integration
-
-1. **Request Reset Link** Create a form where users can submit their email to request a password reset link.
-    
-2. **Reset Password Form** After clicking the link sent to their email, users should be redirected to a page where they can enter their new password. Include the `email` and `token` as part of the query string.
 
 ### Optional Enhancements
 
-1. **Audit Logging** Log every password reset request and reset attempt for monitoring and security.
-    
-2. **Throttle Requests** Limit the number of password reset requests per user to prevent abuse.
-    
-3. **Notify on Reset** Send a notification email to the user when their password is successfully reset.
+1. **reCAPTCHA** to prevent attacks and spamming.
+2. **Audit Logging** Log every password reset request and reset attempt for monitoring and security.
+3. **Throttle Requests** Limit the number of password reset requests per user to prevent abuse.
+4. **Notify on Reset** Send a notification email to the user when their password is successfully reset.
 
-## Front-End
+## Fronend
 1. **Create a Password Reset Component:**
 **Example:** `reset-password.component.ts`
 ```ts

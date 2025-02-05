@@ -37,6 +37,9 @@
 - [ ] Detect Desktop/Mobile by `observer` in `TS`
 - [ ] refresh/access tokens
 - [ ] Deployment
+- [ ] [Advanced Rate Limiting Use Cases In .NET](https://www.milanjovanovic.tech/blog/advanced-rate-limiting-use-cases-in-dotnet)
+- [ ] [[Verify Account]]
+- [ ] [[Reset Password]]
 - [ ] SignalR
 - [ ] `EntityFramework Core` ORM => `MySQL`
 - [ ] `Clean Architecture` and `SOLID`
