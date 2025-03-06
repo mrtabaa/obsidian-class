@@ -22,9 +22,9 @@
 		- [x] Create `CheckisAnyValueChanged(): boolean` method
 			- [x] Apply it to `submit` button and `warning`
 	- [x] Create `MemberDetails`
-- [ ] Improve security by removing `UserName` from the token
-	- [ ] Create a `GetUserNameByHashedUserId()` in the `UserRepo`
-	- [ ] Modify the `TokenService`
+- [x] Improve security by removing `UserName` from the token
+	- [x] Create a `GetUserNameByHashedUserId()` in the `UserRepo`
+	- [x] Modify the `TokenService`
 	```C#
 	var claims = new List<Claim>
 		{
@@ -32,8 +32,8 @@
 			new(JwtRegisteredClaimNames.Jti, jtiValue) // session identifier or token ID, // TODO: store in db/cache to prevent multiple login sessions with one token. If already exists, reject new login.
 		};
 	```
-- [ ] Debug Navbar menu `profilePhoto`
-- [ ] Filter, Search
+- [x] Debug Navbar menu `profilePhoto`
+- [x] Filter, Search
 - [ ] Detect Desktop/Mobile by `observer` in `TS`
 - [ ] refresh/access tokens
 - [ ] Deployment
