@@ -35,7 +35,8 @@
 - [x] Debug Navbar menu `profilePhoto`
 - [x] Filter, Search
 - [ ] Detect Desktop/Mobile by `observer` in `TS`
-- [ ] refresh/access tokens
+- [ ] `OperationResult`
+- [ ] refresh/access [[Tokens]]
 - [ ] Deployment
 - [ ] [Advanced Rate Limiting Use Cases In .NET](https://www.milanjovanovic.tech/blog/advanced-rate-limiting-use-cases-in-dotnet)
 - [ ] [[Verify Account]]

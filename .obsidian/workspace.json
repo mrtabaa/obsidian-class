@@ -193,11 +193,12 @@
   },
   "active": "3c5389b796d05572",
   "lastOpenFiles": [
+    "Programming/Account/Tokens.md",
+    "Teach/Advance+.md",
     "Programming/Account/Reset Password.md",
     "Programming/Account/Verify Account.md",
     "Programming/0 - Project Steps.md",
     "Programming/Account",
-    "Teach/Advance+.md",
     "ToDo/Team.md",
     "Teach/CSharp Type Conversions.md",
     "Teach/Advance.md",
@@ -220,7 +221,6 @@
     "OS Setup/1- Linux apps.md",
     "OS Setup/helpers/Postman.md",
     "OS Setup/helpers/Google Chrome Update.md",
-    "OS Setup/helpers/Debugger-setup.md",
     "Apps",
     "ToDo/Teach"
   ]
