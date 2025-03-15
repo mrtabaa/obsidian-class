@@ -34,6 +34,7 @@
 	```
 - [x] Debug Navbar menu `profilePhoto`
 - [x] Filter, Search
+- [ ] `MemberRepo` => Line 43, `StringComparison.CurrentCultureIgnoreCase`
 - [ ] Detect Desktop/Mobile by `observer` in `TS`
 - [ ] `OperationResult`
 - [ ] refresh/access [[Tokens]]

@@ -35,8 +35,7 @@
               "title": "MongoDB"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,8 +190,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3c5389b796d05572",
+  "active": "aeaa987e95eecc99",
   "lastOpenFiles": [
+    "Programming/MongoDB.md",
     "Programming/Account/Tokens.md",
     "OS Setup/Linux apps & update.md",
     "OS Setup/helpers/NET Core.md",
@@ -207,7 +207,6 @@
     "Teach",
     "Programming/helpers/Fix MondoDB Service.md",
     "Programming/NVM.md",
-    "Programming/MongoDB.md",
     "Programming/FNM.md",
     "OS Setup/helpers/MX Config.md",
     "OS Setup/helpers/Github Desktop.md",
