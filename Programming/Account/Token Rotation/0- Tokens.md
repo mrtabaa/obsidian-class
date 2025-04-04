@@ -9,7 +9,7 @@ Time: 60 Seconds
 Time: 7 Days
 
 ##### Token Rotation
-Every time `AccessToken` is expired we rotate both tokens.
+Every time `AccessToken` is expired we use `RefreshToken` and rotate both tokens.
 
 #### Browser Safety
 Use `Cookies` and make sure you have `httpOnly` and `SameSite` set. 

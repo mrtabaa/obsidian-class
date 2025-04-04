@@ -34,11 +34,18 @@
 	```
 - [x] Debug Navbar menu `profilePhoto`
 - [x] Filter, Search
+<<<<<<< Updated upstream
 - [x] `MemberRepo` => Line 43, `StringComparison.CurrentCultureIgnoreCase`
 - [x] Detect Desktop/Mobile by `observer` in `TS`
 - [ ] `ngStyle` and `ngClss` and `signal`
 - [x] `OperationResult`
 - [ ] refresh/access [[Tokens]]
+=======
+- [ ] `MemberRepo` => Line 43, `StringComparison.CurrentCultureIgnoreCase`
+- [ ] Detect Desktop/Mobile by `observer` in `TS`
+- [ ] `OperationResult`
+- [ ] refresh/access [[0- Tokens]]
+>>>>>>> Stashed changes
 - [ ] Deployment
 - [ ] [Advanced Rate Limiting Use Cases In .NET](https://www.milanjovanovic.tech/blog/advanced-rate-limiting-use-cases-in-dotnet)
 - [ ] [[Verify Account]]
