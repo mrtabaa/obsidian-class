@@ -16,7 +16,7 @@ This document outlines the architecture and best practices used to implement sec
 ---
 
 ## 🔄 Refresh Token Flow
-
+ 
 ### 🔐 1. Login / Initial Authentication
 
 - User logs in with credentials or wallet.
@@ -72,10 +72,10 @@ This document outlines the architecture and best practices used to implement sec
 
 ## 🧱 Cookie Configuration
 
-|Cookie|Type|HttpOnly|Secure|SameSite|Path|
-|---|---|---|---|---|---|
-|`auth.access-token`|JWT|✅|✅|`None`|`/`|
-|`auth.refresh-token`|Encrypted|✅|✅|`None`|`/api/account/refresh-tokens`|
+| Cookie               | Type      | HttpOnly | Secure | SameSite | Path                          |
+| -------------------- | --------- | -------- | ------ | -------- | ----------------------------- |
+| `auth.access-token`  | JWT       | ✅        | ✅      | `None`   | `/`                           |
+| `auth.refresh-token` | Encrypted | ✅        | ✅      | `None`   | `/api/account/refresh-tokens` |
 
 ---
 

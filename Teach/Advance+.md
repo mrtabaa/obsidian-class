@@ -49,5 +49,5 @@
 - [ ] [[Verify Account]]
 - [ ] [[Reset Password]]
 - [ ] SignalR
-- [ ] `EntityFramework Core` ORM => `MySQL`
+- [ ] `EntityFramework Core` ORM => `PostgreSql`
 - [ ] `Clean Architecture` and `SOLID`

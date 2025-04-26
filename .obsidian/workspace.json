@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5fa8aae046c3ddb4",
+        "id": "a3ffc7f6d9236020",
         "type": "tabs",
         "children": [
           {
-            "id": "3c5389b796d05572",
+            "id": "0709a492d28d70c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 200
   },
   "right": {
     "id": "50d3cef634d67b52",
@@ -176,12 +176,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3c5389b796d05572",
+  "active": "0709a492d28d70c8",
   "lastOpenFiles": [
-    "Programming/Account/Token Rotation/0- Tokens.md",
-    "Teach/Advance+.md",
+    "Programming/Account/Token Rotation/0- Overview.md",
     "Tokens.md",
-    "Programming/MongoDB.md",
+    "Teach/Advance+.md",
+    "Programming/Account/Token Rotation/0- Tokens.md",
     "Programming/Account/Token Rotation/TokenService.md",
     "Programming/Account/Token Rotation/TokenHasher.md",
     "Programming/Account/Token Rotation/TokenCookieService.md",
@@ -189,13 +189,10 @@
     "Programming/Account/Token Rotation/Model & DTO.md",
     "Programming/Account/Token Rotation/AccountRepository.md",
     "Programming/Account/Token Rotation/AccountController.md",
-    "Programming/Account/Token Rotation/0- Overview.md",
     "Programming/Account/Token Rotation",
     "Programming/Account/CSRF Protection.md",
+    "Programming/MongoDB.md",
     "Programming/Account/Tokens.md",
-    "Programming/Account/Token Rotation/IdentityServiceExtensions.md",
-    "Programming/Account/Index hashedUserId.md",
-    "Programming/Account/Token Rotation/TokenCookieService",
     "OS Setup/Linux apps & update.md",
     "OS Setup/helpers/NET Core.md",
     "Programming/Account/Reset Password.md",
@@ -208,6 +205,8 @@
     "Teach",
     "Programming/helpers/Fix MondoDB Service.md",
     "Programming/NVM.md",
+    "Programming/FNM.md",
+    "OS Setup/helpers/MX Config.md",
     "Apps",
     "ToDo/Teach"
   ]
