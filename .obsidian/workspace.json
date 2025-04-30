@@ -11,10 +11,14 @@
             "id": "a061885080d28d58",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programming/CleanArchitecture/LayerResponsibilitiesTable.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LayerResponsibilitiesTable"
             }
           }
         ]
@@ -174,6 +178,7 @@
   },
   "active": "a061885080d28d58",
   "lastOpenFiles": [
+    "Programming/CleanArchitecture/00_Overview.md",
     "Programming/CleanArchitecture/LayerResponsibilitiesTable.md",
     "Programming/CleanArchitecture/FolderStructure.md",
     "Programming/CleanArchitecture/Cheatsheet.md",
@@ -181,7 +186,6 @@
     "Programming/CleanArchitecture/03_InfrastructureLayer.md",
     "Programming/CleanArchitecture/02_ApplicationLayer.md",
     "Programming/CleanArchitecture/01_DomainLayer.md",
-    "Programming/CleanArchitecture/00_Overview.md",
     "Programming/CleanArchitecture",
     "Teach/Advance+.md",
     "Programming/Account/Token Rotation/0- Tokens.md",
