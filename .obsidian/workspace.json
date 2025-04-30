@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a3ffc7f6d9236020",
+        "id": "5812727b7be514e0",
         "type": "tabs",
         "children": [
           {
-            "id": "0709a492d28d70c8",
+            "id": "a061885080d28d58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teach/Advance+.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Advance+"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 296.5
   },
   "right": {
     "id": "50d3cef634d67b52",
@@ -176,12 +172,21 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "0709a492d28d70c8",
+  "active": "a061885080d28d58",
   "lastOpenFiles": [
-    "Programming/Account/Token Rotation/0- Overview.md",
-    "Tokens.md",
+    "Programming/CleanArchitecture/LayerResponsibilitiesTable.md",
+    "Programming/CleanArchitecture/FolderStructure.md",
+    "Programming/CleanArchitecture/Cheatsheet.md",
+    "Programming/CleanArchitecture/04_PresentationLayer.md",
+    "Programming/CleanArchitecture/03_InfrastructureLayer.md",
+    "Programming/CleanArchitecture/02_ApplicationLayer.md",
+    "Programming/CleanArchitecture/01_DomainLayer.md",
+    "Programming/CleanArchitecture/00_Overview.md",
+    "Programming/CleanArchitecture",
     "Teach/Advance+.md",
     "Programming/Account/Token Rotation/0- Tokens.md",
+    "Tokens.md",
+    "Programming/MongoDB.md",
     "Programming/Account/Token Rotation/TokenService.md",
     "Programming/Account/Token Rotation/TokenHasher.md",
     "Programming/Account/Token Rotation/TokenCookieService.md",
@@ -189,24 +194,16 @@
     "Programming/Account/Token Rotation/Model & DTO.md",
     "Programming/Account/Token Rotation/AccountRepository.md",
     "Programming/Account/Token Rotation/AccountController.md",
+    "Programming/Account/Token Rotation/0- Overview.md",
     "Programming/Account/Token Rotation",
     "Programming/Account/CSRF Protection.md",
-    "Programming/MongoDB.md",
     "Programming/Account/Tokens.md",
+    "Programming/Account/Token Rotation/IdentityServiceExtensions.md",
+    "Programming/Account/Index hashedUserId.md",
+    "Programming/Account/Token Rotation/TokenCookieService",
     "OS Setup/Linux apps & update.md",
-    "OS Setup/helpers/NET Core.md",
-    "Programming/Account/Reset Password.md",
-    "Programming/Account/Verify Account.md",
-    "Programming/0 - Project Steps.md",
     "Programming/Account",
-    "ToDo/Team.md",
-    "Teach/CSharp Type Conversions.md",
-    "Teach/Advance.md",
     "Teach",
-    "Programming/helpers/Fix MondoDB Service.md",
-    "Programming/NVM.md",
-    "Programming/FNM.md",
-    "OS Setup/helpers/MX Config.md",
     "Apps",
     "ToDo/Teach"
   ]
