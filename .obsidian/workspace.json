@@ -78,7 +78,12 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< Updated upstream
     "width": 296.5
+=======
+    "width": 200,
+    "collapsed": true
+>>>>>>> Stashed changes
   },
   "right": {
     "id": "50d3cef634d67b52",
@@ -178,6 +183,7 @@
   },
   "active": "f8b5fc1331d3dd69",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Programming/CleanArchitecture/Setup/gitignore.md",
     "Programming/CleanArchitecture/Setup",
     "Programming/CleanArchitecture/00_Overview.md",
@@ -198,6 +204,12 @@
     "Programming/Account/Token Rotation/0- Tokens.md",
     "Tokens.md",
     "Programming/MongoDB.md",
+=======
+    "Programming/Account/Token Rotation/0- Tokens.md",
+    "Programming/Account/Token Rotation/0- Overview.md",
+    "Teach/Advance+.md",
+    "Tokens.md",
+>>>>>>> Stashed changes
     "Programming/Account/Token Rotation/TokenService.md",
     "Programming/Account/Token Rotation/TokenHasher.md",
     "Programming/Account/Token Rotation/TokenCookieService.md",

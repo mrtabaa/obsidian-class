@@ -39,13 +39,14 @@
 - [x] Detect Desktop/Mobile by `observer` in `TS`
 - [x] `ngStyle` and `ngClss` and `signal`
 - [x] `OperationResult`
-- [ ] Client => Change path from absolute to relative
+- [ ] Client => Change path from `absolute` to `relative`
 	`apiUrl: 'http://localhost:5100/api/',` 
 	to 
 	`apiUrl: '//localhost:5100/api/', // Relative URL rather than Absolute with 'http:', Auto-adjust with browser`
 - [ ] refresh/access [[0- Tokens]]
 - [ ] Deployment
 - [ ] [Advanced Rate Limiting Use Cases In .NET](https://www.milanjovanovic.tech/blog/advanced-rate-limiting-use-cases-in-dotnet)
+- [ ] CSRF/XSRF Attack
 - [ ] [[Verify Account]]
 - [ ] [[Reset Password]]
 - [ ] Swagger

@@ -53,7 +53,7 @@ This document outlines the architecture and best practices used to implement sec
         
         - DB lookup by `JtiValue`
             
-        - `TokenHasher.ValidateToken(raw, TokenValueHashed)`
+        - `TokenHasher.ValidateToken(.HashToken(incomingRaw), TokenValueHashed)`
             
         - Expiry, `IsRevoked`, and `UsedAt`
             
@@ -72,10 +72,10 @@ This document outlines the architecture and best practices used to implement sec
 
 ## 🧱 Cookie Configuration
 
-| Cookie               | Type      | HttpOnly | Secure | SameSite | Path                          |
-| -------------------- | --------- | -------- | ------ | -------- | ----------------------------- |
-| `auth.access-token`  | JWT       | ✅        | ✅      | `None`   | `/`                           |
-| `auth.refresh-token` | Encrypted | ✅        | ✅      | `None`   | `/api/account/refresh-tokens` |
+| Cookie               | Type      | HttpOnly | Secure | SameSite       | Path                          |
+| -------------------- | --------- | -------- | ------ | -------------- | ----------------------------- |
+| `auth.access-token`  | JWT       | ✅ XSS    | ✅ SSL  | `Strict / Lax` | `/`                           |
+| `auth.refresh-token` | Encrypted | ✅ XSS    | ✅ SSL  | `Strict / Lax` | `/api/account/refresh-tokens` |
 
 ---
 
