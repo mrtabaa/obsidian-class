@@ -48,6 +48,7 @@
 - [ ] [Advanced Rate Limiting Use Cases In .NET](https://www.milanjovanovic.tech/blog/advanced-rate-limiting-use-cases-in-dotnet)
 - [ ] [[Verify Account]]
 - [ ] [[Reset Password]]
+- [ ] Swagger
 - [ ] SignalR
 - [ ] `EntityFramework Core` ORM => `PostgreSql`
 - [ ] `Clean Architecture` and `SOLID`
