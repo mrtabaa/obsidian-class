@@ -1,6 +1,6 @@
 # 🔗 Layer Reference Order (Clean Architecture)
 
-This file explains **which layers are allowed to reference which** in the Hallboard Clean Architecture. Following this order enforces the **Dependency Rule** and maintains a clean separation of concerns.
+This file explains **which layers are allowed to reference which** in the project Clean Architecture. Following this order enforces the **Dependency Rule** and maintains a clean separation of concerns.
 
 ---
 

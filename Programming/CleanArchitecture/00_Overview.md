@@ -94,10 +94,10 @@ Clean Architecture separates an application into layers to enforce clear boundar
 **Layer Order (innermost to outermost):**
 1. Domain
 2. Application
-3. Contracts
-4. Infrastructure
-5. Shared
-6. Presentation
+3. Infrastructure
+4. Shared
+5. Presentation
+6. Contracts
 
 **Dependency Rule:** 
 - Dependencies point **inward**.
@@ -129,7 +129,7 @@ Represents **public-facing API DTOs** shared between backend and frontend.
 ### 4. 🔌 Infrastructure
 Implements **technical concerns** like persistence and external services.
 - MongoDB, PostgreSQL, Identity, Email
-- Implements interfaces from Domain or Application
+- Implements interfaces from Domain
 
 ### 5. 🧰 Shared
 Contains **cross-cutting utilities** that can be reused across Infrastructure and WebApi.
