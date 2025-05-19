@@ -178,6 +178,7 @@
   },
   "active": "397ed58977cfb013",
   "lastOpenFiles": [
+    "Programming/CleanArchitecture/ReferenceOrder.md",
     "Programming/CleanArchitecture/Setup/FolderStructure.md",
     "Programming/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
     "Programming/CleanArchitecture/Setup/gitignore.md",
@@ -205,7 +206,6 @@
     "Programming/Account/Token Rotation/Session Metadata.md",
     "Programming/Account/Token Rotation/Model & DTO.md",
     "Programming/Account/Token Rotation/AccountRepository.md",
-    "Programming/Account/Token Rotation/AccountController.md",
     "Programming/Account/Token Rotation",
     "Programming/Account/Token Rotation/TokenCookieService",
     "Programming/Account",

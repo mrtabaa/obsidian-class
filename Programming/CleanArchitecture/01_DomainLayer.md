@@ -9,6 +9,7 @@ The **Domain Layer** is the heart of your application. It defines what your app 
 - Enums (business-related)
 - Interfaces (e.g., IRepository, IValidator)
 - Domain Events (optional)
+- Business rules
 
 ## ❌ Avoid
 - DTOs

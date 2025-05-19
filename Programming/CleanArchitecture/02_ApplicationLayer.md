@@ -4,8 +4,9 @@ The Application Layer defines **use cases**. It orchestrates domain operations t
 
 ## ✅ Responsibilities
 - Use cases (Commands, Queries, Services)
-- DTOs (Request, Response)
-- Application-level interfaces
+- DTOs (Request/Command, Response/Result)
+- Application-level interfaces (Implemented by Presentation)
+- Application-level implementations (Calls Infrastructure repositories)
 - Enums used in filters, predicates
 - Mappings (AutoMapper profiles)
 - Validation logic (if domain-independent)
