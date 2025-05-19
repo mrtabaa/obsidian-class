@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/CleanArchitecture/Setup/FolderStructure.md",
-                "mode": "preview",
+                "file": "Programming/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FolderStructure"
+              "title": "dotnet-centralized-build-setup"
             }
           }
         ]
@@ -176,13 +176,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f8b5fc1331d3dd69",
+  "active": "397ed58977cfb013",
   "lastOpenFiles": [
+    "Programming/CleanArchitecture/Setup/FolderStructure.md",
+    "Programming/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
     "Programming/CleanArchitecture/Setup/gitignore.md",
     "Programming/CleanArchitecture/Setup",
     "Programming/CleanArchitecture/00_Overview.md",
     "Programming/CleanArchitecture/07_ReferenceOrder.md",
-    "Programming/CleanArchitecture/Setup/FolderStructure.md",
     "Programming/CleanArchitecture/Cheatsheet.md",
     "Programming/CleanArchitecture/02_ApplicationLayer.md",
     "Programming/CleanArchitecture/01_DomainLayer.md",
@@ -205,7 +206,6 @@
     "Programming/Account/Token Rotation/Model & DTO.md",
     "Programming/Account/Token Rotation/AccountRepository.md",
     "Programming/Account/Token Rotation/AccountController.md",
-    "Programming/Account/Token Rotation/0- Overview.md",
     "Programming/Account/Token Rotation",
     "Programming/Account/Token Rotation/TokenCookieService",
     "Programming/Account",

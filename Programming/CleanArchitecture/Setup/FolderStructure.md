@@ -16,6 +16,9 @@
 │       └── package.json
 │
 ├── backend/                        # .NET 9 Clean Architecture Backend
+│   ├── Directory.Build.props                       # Centralize shared project settings across the solution
+|	│   ├── Microsoft.CodeAnalysis.NetAnalyzers     # Install this NuGet to catch code and bug issues early + enforce consistency
+│   ├── Directory.Packages.props                    # Centralize NuGet versions / Romve Versions from all projects!
 │   ├── WebApi/                     # Entry point with controllers, middleware, filters
 │   ├── Application/                # Use cases, DTOs, service contracts
 │   ├── Domain/                     # Core entities, value objects, enums
