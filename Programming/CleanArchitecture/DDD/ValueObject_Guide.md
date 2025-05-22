@@ -75,7 +75,7 @@ public class Email : ValueObject
 
     public static Email Create(string value)
     {
-        if (string.IsNullOrWhiteSpace(value) || !value.Contains("@"))
+        if (string.IsNullOrWhiteSpace(value) || !Regex.IsMatch(value, @"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,5})+)$"))
             throw new Exception("Invalid email");
 
         return new Email(value.Trim().ToLowerInvariant());
