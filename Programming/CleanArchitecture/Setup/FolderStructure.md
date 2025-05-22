@@ -1,13 +1,13 @@
 ```plaintext
 /project-name/
 ├── apps/
-│   ├── client/                     # Angular 19 CSR App (Main Dashboard)
+│   ├── client/                             # Angular 19 CSR App (Main Dashboard)
 │   │   ├── src/
 │   │   ├── angular.json
 │   │   ├── tsconfig.json
 │   │   └── package.json
 │   │
-│   └── landing/                    # Angular SSR App (Public Landing Page)
+│   └── landing/                            # Angular SSR App (Public Landing Page)
 │       ├── src/
 │       ├── main.server.ts
 │       ├── server.ts
@@ -15,39 +15,85 @@
 │       ├── tsconfig.server.json
 │       └── package.json
 │
-├── backend/                        # .NET 9 Clean Architecture Backend
-│   ├── Directory.Build.props                       # Centralize shared project settings across the solution
+├── backend/                                        # .NET 9 Clean Architecture Backend
+│   ├── Directory.Build.props                       # Centralized settings
 |	│   ├── Microsoft.CodeAnalysis.NetAnalyzers     # Install this NuGet to catch code and bug issues early + enforce consistency
-│   ├── Directory.Packages.props                    # Centralize NuGet versions / Romve Versions from all projects!
-│   ├── WebApi/                     # Entry point with controllers, middleware, filters
-│   ├── Application/                # Use cases, DTOs, service contracts
-│   ├── Domain/                     # Core entities, value objects, enums
-│   ├── Infrastructure/             # MongoDB/PostgreSQL integrations, smart contracts
-│   ├── Contracts/                  # Shared API contracts between backend <-> frontend
-│   ├── Shared/                     # Middleware, auth, extensions, rate limiting
-│   └── Hallboard.sln               # Solution file
+│   ├── Directory.Packages.props                    # Centralized NuGet versioning
 │
-├── libs/                           # Shared code between apps
-│   ├── ui/                         # Angular Material components, shared UI
+│   ├── WebApi/                             # Entry point: controllers, filters, middleware
+│
+│   ├── Application/                        # Use cases, services, commands/queries
+│   │   └── Modules/
+│   │       ├── Auth/
+│   │       ├── Projects/
+│   │       └── Payments/
+│
+│   ├── Domain/                             # Core rules: entities, aggregates, value objects
+│   │   └── Modules/
+│   │       ├── Shared/
+│   │       ├── Auth/
+│   │       ├── Project/
+│   │       └── Payment/
+│
+│   ├── Infrastructure/                     # Adapters and integration code
+│   │   ├── Persistence/
+│   │   │   ├── Mongo/
+│   │   │   │   ├── MongoServiceExtensions.cs
+│   │   │   │   ├── MongoRepositoryExtensions.cs
+│   │   │   │   └── Settings/
+│   │   │   └── Postgres/
+│   │   │       ├── PostgresServiceExtensions.cs
+│   │   │       └── PostgresRepositoryExtensions.cs
+│   │   ├── Web3/
+│   │   │   ├── EscrowContractService.cs
+│   │   │   └── Web3ServiceExtensions.cs
+│   │   ├── Redis/
+│   │   │   ├── RedisCacheService.cs
+│   │   │   └── RedisServiceExtensions.cs
+│   │   └── InfrastructureServices.cs       # Composes all infra modules into IServiceCollection
+│
+│   ├── Contracts/                          # Shared API request/response models
+│   │   └── Modules/
+│   │       ├── Auth/
+│   │       ├── Projects/
+│   │       └── Payments/
+│
+│   ├── Shared/                             # Cross-cutting: OperationResult, errors, time, utils
+│
+│   ├── Tests/                              # All backend tests live here
+│   │   ├── Unit/
+│   │   │   ├── Domain/
+│   │   │   └── Application/
+│   │   ├── Integration/
+│   │   │   ├── Infrastructure/
+│   │   │   └── Application/
+│   │   └── E2E/
+│   │       └── WebApi/
+│   │
+│   └── Hallboard.sln                       # Solution file for the entire backend
+│
+├── libs/                                   # Shared Angular libraries
+│   ├── ui/                                 # Reusable Material components, layouts
 │   │   ├── components/
 │   │   ├── material-theme/
 │   │   └── index.ts
-│   ├── core/                       # Auth services, guards, interceptors
-│   └── env/                        # Environment configs and shared types
+│   ├── core/                               # Auth, guards, services, interceptors
+│   └── env/                                # Environment configs, tokens, models
 │
-├── build/                          # CI/CD scripts and deployment configs
-│   ├── nginx/                      # Nginx config for SSR + API reverse proxy
-│   ├── docker/                     # Dockerfiles, compose files
-│   └── deploy-prod.sh              # Optional deployment script
+├── build/                                  # CI/CD, Docker, Nginx, deployment
+│   ├── nginx/
+│   ├── docker/
+│   └── deploy-prod.sh
 │
-├── docs/                           # Markdown documentation
+├── docs/                                   # Obsidian-ready architecture notes
 │   ├── architecture.md
 │   ├── api-contracts.md
-│   └── deployment.md
+│   ├── deployment.md
+│   └── tests.md
 │
 ├── .editorconfig
 ├── .gitignore
 ├── README.md
-└── package.json                    # Optional – for root-level tooling
+└── package.json                            # Optional: tooling or mono-repo scripts
 
 ```
