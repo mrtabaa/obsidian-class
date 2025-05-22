@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2110fe6727476495",
+        "id": "246496b3cecd1e07",
         "type": "tabs",
         "children": [
           {
-            "id": "397ed58977cfb013",
+            "id": "5cd7858150d0e2b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "dotnet-centralized-build-setup"
+              "title": "New tab"
             }
           }
         ]
@@ -176,11 +172,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "397ed58977cfb013",
+  "active": "5cd7858150d0e2b0",
   "lastOpenFiles": [
-    "Programming/CleanArchitecture/ReferenceOrder.md",
+    "Programming/CleanArchitecture/DDD/Events.md",
+    "Programming/CleanArchitecture/DDD/ValueObject_Guide.md",
+    "Programming/CleanArchitecture/DDD/ValueObject.md",
     "Programming/CleanArchitecture/Setup/FolderStructure.md",
+    "Programming/CleanArchitecture/DDD",
+    "Programming/CleanArchitecture/07_TestsLayer.md",
+    "Programming/CleanArchitecture/06_SharedLayer.md",
+    "Programming/CleanArchitecture/tests.md",
     "Programming/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
+    "Programming/CleanArchitecture/ReferenceOrder.md",
     "Programming/CleanArchitecture/Setup/gitignore.md",
     "Programming/CleanArchitecture/Setup",
     "Programming/CleanArchitecture/00_Overview.md",
@@ -189,7 +192,6 @@
     "Programming/CleanArchitecture/02_ApplicationLayer.md",
     "Programming/CleanArchitecture/01_DomainLayer.md",
     "Programming/CleanArchitecture/LayerResponsibilitiesTable.md",
-    "Programming/CleanArchitecture/06_SharedLayer.md",
     "Programming/CleanArchitecture/05_ContractsLayer.md",
     "Programming/CleanArchitecture/04_PresentationLayer.md",
     "Programming/CleanArchitecture/03_InfrastructureLayer.md",
@@ -201,11 +203,6 @@
     "Tokens.md",
     "Programming/MongoDB.md",
     "Programming/Account/Token Rotation/TokenService.md",
-    "Programming/Account/Token Rotation/TokenHasher.md",
-    "Programming/Account/Token Rotation/TokenCookieService.md",
-    "Programming/Account/Token Rotation/Session Metadata.md",
-    "Programming/Account/Token Rotation/Model & DTO.md",
-    "Programming/Account/Token Rotation/AccountRepository.md",
     "Programming/Account/Token Rotation",
     "Programming/Account/Token Rotation/TokenCookieService",
     "Programming/Account",

@@ -17,7 +17,8 @@ This guide documents the shared configuration setup for the `ca-template` backen
       ├── Ca.Domain/
       ├── Ca.Infrastructure/
       ├── Ca.Shared/
-      └── Ca.WebApi/
+      ├── Ca.WebApi/
+      └── Ca.Tests/
 ```
 
 > 🧠 **Important**:  
