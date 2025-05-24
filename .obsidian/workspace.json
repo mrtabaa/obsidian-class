@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/CleanArchitecture/DDD/ValueObject_Guide.md",
+                "file": "Programming/New-sln,-API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ValueObject_Guide"
+              "title": "New-sln,-API"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "5cd7858150d0e2b0",
   "lastOpenFiles": [
-    "Programming/CleanArchitecture/DDD/Events.md",
+    "Teach/Advance.md",
     "Programming/CleanArchitecture/DDD/ValueObject_Guide.md",
+    "Programming/CleanArchitecture/DDD/Events.md",
     "Programming/CleanArchitecture/DDD/ValueObject.md",
     "Programming/CleanArchitecture/Setup/FolderStructure.md",
     "Programming/CleanArchitecture/DDD",
@@ -200,7 +201,6 @@
     "Programming/CleanArchitecture/04_PresentationLayer.md",
     "Programming/CleanArchitecture/03_InfrastructureLayer.md",
     "Programming/CleanArchitecture/0-Hierarchy.md",
-    "Teach/Advance.md",
     "Teach/Advance+.md",
     "Programming/CleanArchitecture",
     "Programming/Account/Token Rotation/0- Tokens.md",
