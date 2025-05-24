@@ -21,12 +21,16 @@
 │   ├── Directory.Packages.props                    # Centralized NuGet versioning
 │
 │   ├── WebApi/                             # Entry point: controllers, filters, middleware
-│
+│   │   └── Modules/
+│   │       ├── Auth/
+│   │       ├── Project/
+│   │       └── Payment/
+│	
 │   ├── Application/                        # Use cases, services, commands/queries
 │   │   └── Modules/
 │   │       ├── Auth/
-│   │       ├── Projects/
-│   │       └── Payments/
+│   │       ├── Project/
+│   │       └── Payment/
 │
 │   ├── Domain/                             # Core rules: entities, aggregates, value objects
 │   │   └── Modules/
@@ -55,8 +59,8 @@
 │   ├── Contracts/                          # Shared API request/response models
 │   │   └── Modules/
 │   │       ├── Auth/
-│   │       ├── Projects/
-│   │       └── Payments/
+│   │       ├── Project/
+│   │       └── Payment/
 │
 │   ├── Shared/                             # Cross-cutting: OperationResult, errors, time, utils
 │
