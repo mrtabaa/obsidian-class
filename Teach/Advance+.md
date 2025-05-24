@@ -44,7 +44,7 @@
 	to 
 	`apiUrl: '//localhost:5100/api/', // Relative URL rather than Absolute with 'http:', Auto-adjust with browser`
 - [ ] refresh/access [[0- Tokens]]
-- [ ] Clean Architecture
+- [ ] [[00_Overview]] `Clean Architecture` and `SOLID`
 - [ ] OpenApi & Swagger
 - [ ] Deployment
 - [ ] [Advanced Rate Limiting Use Cases In .NET](https://www.milanjovanovic.tech/blog/advanced-rate-limiting-use-cases-in-dotnet)
@@ -53,4 +53,3 @@
 - [ ] [[Reset Password]]
 - [ ] SignalR
 - [ ] `EntityFramework Core` ORM => `PostgreSql`
-- [ ] `Clean Architecture` and `SOLID`
