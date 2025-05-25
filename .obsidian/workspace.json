@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/CleanArchitecture/Setup/FolderStructure.md",
+                "file": "Programming/CleanArchitecture/07_TestsLayer.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FolderStructure"
+              "title": "07_TestsLayer"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "right": {
     "id": "50d3cef634d67b52",
@@ -179,20 +178,20 @@
   },
   "active": "5cd7858150d0e2b0",
   "lastOpenFiles": [
-    "Teach/Advance+.md",
-    "Programming/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
+    "Programming/CleanArchitecture/Setup/gitignore.md",
     "Programming/CleanArchitecture/Setup/FolderStructure.md",
-    "Programming/CleanArchitecture/DDD/Events.md",
-    "Programming/CleanArchitecture/DDD/ValueObject_Guide.md",
     "Programming/New-sln,-API.md",
     "Teach/Advance.md",
+    "Teach/Advance+.md",
+    "Programming/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
+    "Programming/CleanArchitecture/DDD/Events.md",
+    "Programming/CleanArchitecture/DDD/ValueObject_Guide.md",
     "Programming/CleanArchitecture/DDD/ValueObject.md",
     "Programming/CleanArchitecture/DDD",
     "Programming/CleanArchitecture/07_TestsLayer.md",
     "Programming/CleanArchitecture/06_SharedLayer.md",
     "Programming/CleanArchitecture/tests.md",
     "Programming/CleanArchitecture/ReferenceOrder.md",
-    "Programming/CleanArchitecture/Setup/gitignore.md",
     "Programming/CleanArchitecture/Setup",
     "Programming/CleanArchitecture/00_Overview.md",
     "Programming/CleanArchitecture/07_ReferenceOrder.md",

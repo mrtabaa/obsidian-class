@@ -1,7 +1,7 @@
 - [x] Go to project root folder
 - [x] Create `sln` [only if](https://stackoverflow.com/questions/24436042/why-and-when-should-i-ever-be-using-sln-files)
 ```bash
-dotnet new sln
+dotnet new sln --output MySolution
 ```
 
 - [x] Create webapi:
