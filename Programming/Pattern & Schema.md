@@ -9,4 +9,4 @@
 ![[MongoDB-Pattern---Schema-image5.jpg]]
 
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]

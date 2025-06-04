@@ -29,4 +29,4 @@ providers: [
 
 4. Re-Serve the app.
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]

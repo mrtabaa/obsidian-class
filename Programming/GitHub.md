@@ -46,7 +46,7 @@ rm ~/.gitconfig
 NOTE: 
 Name the repo exactly the same as the project root folder
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]
 
 -------------------------------------
 

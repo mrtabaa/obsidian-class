@@ -28,10 +28,10 @@ sudo rm -r /var/log/mongodb /var/lib/mongodb
 
 Back to [[Linux apps & update]]
 OR
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]
 #### Windows
 1. Install MongoDB Server Community
 2. Install **Nuget Gallery** in VSCode.
 3. Install official VSCode MongoDB extension (works like campus).
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]

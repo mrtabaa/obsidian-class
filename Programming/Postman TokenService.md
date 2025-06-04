@@ -23,4 +23,4 @@ Then go to `Environments` => `Globals`Tab => Create a variable called `token`
 Then set this variable in `User`'s `Authentication`' tab
 ![[postman-token-1.png]]
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]

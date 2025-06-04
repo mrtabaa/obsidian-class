@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "246496b3cecd1e07",
+        "id": "e219b450558143e8",
         "type": "tabs",
         "children": [
           {
-            "id": "5cd7858150d0e2b0",
+            "id": "29b8d6f46e34cb4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/CleanArchitecture/07_TestsLayer.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "07_TestsLayer"
+              "title": "New tab"
             }
           }
         ]
@@ -176,42 +172,43 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5cd7858150d0e2b0",
+  "active": "29b8d6f46e34cb4b",
   "lastOpenFiles": [
-    "Programming/CleanArchitecture/Setup/gitignore.md",
-    "Programming/CleanArchitecture/Setup/FolderStructure.md",
-    "Programming/New-sln,-API.md",
-    "Teach/Advance.md",
-    "Teach/Advance+.md",
-    "Programming/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
-    "Programming/CleanArchitecture/DDD/Events.md",
-    "Programming/CleanArchitecture/DDD/ValueObject_Guide.md",
-    "Programming/CleanArchitecture/DDD/ValueObject.md",
-    "Programming/CleanArchitecture/DDD",
-    "Programming/CleanArchitecture/07_TestsLayer.md",
-    "Programming/CleanArchitecture/06_SharedLayer.md",
-    "Programming/CleanArchitecture/tests.md",
-    "Programming/CleanArchitecture/ReferenceOrder.md",
-    "Programming/CleanArchitecture/Setup",
-    "Programming/CleanArchitecture/00_Overview.md",
-    "Programming/CleanArchitecture/07_ReferenceOrder.md",
-    "Programming/CleanArchitecture/Cheatsheet.md",
-    "Programming/CleanArchitecture/02_ApplicationLayer.md",
-    "Programming/CleanArchitecture/01_DomainLayer.md",
-    "Programming/CleanArchitecture/LayerResponsibilitiesTable.md",
-    "Programming/CleanArchitecture/05_ContractsLayer.md",
-    "Programming/CleanArchitecture/04_PresentationLayer.md",
-    "Programming/CleanArchitecture/03_InfrastructureLayer.md",
-    "Programming/CleanArchitecture/0-Hierarchy.md",
-    "Programming/CleanArchitecture",
-    "Programming/Account/Token Rotation/0- Tokens.md",
-    "Tokens.md",
-    "Programming/MongoDB.md",
-    "Programming/Account/Token Rotation",
-    "Programming/Account/Token Rotation/TokenCookieService",
-    "Programming/Account",
-    "Teach",
-    "Apps",
-    "ToDo/Teach"
+    "att/Pasted image 20250604220750.png",
+    "att",
+    "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
+    "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
+    "Programming/project/backend/CleanArchitecture/DDD/ValueObject_Guide.md",
+    "Programming/project/backend/CleanArchitecture/DDD/Events.md",
+    "Programming/project/backend/Account/Token Rotation/TokenService.md",
+    "Programming/project/backend/Account/Token Rotation/TokenHasher.md",
+    "Programming/project/backend/Account/Token Rotation/TokenCookieService.md",
+    "Programming/project/backend/Account/Token Rotation/Session Metadata.md",
+    "Programming/project/backend/Account/Token Rotation/Model & DTO.md",
+    "Programming/project/backend/Account/Token Rotation/AccountRepository.md",
+    "Programming/project/backend/Account/Token Rotation/AccountController.md",
+    "Programming/project/backend/Account/Token Rotation/0- Overview.md",
+    "Programming/project/backend/Account/Token Rotation/0- Tokens.md",
+    "Programming/project/backend/CleanArchitecture/Setup",
+    "Programming/project/backend/CleanArchitecture/ReferenceOrder.md",
+    "Programming/project/backend/CleanArchitecture/LayerResponsibilitiesTable.md",
+    "Programming/project/backend/CleanArchitecture/DDD",
+    "Programming/project/backend/CleanArchitecture/Cheatsheet.md",
+    "Programming/project/backend/CleanArchitecture/07_TestsLayer.md",
+    "Programming/project/backend/CleanArchitecture/06_SharedLayer.md",
+    "Programming/project/backend/CleanArchitecture/05_ContractsLayer.md",
+    "Programming/project/backend/CleanArchitecture/04_PresentationLayer.md",
+    "Programming/project/backend/CleanArchitecture/03_InfrastructureLayer.md",
+    "Programming/project/backend/CleanArchitecture/02_ApplicationLayer.md",
+    "Programming/project/backend/CleanArchitecture/01_DomainLayer.md",
+    "Programming/project/backend/CleanArchitecture/00_Overview.md",
+    "Programming/project/backend/Account/Verify Account.md",
+    "Programming/project/backend/Account/Token Rotation",
+    "Programming/project/backend/CleanArchitecture",
+    "Programming/project/backend/Account",
+    "Programming/project/frontend",
+    "Programming/project/backend",
+    "Programming/project",
+    "Programming/CleanArchitecture/Setup"
   ]
 }

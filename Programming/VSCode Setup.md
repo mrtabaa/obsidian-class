@@ -11,4 +11,4 @@
 
 - [x] [[Fix VSCode KDE Keyring.odt]]
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]

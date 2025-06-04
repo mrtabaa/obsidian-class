@@ -39,4 +39,4 @@ dotnet sln add api
 
 - [x] Setup Debugger for api and client [[Programming/Debugger-setup]]
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]

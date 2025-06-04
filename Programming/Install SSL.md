@@ -54,4 +54,4 @@ builder.Services.AddCors(options =>
 
 8. Restart `dotnet`, `ng serve`, and the `browser`.
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]

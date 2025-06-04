@@ -12,4 +12,4 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 - [x] Now install/upgrade Angular: ` npm i -g @angular/cli`
 - [x] Check Angular version by `ng version`
 
-Back to [[0 - Project Steps]]
+Back to [[Project Steps]]
