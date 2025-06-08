@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/DB/SQL & NoSQL.md",
+                "file": "Programming/DB/Hybrid Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL & NoSQL"
+              "title": "Hybrid Structure"
             }
           }
         ]
@@ -177,7 +177,7 @@
   },
   "active": "1ae2154922127c87",
   "lastOpenFiles": [
-    "Programming/DB/SQL & NoSQL.md",
+    "Programming/DB/Hybrid Structure.md",
     "Programming/DB",
     "att/Pasted image 20250604220750.png",
     "att",
