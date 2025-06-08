@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e219b450558143e8",
+        "id": "6a47d3bcd9ddb45d",
         "type": "tabs",
         "children": [
           {
-            "id": "29b8d6f46e34cb4b",
+            "id": "1ae2154922127c87",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programming/DB/SQL & NoSQL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SQL & NoSQL"
             }
           }
         ]
@@ -36,8 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -172,8 +175,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "29b8d6f46e34cb4b",
+  "active": "1ae2154922127c87",
   "lastOpenFiles": [
+    "Programming/DB/SQL & NoSQL.md",
+    "Programming/DB",
     "att/Pasted image 20250604220750.png",
     "att",
     "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
@@ -208,7 +213,6 @@
     "Programming/project/backend/Account",
     "Programming/project/frontend",
     "Programming/project/backend",
-    "Programming/project",
-    "Programming/CleanArchitecture/Setup"
+    "Programming/project"
   ]
 }
