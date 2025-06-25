@@ -1,3 +1,15 @@
+#### Workflow
+Postman  
+=> Request(Contracts) => Controller (WebApi) - Mapper(WebApi)  request > command(Application)  
+=> Service(Application) => Entity/Validate(Domain) => Service(Application)  
+=> Repository(Infra) - Mapper domainEntity > mongoModel => Database => Repository(Infra) - Mapper mongoModel > domainResult  
+=> Service(Application) - Mapper domainResult > Response(Contracts) - OperationResult<Response>  
+=> Controller(WebApi) => Response(Contracts)  
+=> Postman  
+  
+Application => Business logic  
+WebApi => 
+
 # Clean Architecture Cheatsheet ✅
 
 - 🔁 **Dependency Rule:** Dependencies point inward

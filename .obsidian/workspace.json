@@ -11,10 +11,14 @@
             "id": "29b8d6f46e34cb4b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programming/project/backend/CleanArchitecture/Cheatsheet.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Cheatsheet"
             }
           }
         ]
@@ -174,10 +178,14 @@
   },
   "active": "29b8d6f46e34cb4b",
   "lastOpenFiles": [
-    "att/Pasted image 20250604220750.png",
-    "att",
+    "Programming/project/backend/OpenApi.md",
+    "Programming/project/FolderStructure.md",
     "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
     "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
+    "Programming/CleanArchitecture/Setup/FolderStructure.md",
+    "Programming/helpers/Fix MondoDB Service.md",
+    "att/Pasted image 20250604220750.png",
+    "att",
     "Programming/project/backend/CleanArchitecture/DDD/ValueObject_Guide.md",
     "Programming/project/backend/CleanArchitecture/DDD/Events.md",
     "Programming/project/backend/Account/Token Rotation/TokenService.md",
@@ -200,9 +208,6 @@
     "Programming/project/backend/CleanArchitecture/04_PresentationLayer.md",
     "Programming/project/backend/CleanArchitecture/03_InfrastructureLayer.md",
     "Programming/project/backend/CleanArchitecture/02_ApplicationLayer.md",
-    "Programming/project/backend/CleanArchitecture/01_DomainLayer.md",
-    "Programming/project/backend/CleanArchitecture/00_Overview.md",
-    "Programming/project/backend/Account/Verify Account.md",
     "Programming/project/backend/Account/Token Rotation",
     "Programming/project/backend/CleanArchitecture",
     "Programming/project/backend/Account",
