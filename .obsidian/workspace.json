@@ -178,6 +178,8 @@
   },
   "active": "29b8d6f46e34cb4b",
   "lastOpenFiles": [
+    "Programming/DB/Hybrid Structure.md",
+    "Programming/DB",
     "Programming/project/backend/OpenApi.md",
     "Programming/project/FolderStructure.md",
     "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
@@ -207,13 +209,11 @@
     "Programming/project/backend/CleanArchitecture/05_ContractsLayer.md",
     "Programming/project/backend/CleanArchitecture/04_PresentationLayer.md",
     "Programming/project/backend/CleanArchitecture/03_InfrastructureLayer.md",
-    "Programming/project/backend/CleanArchitecture/02_ApplicationLayer.md",
     "Programming/project/backend/Account/Token Rotation",
     "Programming/project/backend/CleanArchitecture",
     "Programming/project/backend/Account",
     "Programming/project/frontend",
     "Programming/project/backend",
-    "Programming/project",
-    "Programming/CleanArchitecture/Setup"
+    "Programming/project"
   ]
 }

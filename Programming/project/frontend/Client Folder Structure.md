@@ -45,5 +45,5 @@ client/
         │   └── utils/
         │
         ├── app.config.ts                  # Angular 19 bootstrap configuration
-        └── routes.ts                      # Root-level app routes
+        └── app.routes.ts                      # Root-level app routes
 ```

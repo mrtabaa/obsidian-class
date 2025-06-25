@@ -4,7 +4,7 @@ Placing paths in `app.routes.ts` as before:
 **Pros**:  Fast init time. It's already downloaded in the bundle. 
 **Const**: 
 * Slower app startup with larger bundle.
-* Not modular in feature folders. A messy route file. 
+* Not modular in features folder. A messy route file. 
 
 #### Lazy loading
 Placing paths under each feature like: 
@@ -14,7 +14,7 @@ Placing paths under each feature like:
 
 **Pros**:
 * Faster app startup with smaller bundle.
-* Modular in feature folders. Clean route files.
+* Modular in features folder. Clean route files.
 **Const**: 
 * Slow init time. It has to download on navigation. **(only on the first load. After that it's fast)** 
  
@@ -60,7 +60,7 @@ export const routes: Routes = [
   {
     path: 'order',
     loadChildren: () =>
-      import('./features/order/routes').then(m => m.dashboardRoutes) // ✅ lazy loaded
+      import('./features/order/routes').then(m => m.orderRoutes) // ✅ lazy loaded
   }
 ];
 ```
