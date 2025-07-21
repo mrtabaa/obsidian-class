@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e219b450558143e8",
+        "id": "eb442b502c25f2f6",
         "type": "tabs",
         "children": [
           {
-            "id": "29b8d6f46e34cb4b",
+            "id": "21e84ca082cb9503",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/project/backend/CleanArchitecture/Cheatsheet.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cheatsheet"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gitignore",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,16 +173,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "29b8d6f46e34cb4b",
+  "active": "21e84ca082cb9503",
   "lastOpenFiles": [
-    "Programming/project/backend/OpenApi.md",
+    "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
+    "Programming/GitHub.md",
+    "Programming/project/FolderStructure.md",
+    "Programming/appsettings.json.md",
     "Programming/project/backend/CleanArchitecture/Cheatsheet.md",
+    "Programming/project/backend/OpenApi.md",
     "Programming/project/backend/CleanArchitecture/06_SharedLayer.md",
     "Programming/project/backend/CleanArchitecture/07_TestsLayer.md",
     "Programming/DB/Hybrid Structure.md",
     "Programming/DB",
-    "Programming/project/FolderStructure.md",
-    "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
     "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
     "Programming/CleanArchitecture/Setup/FolderStructure.md",
     "Programming/helpers/Fix MondoDB Service.md",
@@ -207,8 +206,6 @@
     "Programming/project/backend/CleanArchitecture/LayerResponsibilitiesTable.md",
     "Programming/project/backend/CleanArchitecture/DDD",
     "Programming/project/backend/CleanArchitecture/05_ContractsLayer.md",
-    "Programming/project/backend/CleanArchitecture/04_PresentationLayer.md",
-    "Programming/project/backend/CleanArchitecture/03_InfrastructureLayer.md",
     "Programming/project/backend/Account/Token Rotation",
     "Programming/project/backend/CleanArchitecture",
     "Programming/project/backend/Account",

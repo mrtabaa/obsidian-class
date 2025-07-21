@@ -58,6 +58,25 @@ Thumbs.db
 *.db-shm
 *.db-wal
 
+# Build artifacts and cache
+*.nupkg
+*.snupkg
+*.dg
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.vscode/
+.nuget/
+project.lock.json
+project.assets.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
 # ─────────────────────────────
 # ⚙️ Build / CI Scripts
 # ─────────────────────────────
