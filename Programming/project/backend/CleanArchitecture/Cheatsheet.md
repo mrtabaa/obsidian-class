@@ -6,6 +6,8 @@ Postman
 => Service(Application) - Mapper domainResult > Response(Contracts) - OperationResult<Response>  
 => Controller(WebApi) => Response(Contracts)  
 => Postman  
+
+`Consistency`
   
 Application => Business logic  
 WebApi => 

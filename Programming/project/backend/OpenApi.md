@@ -7,7 +7,7 @@ https://localhost:5001/openapi/v1.json
 3. Import it in `Postman`
 
 ### Show in Swagger UI
-2. In `WebApi`
+2. Install this nuget over `WebApi`
 ```plaintext
 Swashbuckle.AspNetCore.SwaggerUI
 ```
