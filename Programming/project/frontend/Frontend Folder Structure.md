@@ -1,10 +1,10 @@
-## 🧱 Angular 19 Folder Structure – `client` App (Clean Architecture Inspired)
+## 🧱 Angular 19 Folder Structure – `dashboard` App (Clean Architecture Inspired)
 
 NOTE: 
 Each feature has its own dedicated root. See [[Routes Management]]
 
 ```plaintext
-client/
+frontend/
 └── src/
     └── app/
         ├── features/                      # Application features (use cases)
@@ -23,9 +23,9 @@ client/
         │   │   ├── order.service.ts
         │   │   └── routes.ts
         │   │
-        │   └── dashboard/
-        │       ├── dashboard.component.ts
-        │       ├── dashboard.component.html
+        │   └── user-panel/
+        │       ├── user-panel.component.ts
+        │       ├── user-panel.component.html
         │       └── ...
         │
         ├── shared/                        # Reusable UI elements (non-domain specific)

@@ -1,3 +1,6 @@
+dashboard.hallboard.com
+www.hallboard.com
+
 ```plaintext
 /project-name/
 │
@@ -7,7 +10,7 @@
 │   ├── package.json                            # Contains Angular, Material, etc.
 │   │
 │   ├── apps/                                   # Angular applications
-│   │   ├── client/                             # Angular 19 CSR App (Main Dashboard)
+│   │   ├── dashboard/                          # Angular 19 CSR App (Main Dashboard)
 │   │   │   ├── src/
 │   │   │   ├── main.ts
 │   │   │   └── ... (standalone app config)

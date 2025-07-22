@@ -11,7 +11,7 @@ ng new frontend --create-application=false
 ```bash
 cd frontend
 
-ng g app client
+ng g app dashboard
 
 ng g app landing
 
@@ -27,7 +27,7 @@ ng g c components/login --project=landing
 
 #### Assign ports and serve
 All Angular projects run on port `4200` by default. Now we have two project and we must change one of them to prevent port conflict on serve. 
-1. Consider `client` as default with port `4200`
+1. Consider `dashboard` as default with port `4200`
 2. Change `landing` port to `4201` using `angular.json`:
 ```js
 "projects": {
@@ -45,18 +45,18 @@ All Angular projects run on port `4200` by default. Now we have two project and 
 ```
 3. Run both projects:
 ```bash
-ng s --project=client
+ng s --project=dashboard
 
 ng s --project=landing
 ```
-Now `client` runs on `4200`
+Now `dashboard` runs on `4200`
 And `landing` runs on `4201`
 
 
 
 ## Install `Angular Material`
 ```bash
-ng add @angular/material --project=client
+ng add @angular/material --project=dashboard
 
 ng add @angular/material --project=landing
 ```
@@ -64,23 +64,23 @@ Note: Libraries like `ui` which don't need to be set on `angular.json` and use t
 
 ## Create components/services in the `Ui` library
 
-##### Create components/services in `client` app:
+##### Create components/services in `dashboard` app:
 * Create `OrderComponent`:
 ```bash
-ng g c features/order/order --project=client
+ng g c features/order/order --project=dashboard
 ```
 * Create `OrderService`:
 ```bash
-ng g s features/order/order --project=client
+ng g s features/order/order --project=dashboard
 ```
 
 ##### Create components/services in libraries
-* Create a `UiButtonComponent` in the `ui` library to use it in the `client` app
+* Create a `UiButtonComponent` in the `ui` library to use it in the `dashboard` app
 ```ts
 ng g c ui-button --project=ui --prefix=ui
 ```
 
-* Create `ToolsHelperService` in the `tools` library to use in the `client` app
+* Create `ToolsHelperService` in the `tools` library to use in the `dashboard` app
 ```bash
 ng g s tools-helper --project=tools --prefix=tools
 ```
@@ -106,7 +106,7 @@ export class UIButtonComponent {
   @Input() color: 'primary' | 'accent' | 'warn' = 'primary';
 }
 ```
-4. Import `ui-button` to use in the `client` or `landing` apps
+4. Import `ui-button` to use in the `dashboard` or `landing` apps
 
 
 ###### List of the items to be created in the `Ui` library

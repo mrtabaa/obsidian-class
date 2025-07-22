@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb442b502c25f2f6",
+        "id": "2ac84a08c307390c",
         "type": "tabs",
         "children": [
           {
-            "id": "21e84ca082cb9503",
+            "id": "f30bdd65ef1be1a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programming/project/FolderStructure.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "FolderStructure"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gitignore",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,11 +176,26 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "21e84ca082cb9503",
+  "active": "f30bdd65ef1be1a6",
   "lastOpenFiles": [
-    "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
-    "Programming/GitHub.md",
+    "Programming/project/Docker/3- Setup.md",
+    "Programming/project/Docker/2- Folder structure.md",
+    "Programming/project/Docker/1-Installation.md",
+    "Programming/project/Docker/0-What is it.md",
+    "Programming/project/Docker/Setup Dev.md",
+    "Programming/project/Docker/Setup Prod.md",
+    "Programming/project/Docker/Untitled",
+    "Programming/project/Project Steps.md",
     "Programming/project/FolderStructure.md",
+    "Programming/project/frontend/Routes Management.md",
+    "Programming/project/Docker",
+    "Programming/project/frontend/Frontend Folder Structure.md",
+    "Programming/project/frontend/Angular workspace.md",
+    "Programming/project/backend/CleanArchitecture/00_Overview.md",
+    "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
+    "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
+    "Teach/Advance.md",
+    "Programming/GitHub.md",
     "Programming/appsettings.json.md",
     "Programming/project/backend/CleanArchitecture/Cheatsheet.md",
     "Programming/project/backend/OpenApi.md",
@@ -185,32 +203,17 @@
     "Programming/project/backend/CleanArchitecture/07_TestsLayer.md",
     "Programming/DB/Hybrid Structure.md",
     "Programming/DB",
-    "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
     "Programming/CleanArchitecture/Setup/FolderStructure.md",
     "Programming/helpers/Fix MondoDB Service.md",
     "att/Pasted image 20250604220750.png",
     "att",
     "Programming/project/backend/CleanArchitecture/DDD/ValueObject_Guide.md",
     "Programming/project/backend/CleanArchitecture/DDD/Events.md",
-    "Programming/project/backend/Account/Token Rotation/TokenService.md",
-    "Programming/project/backend/Account/Token Rotation/TokenHasher.md",
-    "Programming/project/backend/Account/Token Rotation/TokenCookieService.md",
-    "Programming/project/backend/Account/Token Rotation/Session Metadata.md",
-    "Programming/project/backend/Account/Token Rotation/Model & DTO.md",
-    "Programming/project/backend/Account/Token Rotation/AccountRepository.md",
-    "Programming/project/backend/Account/Token Rotation/AccountController.md",
-    "Programming/project/backend/Account/Token Rotation/0- Overview.md",
-    "Programming/project/backend/Account/Token Rotation/0- Tokens.md",
     "Programming/project/backend/CleanArchitecture/Setup",
-    "Programming/project/backend/CleanArchitecture/ReferenceOrder.md",
-    "Programming/project/backend/CleanArchitecture/LayerResponsibilitiesTable.md",
     "Programming/project/backend/CleanArchitecture/DDD",
-    "Programming/project/backend/CleanArchitecture/05_ContractsLayer.md",
     "Programming/project/backend/Account/Token Rotation",
     "Programming/project/backend/CleanArchitecture",
     "Programming/project/backend/Account",
-    "Programming/project/frontend",
-    "Programming/project/backend",
-    "Programming/project"
+    "Programming/project/frontend"
   ]
 }
