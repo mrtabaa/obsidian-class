@@ -29,7 +29,7 @@ ENTRYPOINT ["dotnet", "YourApp.dll"]
 FROM node:20 AS build
 WORKDIR /app
 COPY . .
-RUN npm install && npm run build:ssr
+RUN npm install && npm run build:prerender
 
 FROM node:20 AS runtime
 WORKDIR /app
