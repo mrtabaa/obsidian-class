@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/project/Deployment/Azure API - CICD.md",
-                "mode": "preview",
+                "file": "Programming/project/Deployment/Client - SSR.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure API - CICD"
+              "title": "Client - SSR"
             }
           }
         ]
@@ -178,11 +178,12 @@
   },
   "active": "f30bdd65ef1be1a6",
   "lastOpenFiles": [
+    "Programming/project/Front-end/Routes Management.md",
+    "Programming/project/Deployment/Client - SSR.md",
+    "Programming/project/Deployment/API - Azure CICD.md",
     "Programming/project/Deployment",
     "Programming/project/DB/Hybrid Structure.md",
-    "Programming/project/Deployment/Azure API - CICD.md",
     "Programming/project/Project Steps.md",
-    "Programming/project/Front-end/Routes Management.md",
     "Programming/project/Front-end/Frontend Folder Structure.md",
     "Programming/project/Front-end/Angular workspace.md",
     "Programming/project/Agile/DoR & DoD.md",
@@ -213,7 +214,6 @@
     "att",
     "Programming/project/backend/CleanArchitecture/Setup",
     "Programming/project/backend/CleanArchitecture/DDD",
-    "Programming/project/backend/Account/Token Rotation",
-    "Programming/project/backend/CleanArchitecture"
+    "Programming/project/backend/Account/Token Rotation"
   ]
 }
