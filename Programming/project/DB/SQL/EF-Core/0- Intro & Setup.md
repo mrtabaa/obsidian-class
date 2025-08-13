@@ -14,8 +14,10 @@ Common examples include:
 - **Order Status:** Two different systems try to update the status of an order from "Processing" to "Shipped" and "Canceled" at the same time.
 - **Inventory Count:** Two customers simultaneously try to purchase the last available item in your stock.
 - **User Profile:** Two different sessions try to update a user's email address or profile information simultaneously.
+
+e.g. Prevent update **User Profile** simultaneously.  
 ```C#
-b.Entity<ProductPostgres>()             // Product Model in infra 
+b.Entity<AppUserPostgres>()             // AppUser Model in infra 
     .Property<uint>("xmin")             // shadow property  !!! "xmin" is for PostgreSQL ONLY!
     .IsConcurrencyToken()               // marks as concurrency token  
     .ValueGeneratedOnAddOrUpdate();     // DB-maintained
