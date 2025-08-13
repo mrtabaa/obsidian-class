@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/project/Deployment/Client - SSR.md",
+                "file": "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Client - SSR"
+              "title": "0- Intro & Setup"
             }
           }
         ]
@@ -178,20 +178,26 @@
   },
   "active": "f30bdd65ef1be1a6",
   "lastOpenFiles": [
-    "Programming/project/Front-end/Routes Management.md",
+    "Programming/project/DB/SQL/EF-Core/Commands.md",
+    "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md",
+    "Programming/project/DB/SQL/PostgreSQL.md",
+    "Programming/project/DB/SQL/EF-Core",
+    "Programming/project/DB/Hybrid Structure.md",
+    "Programming/project/Agile/0- Schedule.md",
+    "Programming/project/Agile/0-Intro.md",
+    "Programming/project/Agile/Taiga/Scrum.md",
+    "Programming/project/DB/SQL",
     "Programming/project/Deployment/Client - SSR.md",
+    "Programming/project/Front-end/Routes Management.md",
     "Programming/project/Deployment/API - Azure CICD.md",
     "Programming/project/Deployment",
-    "Programming/project/DB/Hybrid Structure.md",
     "Programming/project/Project Steps.md",
     "Programming/project/Front-end/Frontend Folder Structure.md",
     "Programming/project/Front-end/Angular workspace.md",
     "Programming/project/Agile/DoR & DoD.md",
-    "Programming/project/Agile/Taiga/Scrum.md",
     "Programming/project/Agile/UX.md",
     "Programming/project/Agile/Story Points.md",
     "Programming/project/Agile/GitHub Project.md",
-    "Programming/project/Agile/0-Intro.md",
     "Programming/project/Agile/Taiga",
     "Programming/project/Docker/3- Setup.md",
     "Programming/project/Agile",
@@ -205,15 +211,9 @@
     "Programming/project/Docker/Untitled",
     "Programming/project/Docker",
     "Programming/project/backend/CleanArchitecture/00_Overview.md",
-    "Programming/project/backend/CleanArchitecture/Setup/gitignore.md",
-    "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
-    "Teach/Advance.md",
-    "Programming/GitHub.md",
     "Programming/project/DB",
     "att/Pasted image 20250604220750.png",
     "att",
-    "Programming/project/backend/CleanArchitecture/Setup",
-    "Programming/project/backend/CleanArchitecture/DDD",
-    "Programming/project/backend/Account/Token Rotation"
+    "Programming/project/backend/CleanArchitecture/Setup"
   ]
 }
