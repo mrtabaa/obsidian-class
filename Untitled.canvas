@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"19a340ff2c51683e","x":-240,"y":-80,"width":250,"height":60,"type":"text","text":"Thi si sa test \nal;sdfjl;ka\n"},
+		{"id":"17fff977ced9cb19","x":-226,"y":39,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"7b9d8bfd3e7d2371","fromNode":"19a340ff2c51683e","fromSide":"bottom","toNode":"17fff977ced9cb19","toSide":"top"}
+	]
+}
