@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "08f9acbae7a54126",
+        "id": "cd072c28bae966ef",
         "type": "tabs",
         "children": [
           {
-            "id": "40f93ee807cc3cd0",
+            "id": "279d84b1bc5c3e04",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/community-plugins.json",
-                "bFile": ".obsidian/community-plugins.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: community-plugins.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -168,7 +164,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "40f93ee807cc3cd0",
+  "active": "fe4bde6d197b3635",
   "lastOpenFiles": [
     "Tokens.md",
     "Untitled.canvas",
