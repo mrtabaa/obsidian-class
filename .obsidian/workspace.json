@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "483c59c6e391d810",
+        "id": "8a5ba992ea402040",
         "type": "tabs",
         "children": [
           {
-            "id": "8f91425b8a83e50b",
+            "id": "e12719a825e3a9db",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": ""
+                "file": "Programming/project/DB/SQL/EF-Core/Commands.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "icon": "lucide-file",
+              "title": "Commands"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 254.50260543823242
   },
   "right": {
     "id": "50d3cef634d67b52",
@@ -148,13 +148,46 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "3560f9d99111c720",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming/project/DB/SQL/EF-Core/Commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Commands"
+            }
+          },
+          {
+            "id": "7ff2439e6f43b85b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Programming/project/DB/SQL/EF-Core/Commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Commands"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 326.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,12 +197,13 @@
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8f91425b8a83e50b",
+  "active": "e12719a825e3a9db",
   "lastOpenFiles": [
+    "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md",
+    "Teach/CSharp Type Conversions.md",
     "Teach/Advance+.md",
     "OS Setup/Obsidian/Plugins.md",
     "Tokens.md",
@@ -183,7 +217,6 @@
     "Untitled Kanban 3.md",
     "Untitled Kanban 2.md",
     "Untitled Kanban 1.md",
-    "Teach/CSharp Type Conversions.md",
     "Excalidraw",
     "att/java_error_in_rider_13811.log",
     "Projects/Oja/Table ex..md",
@@ -191,7 +224,6 @@
     "Projects/Oja",
     "Projects",
     "Programming/project/DB/SQL/EF-Core/Commands.md",
-    "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md",
     "Programming/project/DB/SQL/EF-Core",
     "Programming/project/DB/Hybrid Structure.md",
     "Programming/project/Agile/0- Schedule.md",
