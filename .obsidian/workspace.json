@@ -11,17 +11,16 @@
             "id": "96c2756dcf7bbde4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                "file": "Untitled Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-trello",
+              "title": "Untitled Kanban"
             }
           }
         ]
@@ -187,13 +186,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "96c2756dcf7bbde4",
   "lastOpenFiles": [
-    "Projects/Oja/Table ex..md",
     "Untitled.canvas",
+    "Untitled Kanban.md",
+    "Projects/Oja/Table ex..md",
     "Programming/project/DB/SQL/PostgreSQL.md",
     "Projects/Oja",
     "Projects",
@@ -224,7 +225,6 @@
     "Programming/project/FolderStructure.md",
     "Programming/project/Docker/Untitled.md",
     "Programming/project/Docker/2- Folder structure.md",
-    "Programming/project/Docker/1-Installation.md",
     "Programming/project/Docker/Untitled",
     "Programming/project/Docker",
     "Programming/project/DB",
