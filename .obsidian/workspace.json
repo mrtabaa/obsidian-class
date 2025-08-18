@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5776cbe38e485d89",
+        "id": "483c59c6e391d810",
         "type": "tabs",
         "children": [
           {
-            "id": "f953edd5723d4879",
+            "id": "8f91425b8a83e50b",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/plugins/recent-files-obsidian/data.json",
-                "bFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "aFile": ".obsidian/plugins/obsidian-git/data.json",
+                "bFile": ".obsidian/plugins/obsidian-git/data.json",
                 "aRef": ""
               },
               "icon": "diff",
@@ -168,8 +168,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f953edd5723d4879",
+  "active": "8f91425b8a83e50b",
   "lastOpenFiles": [
+    "Teach/Advance+.md",
     "OS Setup/Obsidian/Plugins.md",
     "Tokens.md",
     "OS Setup/Obsidian/Git - Auto-sync.md",
