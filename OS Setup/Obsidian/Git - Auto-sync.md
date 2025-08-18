@@ -32,7 +32,7 @@
     ```bash
     cd /path/to/your/obsidian/vault
 
-	#Set 
+	#Set YOUR_USER/YOUR_REPO accordingly
     git remote set-url origin git@github.com:YOUR_USER/YOUR_REPO.git
     git remote -v
     ```
