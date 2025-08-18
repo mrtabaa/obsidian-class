@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/Obsidian auto-sync.md",
+                "file": "OS Setup/Obsidian/Auto-sync.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian auto-sync"
+              "title": "Auto-sync"
             }
           }
         ]
@@ -131,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/Obsidian auto-sync.md",
+                "file": "OS Setup/Obsidian/Auto-sync.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian auto-sync"
+              "title": "Outline of Auto-sync"
             }
           },
           {
@@ -171,7 +171,8 @@
   },
   "active": "279d84b1bc5c3e04",
   "lastOpenFiles": [
-    "OS Setup/Obsidian auto-sync.md",
+    "OS Setup/Obsidian",
+    "OS Setup/Obsidian/Auto-sync.md",
     "Teach/test git.md",
     "Tokens.md",
     "Untitled.canvas",
@@ -204,7 +205,6 @@
     "Programming/project/Front-end/Angular workspace.md",
     "Programming/project/Agile/DoR & DoD.md",
     "Programming/project/Agile/UX.md",
-    "Programming/project/Agile/Story Points.md",
     "Programming/project/Agile/Taiga",
     "Programming/project/Agile",
     "Programming/project/Docker/Untitled",
