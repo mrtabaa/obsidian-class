@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -169,7 +169,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f953edd5723d4879",
+  "active": "4b7344c289ea1664",
   "lastOpenFiles": [
     "Teach/test git.md",
     "OS Setup/Obsidian/Git - Auto-sync.md",
