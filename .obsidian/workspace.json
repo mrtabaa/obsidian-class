@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS Setup/Obsidian/Git - Auto-sync.md",
+                "file": "Tokens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git - Auto-sync"
+              "title": "Tokens"
             }
           }
         ]
@@ -131,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/Obsidian/Git - Auto-sync.md",
+                "file": "Tokens.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Git - Auto-sync"
+              "title": "Outline of Tokens"
             }
           },
           {
@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,10 +169,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4b7344c289ea1664",
+  "active": "f953edd5723d4879",
   "lastOpenFiles": [
-    "Teach/test git.md",
     "OS Setup/Obsidian/Git - Auto-sync.md",
+    "Teach/test git.md",
     "OS Setup/Obsidian/Plugins.md",
     "Images/Pasted image 20250818184754.png",
     "OS Setup/Obsidian",
