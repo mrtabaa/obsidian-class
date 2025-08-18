@@ -11,14 +11,14 @@
             "id": "279d84b1bc5c3e04",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "OS Setup/Obsidian auto-sync.md",
-                "mode": "source",
-                "source": false
+                "aFile": "OS Setup/Obsidian auto-sync.md",
+                "bFile": "OS Setup/Obsidian auto-sync.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Obsidian auto-sync"
+              "icon": "diff",
+              "title": "Diff: Obsidian auto-sync"
             }
           }
         ]
@@ -131,13 +131,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS Setup/Obsidian auto-sync.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian auto-sync"
+              "title": "Outline"
             }
           },
           {
@@ -171,8 +170,8 @@
   },
   "active": "279d84b1bc5c3e04",
   "lastOpenFiles": [
-    "Teach/test git.md",
     "OS Setup/Obsidian auto-sync.md",
+    "Teach/test git.md",
     "Tokens.md",
     "Untitled.canvas",
     "Untitled Kanban.md",
