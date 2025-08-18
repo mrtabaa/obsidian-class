@@ -31,6 +31,8 @@
 6. **Point your vault repo to SSH**
     ```bash
     cd /path/to/your/obsidian/vault
+
+	#Set 
     git remote set-url origin git@github.com:YOUR_USER/YOUR_REPO.git
     git remote -v
     ```
