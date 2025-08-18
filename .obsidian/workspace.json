@@ -11,20 +11,17 @@
             "id": "96c2756dcf7bbde4",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "Untitled Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 120,
+                  "y": -113,
+                  "zoom": 0
                 }
               },
-              "icon": "lucide-trello",
-              "title": "Untitled Kanban"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -196,8 +193,8 @@
   },
   "active": "96c2756dcf7bbde4",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "Untitled Kanban.md",
+    "Untitled.canvas",
     "Projects/Oja/Table ex..md",
     "Programming/project/DB/SQL/PostgreSQL.md",
     "Projects/Oja",

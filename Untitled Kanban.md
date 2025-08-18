@@ -4,7 +4,7 @@ kanban-plugin: board
 
 ---
 
-## Ready
+## Todo
 
 - [ ] second
 
@@ -14,7 +14,7 @@ kanban-plugin: board
 - [ ] first job
 
 
-## Todo
+## Done
 
 
 
