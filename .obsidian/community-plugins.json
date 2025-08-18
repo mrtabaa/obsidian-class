@@ -1,8 +1,11 @@
 [
   "better-word-count",
-  "obsidian-kanban",
   "obsidian-auto-link-title",
   "obsidian-icon-folder",
   "obsidian-git",
-  "obsidian-table-generator"
+  "obsidian-table-generator",
+  "obsidian-excalidraw-plugin",
+  "editing-toolbar",
+  "recent-files-obsidian",
+  "obsidian-mind-map"
 ]

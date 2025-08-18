@@ -38,6 +38,9 @@
     "iconColor": "#18b8d8"
   },
   "Teach": "🧑‍🏫",
-  "Programming": "LiCode2",
+  "Programming": {
+    "iconName": "LiCode2",
+    "iconColor": "#ffdd33"
+  },
   "OS Setup": "LiSquareArrowOutUpRight"
 }

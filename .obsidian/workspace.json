@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0aed0d9468e1248b",
+        "id": "08f9acbae7a54126",
         "type": "tabs",
         "children": [
           {
-            "id": "96c2756dcf7bbde4",
+            "id": "40f93ee807cc3cd0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Tokens.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/community-plugins.json",
+                "bFile": ".obsidian/community-plugins.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Tokens"
+              "icon": "diff",
+              "title": "Diff: community-plugins.json"
             }
           }
         ]
@@ -73,6 +73,16 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "5929cb812e88e937",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
         ]
       }
@@ -121,13 +131,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tokens.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tokens"
+              "title": "Outline"
             }
           },
           {
@@ -141,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -155,13 +164,22 @@
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4b7344c289ea1664",
+  "active": "40f93ee807cc3cd0",
   "lastOpenFiles": [
+    "Tokens.md",
     "Untitled.canvas",
     "Untitled Kanban.md",
+    "Teach/Drawing 2025-08-18 18.09.18.excalidraw.md",
+    "Untitled Kanban 3.md",
+    "Untitled Kanban 2.md",
+    "Untitled Kanban 1.md",
+    "Teach/CSharp Type Conversions.md",
+    "Excalidraw",
+    "att/java_error_in_rider_13811.log",
     "Projects/Oja/Table ex..md",
     "Programming/project/DB/SQL/PostgreSQL.md",
     "Projects/Oja",
@@ -186,16 +204,8 @@
     "Programming/project/Agile/Story Points.md",
     "Programming/project/Agile/GitHub Project.md",
     "Programming/project/Agile/Taiga",
-    "Programming/project/Docker/3- Setup.md",
     "Programming/project/Agile",
-    "Programming/project/Docker/Setup Dev.md",
-    "Programming/project/Docker/Setup Prod.md",
-    "Programming/project/FolderStructure.md",
-    "Programming/project/Docker/Untitled.md",
-    "Programming/project/Docker/2- Folder structure.md",
     "Programming/project/Docker/Untitled",
-    "Programming/project/Docker",
-    "Programming/project/DB",
     "att/Pasted image 20250604220750.png"
   ]
 }
