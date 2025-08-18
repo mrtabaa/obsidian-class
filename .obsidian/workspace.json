@@ -11,14 +11,14 @@
             "id": "279d84b1bc5c3e04",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "OS Setup/Obsidian auto-sync.md",
-                "bFile": "OS Setup/Obsidian auto-sync.md",
-                "aRef": ""
+                "file": "OS Setup/Obsidian auto-sync.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Obsidian auto-sync"
+              "icon": "lucide-file",
+              "title": "Obsidian auto-sync"
             }
           }
         ]
@@ -131,12 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "OS Setup/Obsidian auto-sync.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Obsidian auto-sync"
             }
           },
           {
