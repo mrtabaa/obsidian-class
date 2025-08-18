@@ -22,6 +22,10 @@ Or for a specific version
 sudo apt update
 sudo apt install postgresql-17
 ```
+4. Check the installed version
+```bash
+psql --version
+```
 ### Development
 
 Setup superuser password

@@ -11,10 +11,14 @@
             "id": "96c2756dcf7bbde4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programming/project/DB/SQL/PostgreSQL.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PostgreSQL"
             }
           }
         ]
