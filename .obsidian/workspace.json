@@ -11,14 +11,14 @@
             "id": "f953edd5723d4879",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Tokens.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "bFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Tokens"
+              "icon": "diff",
+              "title": "Diff: data.json"
             }
           }
         ]
@@ -131,13 +131,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tokens.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tokens"
+              "title": "Outline"
             }
           },
           {
@@ -171,12 +170,12 @@
   },
   "active": "f953edd5723d4879",
   "lastOpenFiles": [
+    "OS Setup/Obsidian/Plugins.md",
+    "Tokens.md",
     "OS Setup/Obsidian/Git - Auto-sync.md",
     "Teach/test git.md",
-    "OS Setup/Obsidian/Plugins.md",
     "Images/Pasted image 20250818184754.png",
     "OS Setup/Obsidian",
-    "Tokens.md",
     "Untitled.canvas",
     "Untitled Kanban.md",
     "Teach/Drawing 2025-08-18 18.09.18.excalidraw.md",
