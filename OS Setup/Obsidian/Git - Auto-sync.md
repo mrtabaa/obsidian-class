@@ -1,39 +1,35 @@
 1. Install `Git` plugin [obsidian://show-plugin?id=obsidian-git](obsidian://show-plugin?id=obsidian-git)
 # Obsidian Git – SSH Setup (Linux Mint)
 
-2. **Generate SSH key (with passphrase)**
-        ```
+2. **Generate SSH key (with passphrase)**    
+    ```bash
     ssh-keygen -t ed25519 -C "mrtabaa@gmail.com"
     ```
     
     Press Enter to accept `~/.ssh/id_ed25519`, then set a passphrase.
     
 3. **Start agent & add the key**
-    
-    ```
+    ```bash
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/id_ed25519
     ```
     
 4. **Add the public key to GitHub**
-    
-    ```
+    ```bash
     cat ~/.ssh/id_ed25519.pub
     ```
     
     Copy the output → GitHub **Settings → SSH and GPG keys → New SSH key** → paste → Save.
     
 5. **Test SSH to GitHub**
-    
-    ```
+    ```bash
     ssh -T git@github.com
     ```
     
     Type `yes` on first connect; expect a greeting with your username.
     
 6. **Point your vault repo to SSH**
-    
-    ```
+    ```bash
     cd /path/to/your/obsidian/vault
     git remote set-url origin git@github.com:YOUR_USER/YOUR_REPO.git
     git remote -v
@@ -54,8 +50,7 @@ chmod 600 ~/.ssh/id_ed25519
 ```
 
 Create or edit `~/.ssh/config`:
-
-```
+```bash
 Host github.com
   HostName github.com
   User git
