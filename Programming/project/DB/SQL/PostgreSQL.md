@@ -1,11 +1,30 @@
-### Development
-
-1. Install PostgreSQL server
+### Installation
+1. Install `postgresql-common`
 ```bash
+sudo apt install -y postgresql-common
+```
+2. Get the right `codename` for your `Mint` version
+```bash
+# For Linux Mint 21
+sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh jammy
+
+# If you're using another version, replace 'jammy' with your codename
+# - Linux Mint 20 -> focal
+# - Linux Mint 19 -> bionic
+```
+3. Install the latest server
+```bash
+sudo apt update
 sudo apt install postgresql
 ```
+Or for a specific version
+```bash
+sudo apt update
+sudo apt install postgresql-17
+```
+### Development
 
-2. Setup superuser password
+Setup superuser password
 ```bash
 sudo -i -u postgres
 
