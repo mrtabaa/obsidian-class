@@ -1,9 +1,11 @@
 {
 	"nodes":[
 		{"id":"19a340ff2c51683e","x":-240,"y":-80,"width":250,"height":60,"type":"text","text":"Thi si sa test \nal;sdfjl;ka\n"},
-		{"id":"17fff977ced9cb19","x":-226,"y":39,"width":250,"height":60,"type":"text","text":""}
+		{"id":"17fff977ced9cb19","x":0,"y":60,"width":250,"height":60,"type":"text","text":"anoth4r one\n"},
+		{"id":"6adac60846b038fa","x":80,"y":-346,"width":400,"height":226,"type":"file","file":"Projects/Oja/Table ex..md"}
 	],
 	"edges":[
-		{"id":"7b9d8bfd3e7d2371","fromNode":"19a340ff2c51683e","fromSide":"bottom","toNode":"17fff977ced9cb19","toSide":"top"}
+		{"id":"7b9d8bfd3e7d2371","fromNode":"19a340ff2c51683e","fromSide":"bottom","toNode":"17fff977ced9cb19","toSide":"top"},
+		{"id":"ef9f38c91274bdb6","fromNode":"19a340ff2c51683e","fromSide":"right","toNode":"6adac60846b038fa","toSide":"left"}
 	]
 }
