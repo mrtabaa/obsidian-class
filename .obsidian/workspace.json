@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2ac84a08c307390c",
+        "id": "0aed0d9468e1248b",
         "type": "tabs",
         "children": [
           {
-            "id": "f30bdd65ef1be1a6",
+            "id": "96c2756dcf7bbde4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/project/DB/SQL/PostgreSQL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PostgreSQL"
+              "title": "New tab"
             }
           }
         ]
@@ -176,11 +172,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f30bdd65ef1be1a6",
+  "active": "96c2756dcf7bbde4",
   "lastOpenFiles": [
+    "Projects/Oja/remove this file!.md",
+    "Programming/project/DB/SQL/PostgreSQL.md",
+    "Projects/Oja",
+    "Projects",
     "Programming/project/DB/SQL/EF-Core/Commands.md",
     "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md",
-    "Programming/project/DB/SQL/PostgreSQL.md",
     "Programming/project/DB/SQL/EF-Core",
     "Programming/project/DB/Hybrid Structure.md",
     "Programming/project/Agile/0- Schedule.md",
@@ -210,10 +209,7 @@
     "Programming/project/Docker/0-What is it.md",
     "Programming/project/Docker/Untitled",
     "Programming/project/Docker",
-    "Programming/project/backend/CleanArchitecture/00_Overview.md",
     "Programming/project/DB",
-    "att/Pasted image 20250604220750.png",
-    "att",
-    "Programming/project/backend/CleanArchitecture/Setup"
+    "att/Pasted image 20250604220750.png"
   ]
 }
