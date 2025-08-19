@@ -26,6 +26,8 @@
     "corp.reservation.manage",
     "corp.billing.view",
     "corp.invoice.download",
+    "corp.customer.manage",
+    "corp.customer.manage.content.ban",
     "ticket.create",
     "ticket.view",
     "ticket.reply",
@@ -38,10 +40,10 @@
     "parking.payout.read",
     "parking.finance.export",
     "dispute.respond",
-    "content.moderate",
+    "corp.content.moderate",
     "media.moderate",
-    "content.takedown",
-    "content.restore",
+    "corp.content.takedown",
+    "corp.content.restore",
     "report.review.content",
     "security.log.read",
     "security.alert.read",
@@ -50,6 +52,13 @@
     "audit.read"
   ],
   "personas": [
+    {
+      "id": "customer-limited",
+      "name": "Customer.Limited",
+      "permissions": [
+        // decide later
+      ]
+    },
     {
       "id": "customer-basic",
       "name": "Customer.Basic",
@@ -209,6 +218,24 @@
       }
     },
     {
+      "id": "corporate-supervisor",
+      "name": "Corprate-Supervisor",
+      "version": 1,
+      "permissions": [
+        "corp.manage",
+        "corp.members.manage",
+        "corp.reservation.manage",
+        "corp.billing.view",
+        "corp.invoice.download",
+        "customer.manage",
+        "corp.customer.manage.content.ban",
+        "reservation.view",
+        "ticket.create/view/reply",
+        "dispute.open",
+        "auth.mfa.manage"
+      ]
+    }
+    {
       "id": "corporate-admin",
       "name": "Corporate.Admin",
       "version": 1,
@@ -223,7 +250,9 @@
         "ticket.view",
         "ticket.reply",
         "dispute.open",
-        "auth.mfa.manage"
+        "auth.mfa.manage",
+        "corp.customer.manage",
+        "corp.customer.manage.content.ban"
       ],
       "limits": {
         "tenantScoped": true,
@@ -262,8 +291,8 @@
       }
     },
     {
-      "id": "family-admin",
-      "name": "Family.Admin",
+      "id": "family-head",
+      "name": "Family.Head",
       "version": 1,
       "permissions": [
         "reservation.create",
@@ -319,15 +348,16 @@
       }
     },
     {
-      "id": "content-moderator",
-      "name": "Content.Moderator",
+      "id": "corporate.content-moderator",
+      "name": "Corporate.Content.Moderator",
       "version": 1,
       "permissions": [
-        "content.moderate",
+        "corp.content.moderate",
         "media.moderate",
-        "content.takedown",
-        "content.restore",
-        "report.review.content"
+        "corp.content.takedown",
+        "corp.content.restore",
+        "report.review.content",
+        "corp.customer.manage.content.ban"
       ]
     },
     {
