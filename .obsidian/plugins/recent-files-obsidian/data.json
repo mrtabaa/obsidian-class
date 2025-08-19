@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Tokens",
+      "path": "Tokens.md"
+    },
+    {
       "basename": "New Pagination",
       "path": "Programming/project/New Pagination.md"
     },
     {
-      "basename": "Login page",
-      "path": "Teach/Login page.canvas"
-    },
-    {
       "basename": "Plugins",
       "path": "OS Setup/Obsidian/Plugins.md"
-    },
-    {
-      "basename": "Tokens",
-      "path": "Tokens.md"
     },
     {
       "basename": "Git - Auto-sync",

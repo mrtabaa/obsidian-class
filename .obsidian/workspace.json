@@ -11,17 +11,14 @@
             "id": "bdade6c4528f5f2f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Teach/Login page.canvas",
-                "viewState": {
-                  "x": 13.5,
-                  "y": 331,
-                  "zoom": -1.2224660244710912
-                }
+                "file": "Tokens.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Login page"
+              "icon": "lucide-file",
+              "title": "Tokens"
             }
           }
         ]
@@ -158,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/project/New Pagination.md",
+                "file": "Tokens.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +165,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for New Pagination"
+              "title": "Backlinks for Tokens"
             }
           },
           {
@@ -177,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/project/New Pagination.md",
+                "file": "Tokens.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from New Pagination"
+              "title": "Outgoing links from Tokens"
             }
           }
         ],
@@ -205,8 +202,8 @@
   },
   "active": "bdade6c4528f5f2f",
   "lastOpenFiles": [
-    "Tokens.md",
     "Teach/Login page.canvas",
+    "Tokens.md",
     "Teach/Drawing 2025-08-19 21.04.30.excalidraw.md",
     "My Title.md",
     "OS Setup/Obsidian/Plugins.md",
