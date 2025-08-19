@@ -5,14 +5,14 @@
 cd backend/src/Ca.Infrastructure
 
 # Create Migrations folder and create first migration named Init
-dotnet ef migrations add Init -o Persistence/EFCore/Migrations
+dotnet ef migrations add Init -o Persistence/EFCore/Postgres/Migrations
 ```
 
 2. **Create the database based on the migration**
 ```bash
 dotnet ef database update
 ```
-<font color="#974806">Note: It's fine to see this error for the first time. Further updates won't have it. </font>
+<font color="#f79646">Note: It's fine to see this error for the first time. Further updates won't have it. </font>
 ```bash
 Failed executing DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT "MigrationId", "ProductVersion"
