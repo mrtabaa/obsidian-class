@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8a5ba992ea402040",
+        "id": "a1c9d00c14ea1c9e",
         "type": "tabs",
         "children": [
           {
-            "id": "e12719a825e3a9db",
+            "id": "bdade6c4528f5f2f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Programming/project/New Pagination.md",
-                "mode": "source",
-                "source": false
+                "file": "Teach/Login page.canvas",
+                "viewState": {
+                  "x": 13.5,
+                  "y": 331,
+                  "zoom": -1.2224660244710912
+                }
               },
-              "icon": "lucide-file",
-              "title": "New Pagination"
+              "icon": "lucide-layout-dashboard",
+              "title": "Login page"
             }
           }
         ]
@@ -200,13 +203,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e12719a825e3a9db",
+  "active": "bdade6c4528f5f2f",
   "lastOpenFiles": [
+    "Tokens.md",
+    "Teach/Login page.canvas",
+    "Teach/Drawing 2025-08-19 21.04.30.excalidraw.md",
+    "My Title.md",
+    "OS Setup/Obsidian/Plugins.md",
+    "OS Setup/Obsidian/Git - Auto-sync.md",
     "Projects/Oja/Requirements/Design/Persona and Permissions.md",
+    "Programming/project/New Pagination.md",
     "Projects/Oja/Requirements/Design",
     "Projects/Oja/Requirements",
     "Programming/project/DB/SQL/EF-Core/Commands.md",
-    "Programming/project/New Pagination.md",
     "Requirements/Design/Persona and Permissions.md",
     "Requirements/Design",
     "Requirements",
@@ -214,9 +223,6 @@
     "Programming/project/DB/SQL/PostgreSQL.md",
     "Teach/CSharp Type Conversions.md",
     "Teach/Advance+.md",
-    "OS Setup/Obsidian/Plugins.md",
-    "Tokens.md",
-    "OS Setup/Obsidian/Git - Auto-sync.md",
     "Teach/test git.md",
     "Images/Pasted image 20250818184754.png",
     "OS Setup/Obsidian",
@@ -237,9 +243,6 @@
     "Programming/project/Agile/0-Intro.md",
     "Programming/project/Agile/Taiga/Scrum.md",
     "Programming/project/Deployment/Client - SSR.md",
-    "Programming/project/Front-end/Routes Management.md",
-    "Programming/project/Deployment/API - Azure CICD.md",
-    "Programming/project/Project Steps.md",
     "att/Pasted image 20250604220750.png"
   ]
 }

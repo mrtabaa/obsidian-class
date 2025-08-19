@@ -5,6 +5,26 @@
       "path": "Programming/project/New Pagination.md"
     },
     {
+      "basename": "Login page",
+      "path": "Teach/Login page.canvas"
+    },
+    {
+      "basename": "Plugins",
+      "path": "OS Setup/Obsidian/Plugins.md"
+    },
+    {
+      "basename": "Tokens",
+      "path": "Tokens.md"
+    },
+    {
+      "basename": "Git - Auto-sync",
+      "path": "OS Setup/Obsidian/Git - Auto-sync.md"
+    },
+    {
+      "basename": "Persona and Permissions",
+      "path": "Projects/Oja/Requirements/Design/Persona and Permissions.md"
+    },
+    {
       "basename": "Commands",
       "path": "Programming/project/DB/SQL/EF-Core/Commands.md"
     },
@@ -23,18 +43,6 @@
     {
       "basename": "Advance+",
       "path": "Teach/Advance+.md"
-    },
-    {
-      "basename": "Plugins",
-      "path": "OS Setup/Obsidian/Plugins.md"
-    },
-    {
-      "basename": "Tokens",
-      "path": "Tokens.md"
-    },
-    {
-      "basename": "Git - Auto-sync",
-      "path": "OS Setup/Obsidian/Git - Auto-sync.md"
     },
     {
       "basename": "Pasted image 20250818184754",

@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"9c9d79ecf8572a6d","x":-509,"y":522,"width":400,"height":400,"type":"file","file":"Programming/project/New Pagination.md"},
+		{"id":"df9a0ee2bc45b639","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"new card\n"},
+		{"id":"fde1ca27b0bd468b","x":-440,"y":-260,"width":250,"height":60,"type":"text","text":"Another one\nOne more"},
+		{"id":"3ef8ac7d33b54bf9","x":286,"y":73,"width":250,"height":60,"type":"text","text":"asdf"},
+		{"id":"8221c0a9cc13d888","x":-287,"y":190,"width":250,"height":60,"type":"text","text":"asdfasd"},
+		{"id":"b8dc97f5678bf9df","x":60,"y":190,"width":400,"height":220,"type":"file","file":"OS Setup/Obsidian/Plugins.md"}
+	],
+	"edges":[
+		{"id":"3db189c3baccd4e4","fromNode":"df9a0ee2bc45b639","fromSide":"top","toNode":"fde1ca27b0bd468b","toSide":"bottom"},
+		{"id":"8fc7ba740111a0f7","fromNode":"df9a0ee2bc45b639","fromSide":"right","toNode":"3ef8ac7d33b54bf9","toSide":"left"},
+		{"id":"8e1cd55ad450461e","fromNode":"df9a0ee2bc45b639","fromSide":"bottom","toNode":"8221c0a9cc13d888","toSide":"top"},
+		{"id":"8cdd1834a344a0d5","fromNode":"df9a0ee2bc45b639","fromSide":"bottom","toNode":"b8dc97f5678bf9df","toSide":"top"},
+		{"id":"a654cbc61cceaff6","fromNode":"8221c0a9cc13d888","fromSide":"bottom","toNode":"9c9d79ecf8572a6d","toSide":"top"}
+	]
+}
