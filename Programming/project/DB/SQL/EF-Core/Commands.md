@@ -1,11 +1,19 @@
 ### Development
 1. **Design a schema based on models**
 ```bash
-# Go to Infra first
 cd backend/src/Ca.Infrastructure
-
-# Create Migrations folder and create first migration named Init
-dotnet ef migrations add Init -o Persistence/EFCore/Postgres/Migrations
+```
+###### Postgres
+```bash
+dotnet ef migrations add Init \ # Name it Init
+  -o Persistence/EFCore/Postgres/Migrations \ # Create Migrations folder
+  --context AppDbContextPostgres # Separate migrations per provider with AppDbContextPostgres.cs
+```
+###### SQL Server
+```bash
+dotnet ef migrations add Init \
+  -o Persistence/EFCore/SqlServer/Migrations \
+  --context AppDbContextSqlServer # AppDbContextSqlServer.cs
 ```
 
 2. **Create the database based on the migration**

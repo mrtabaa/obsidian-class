@@ -52,7 +52,7 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;  
 using Microsoft.Extensions.FileProviders;  
   
-namespace Ca.Infrastructure.Persistence.EFCore.Common;  
+namespace Ca.Infrastructure.Persistence.EFCore.Postgres;  
   
 /// <summary>  
 ///     Design-Time (instead of Run-Time)  

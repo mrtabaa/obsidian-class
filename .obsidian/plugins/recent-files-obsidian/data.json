@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "0- Intro & Setup",
-      "path": "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md"
+      "basename": "New Pagination",
+      "path": "Programming/project/New Pagination.md"
     },
     {
       "basename": "Commands",
       "path": "Programming/project/DB/SQL/EF-Core/Commands.md"
+    },
+    {
+      "basename": "0- Intro & Setup",
+      "path": "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "Programming/project/DB/SQL/PostgreSQL.md"
     },
     {
       "basename": "CSharp Type Conversions",
