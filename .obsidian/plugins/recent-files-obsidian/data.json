@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Commands",
-      "path": "Programming/project/DB/SQL/EF-Core/Commands.md"
-    },
-    {
       "basename": "0- Intro & Setup",
       "path": "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md"
+    },
+    {
+      "basename": "Commands",
+      "path": "Programming/project/DB/SQL/EF-Core/Commands.md"
     },
     {
       "basename": "CSharp Type Conversions",
