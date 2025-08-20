@@ -100,7 +100,11 @@
       ]
     },
     "Customer.Loyalty.Gold": {
-      "description": "مشتری پریمیوم با Early-access، مزایای VIP و اولویت بالای لیست انتظار.",
+      "description": "مشتری پریمیوم با 
+      Early-access،
+      مزایای 
+      VIP
+      و اولویت بالای لیست انتظار.",
       "inherits": ["Customer.Basic"],
       "permissions": [
         "vip.benefits.use",
@@ -126,9 +130,11 @@
       ]
     },
     "Corporate.Supervisor": {
-      "description": "مدیریت Corporate.Admin به پایین با دسترسی کامل.",
+      "description": "مدیریت 
+      Corporate.Admin
+      به پایین با دسترسی کامل. همچنین مدیریت پرمیشنز اعضا",
       "permissions": [
-        "corp.manage",
+        "corp.manage", 
         "corp.members.manage",
         "corp.reservation.manage",
         "corp.billing.view",
@@ -192,7 +198,8 @@
       ],
       "rules": [
         "بدون دسترسی مالی/اعضا",
-        "رزرو دستی فقط با پرداخت موفق و تایید Corporate.Admin"
+        "رزرو دستی فقط با پرداخت موفق و تایید 
+        Corporate.Admin"
       ]
     },
     "Corporate.Driver.Fleet": {
