@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.50260543823242
+    "width": 254.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "50d3cef634d67b52",
@@ -131,13 +132,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Oja/Table ex..md",
+                "file": "Projects/Oja/Requirements/Design/Persona and Permissions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Table ex."
+              "title": "Outline of Persona and Permissions"
             }
           },
           {
@@ -156,6 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Oja/Requirements/Design/Persona and Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +167,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Persona and Permissions"
             }
           },
           {
@@ -174,11 +176,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projects/Oja/Requirements/Design/Persona and Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Persona and Permissions"
             }
           }
         ],
@@ -190,6 +193,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
@@ -199,8 +203,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f8b5fc1331d3dd69",
+  "active": "bdade6c4528f5f2f",
   "lastOpenFiles": [
+    "Projects/Oja/Table ex..md",
     "Projects/Oja/Requirements/Design/Persona and Permissions.md",
     "Programming/Install and Create Angular Project.md",
     "Programming/project/Project Steps.md",
@@ -232,7 +237,6 @@
     "Untitled Kanban 1.md",
     "Excalidraw",
     "att/java_error_in_rider_13811.log",
-    "Projects/Oja/Table ex..md",
     "Projects/Oja",
     "Projects",
     "Programming/project/DB/SQL/EF-Core",
