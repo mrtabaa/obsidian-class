@@ -8,5 +8,14 @@
   "showUnsupportedFiles": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "/Notes",
-  "attachmentFolderPath": "/att"
+  "attachmentFolderPath": "/att",
+  "tabSize": 4,
+  "livePreview": true,
+  "showInlineTitle": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "showIndentGuide": false,
+  "propertiesInDocument": "visible",
+  "strictLineBreaks": false,
+  "focusNewTab": true
 }

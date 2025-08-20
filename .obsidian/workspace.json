@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a1c9d00c14ea1c9e",
+        "id": "a0f2ec8e2a925ba2",
         "type": "tabs",
         "children": [
           {
-            "id": "bdade6c4528f5f2f",
+            "id": "46711e8b08c25c17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Oja/Requirements/Design/Persona and Permissions.md",
-                "mode": "source",
-                "source": false
+                "file": "Programming/project/DB/Mongo/Identity.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Persona and Permissions"
+              "title": "Identity"
             }
           }
         ]
@@ -75,7 +76,7 @@
             }
           },
           {
-            "id": "5929cb812e88e937",
+            "id": "6f157bf91e1717b5",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -88,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.50260543823242,
-    "collapsed": true
+    "width": 254.50260543823242
   },
   "right": {
     "id": "50d3cef634d67b52",
@@ -132,23 +132,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Oja/Requirements/Design/Persona and Permissions.md",
+                "file": "Programming/project/DB/Mongo/Identity.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Persona and Permissions"
-            }
-          },
-          {
-            "id": "fe4bde6d197b3635",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Identity"
             }
           },
           {
@@ -183,13 +173,23 @@
               "icon": "links-going-out",
               "title": "Outgoing links from Persona and Permissions"
             }
+          },
+          {
+            "id": "66afa8cd4f7b3265",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 270.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,16 +199,27 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bdade6c4528f5f2f",
+  "active": "46711e8b08c25c17",
   "lastOpenFiles": [
-    "Projects/Oja/Table ex..md",
-    "Projects/Oja/Requirements/Design/Persona and Permissions.md",
-    "Programming/Install and Create Angular Project.md",
+    "Untitled.md",
+    "Images/Pasted image 20250818184754.png",
+    "Programming/project/DB/Mongo/Identity.md",
+    "Programming/project/New Pagination.md",
+    "Programming/project/DB/Mongo",
+    "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md",
+    "Teach/Advance+.md",
+    "Programming/project/Deployment/Client - SSR.md",
+    "Programming/project/Deployment/API - Azure CICD.md",
+    "Programming/project/FolderStructure.md",
     "Programming/project/Project Steps.md",
+    "Programming/project/backend/CleanArchitecture/ReferenceOrder.md",
+    "Projects/Oja/Requirements/Design/Persona and Permissions.md",
+    "Projects/Oja/Table ex..md",
+    "Programming/Install and Create Angular Project.md",
     "Programming/project/DB/SQL/EF-Core/Commands.md",
     "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md",
     "Tokens.md",
@@ -217,7 +228,6 @@
     "My Title.md",
     "OS Setup/Obsidian/Plugins.md",
     "OS Setup/Obsidian/Git - Auto-sync.md",
-    "Programming/project/New Pagination.md",
     "Projects/Oja/Requirements/Design",
     "Projects/Oja/Requirements",
     "Requirements/Design/Persona and Permissions.md",
@@ -225,25 +235,14 @@
     "Requirements",
     "Programming/project/DB/SQL/PostgreSQL.md",
     "Teach/CSharp Type Conversions.md",
-    "Teach/Advance+.md",
     "Teach/test git.md",
-    "Images/Pasted image 20250818184754.png",
     "OS Setup/Obsidian",
     "Untitled.canvas",
     "Untitled Kanban.md",
-    "Teach/Drawing 2025-08-18 18.09.18.excalidraw.md",
-    "Untitled Kanban 3.md",
-    "Untitled Kanban 2.md",
-    "Untitled Kanban 1.md",
     "Excalidraw",
     "att/java_error_in_rider_13811.log",
     "Projects/Oja",
     "Projects",
-    "Programming/project/DB/SQL/EF-Core",
-    "Programming/project/DB/Hybrid Structure.md",
-    "Programming/project/Agile/0- Schedule.md",
-    "Programming/project/Agile/0-Intro.md",
-    "Programming/project/Agile/Taiga/Scrum.md",
     "att/Pasted image 20250604220750.png"
   ]
 }

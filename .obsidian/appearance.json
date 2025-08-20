@@ -1,6 +1,11 @@
 {
   "accentColor": "",
-  "cssTheme": "Dekurai",
+  "cssTheme": "Dark Moss",
   "interfaceFontFamily": "Inter",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "showViewHeader": true,
+  "showRibbon": true,
+  "nativeMenus": false,
+  "baseFontSizeAction": false,
+  "theme": "system"
 }

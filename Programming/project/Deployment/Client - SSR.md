@@ -3,12 +3,12 @@ Exclude the pages that require API data on prerendering to prevent errors on `ng
 
 Also make sure to add `ssr` under `prerender`, so it tells the Angular CLI where to find the file that contains the **server-side entry point** of your application.
 ```json
-"prerender": {  
-  "discoverRoutes": false,  
-  "routesFile": "routes.txt"  
-},  
-"ssr": {  
-  "entry": "server.ts"  
-}
+	"prerender": {  
+		"discoverRoutes": false,  
+		"routesFile": "routes.txt"  
+	},  
+	"ssr": {  
+		"entry": "server.ts" 
+	}
 ```
 Then you can run `ng build --ssr`

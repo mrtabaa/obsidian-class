@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Identity",
+      "path": "Programming/project/DB/Mongo/Identity.md"
+    },
+    {
+      "basename": "Pasted image 20250818184754",
+      "path": "Images/Pasted image 20250818184754.png"
+    },
+    {
+      "basename": "New Pagination",
+      "path": "Programming/project/New Pagination.md"
+    },
+    {
+      "basename": "dotnet-centralized-build-setup",
+      "path": "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md"
+    },
+    {
+      "basename": "Advance+",
+      "path": "Teach/Advance+.md"
+    },
+    {
+      "basename": "Client - SSR",
+      "path": "Programming/project/Deployment/Client - SSR.md"
+    },
+    {
+      "basename": "API - Azure CICD",
+      "path": "Programming/project/Deployment/API - Azure CICD.md"
+    },
+    {
+      "basename": "FolderStructure",
+      "path": "Programming/project/FolderStructure.md"
+    },
+    {
+      "basename": "Project Steps",
+      "path": "Programming/project/Project Steps.md"
+    },
+    {
+      "basename": "ReferenceOrder",
+      "path": "Programming/project/backend/CleanArchitecture/ReferenceOrder.md"
+    },
+    {
       "basename": "Persona and Permissions",
       "path": "Projects/Oja/Requirements/Design/Persona and Permissions.md"
     },
     {
       "basename": "Install and Create Angular Project",
       "path": "Programming/Install and Create Angular Project.md"
-    },
-    {
-      "basename": "Project Steps",
-      "path": "Programming/project/Project Steps.md"
     },
     {
       "basename": "Commands",
@@ -23,10 +59,6 @@
     {
       "basename": "Tokens",
       "path": "Tokens.md"
-    },
-    {
-      "basename": "New Pagination",
-      "path": "Programming/project/New Pagination.md"
     },
     {
       "basename": "Plugins",
@@ -43,14 +75,6 @@
     {
       "basename": "CSharp Type Conversions",
       "path": "Teach/CSharp Type Conversions.md"
-    },
-    {
-      "basename": "Advance+",
-      "path": "Teach/Advance+.md"
-    },
-    {
-      "basename": "Pasted image 20250818184754",
-      "path": "Images/Pasted image 20250818184754.png"
     }
   ],
   "omittedPaths": [],
