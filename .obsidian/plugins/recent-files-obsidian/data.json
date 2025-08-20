@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Commands",
+      "path": "Programming/project/DB/SQL/EF-Core/Commands.md"
+    },
+    {
       "basename": "Advance+",
       "path": "Teach/Advance+.md"
     },
@@ -41,16 +45,8 @@
       "path": "Programming/project/backend/CleanArchitecture/ReferenceOrder.md"
     },
     {
-      "basename": "Persona and Permissions",
-      "path": "Projects/Oja/Requirements/Design/Persona and Permissions.md"
-    },
-    {
       "basename": "Install and Create Angular Project",
       "path": "Programming/Install and Create Angular Project.md"
-    },
-    {
-      "basename": "Commands",
-      "path": "Programming/project/DB/SQL/EF-Core/Commands.md"
     },
     {
       "basename": "0- Intro & Setup",

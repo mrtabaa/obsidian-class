@@ -5,15 +5,20 @@ cd backend/src/Ca.Infrastructure
 ```
 ###### Postgres
 ```bash
-dotnet ef migrations add Init \ # Name it Init
-  -o Persistence/EFCore/Postgres/Migrations \ # Create Migrations folder
-  --context AppDbContextPostgres # Separate migrations per provider with AppDbContextPostgres.cs
+dotnet ef migrations add Init \
+  -o Persistence/EFCore/Postgres/Migrations \
+  --context AppDbContextPostgres
 ```
+Hints:
+* `dotnet ef migrations add Init` => Name it Init:
+* `-o Persistence/EFCore/Postgres/Migrations` => Create `Migrations` folder
+* `--context AppDbContextPostgres` => Separate migrations per provider with `AppDbContextPostgres.cs`
+
 ###### SQL Server
 ```bash
 dotnet ef migrations add Init \
   -o Persistence/EFCore/SqlServer/Migrations \
-  --context AppDbContextSqlServer # AppDbContextSqlServer.cs
+  --context AppDbContextSqlServer
 ```
 
 2. **Create the database based on the migration**
