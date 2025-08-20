@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Advance+",
+      "path": "Teach/Advance+.md"
+    },
+    {
       "basename": "Identity",
       "path": "Programming/project/DB/Mongo/Identity.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "dotnet-centralized-build-setup",
       "path": "Programming/project/backend/CleanArchitecture/Setup/dotnet-centralized-build-setup.md"
-    },
-    {
-      "basename": "Advance+",
-      "path": "Teach/Advance+.md"
     },
     {
       "basename": "Client - SSR",

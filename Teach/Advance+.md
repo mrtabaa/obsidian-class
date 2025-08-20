@@ -47,6 +47,7 @@
 - [ ] [[00_Overview]] `Clean Architecture` and `SOLID`
 	- [ ] Centralize packages and build [[dotnet-centralized-build-setup]]
 - [ ] OpenApi & Swagger
+- [ ] New `MongoIdentity`
 - [ ] Deployment
 - [ ] [Advanced Rate Limiting Use Cases In .NET](https://www.milanjovanovic.tech/blog/advanced-rate-limiting-use-cases-in-dotnet)
 - [ ] CSRF/XSRF Attack
