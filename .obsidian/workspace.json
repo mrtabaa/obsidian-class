@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/project/DB/SQL/EF-Core/Commands.md",
-                "mode": "preview",
+                "file": "Projects/Oja/Requirements/Design/Parking/Persona and Permissions.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Commands"
+              "title": "Persona and Permissions"
             }
           }
         ]
@@ -132,13 +132,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/project/DB/SQL/EF-Core/Commands.md",
+                "file": "Programming/project/DB/Mongo/Identity.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Commands"
+              "title": "Outline of Identity"
             }
           },
           {
@@ -205,8 +205,13 @@
   },
   "active": "fc2ab0de9c97aaf1",
   "lastOpenFiles": [
-    "Teach/Advance+.md",
+    "Projects/Oja/Requirements/Design/Client/Persona and Permissions.md",
+    "Projects/Oja/Requirements/Design/Parking/Persona and Permissions.md",
     "Programming/project/DB/Mongo/Identity.md",
+    "Projects/Oja/Requirements/Design/Parking",
+    "Programming/project/DB/SQL/PostgreSQL.md",
+    "Programming/project/DB/SQL/EF-Core/Commands.md",
+    "Teach/Advance+.md",
     "Untitled.md",
     "Images/Pasted image 20250818184754.png",
     "Programming/project/New Pagination.md",
@@ -220,7 +225,6 @@
     "Projects/Oja/Requirements/Design/Persona and Permissions.md",
     "Projects/Oja/Table ex..md",
     "Programming/Install and Create Angular Project.md",
-    "Programming/project/DB/SQL/EF-Core/Commands.md",
     "Programming/project/DB/SQL/EF-Core/0- Intro & Setup.md",
     "Tokens.md",
     "Teach/Login page.canvas",
@@ -233,16 +237,13 @@
     "Requirements/Design/Persona and Permissions.md",
     "Requirements/Design",
     "Requirements",
-    "Programming/project/DB/SQL/PostgreSQL.md",
     "Teach/CSharp Type Conversions.md",
     "Teach/test git.md",
     "OS Setup/Obsidian",
     "Untitled.canvas",
-    "Untitled Kanban.md",
     "Excalidraw",
     "att/java_error_in_rider_13811.log",
     "Projects/Oja",
-    "Projects",
     "att/Pasted image 20250604220750.png"
   ]
 }

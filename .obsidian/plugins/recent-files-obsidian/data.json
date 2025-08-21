@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Persona and Permissions",
+      "path": "Projects/Oja/Requirements/Design/Parking/Persona and Permissions.md"
+    },
+    {
+      "basename": "Persona and Permissions",
+      "path": "Projects/Oja/Requirements/Design/Client/Persona and Permissions.md"
+    },
+    {
+      "basename": "Identity",
+      "path": "Programming/project/DB/Mongo/Identity.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "Programming/project/DB/SQL/PostgreSQL.md"
+    },
+    {
       "basename": "Commands",
       "path": "Programming/project/DB/SQL/EF-Core/Commands.md"
     },
     {
       "basename": "Advance+",
       "path": "Teach/Advance+.md"
-    },
-    {
-      "basename": "Identity",
-      "path": "Programming/project/DB/Mongo/Identity.md"
     },
     {
       "basename": "Pasted image 20250818184754",
@@ -63,10 +75,6 @@
     {
       "basename": "Git - Auto-sync",
       "path": "OS Setup/Obsidian/Git - Auto-sync.md"
-    },
-    {
-      "basename": "PostgreSQL",
-      "path": "Programming/project/DB/SQL/PostgreSQL.md"
     },
     {
       "basename": "CSharp Type Conversions",
